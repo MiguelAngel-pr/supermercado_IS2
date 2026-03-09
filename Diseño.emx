@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<!--Rational Software Architect Designer 9.6-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_xK_gARu_EfG4q7NLRPuP7A" name="Diseño">
+  <eAnnotations xmi:id="_xK_gAhu_EfG4q7NLRPuP7A" source="uml2.diagrams"/>
+  <eAnnotations xmi:id="_xK_gBBu_EfG4q7NLRPuP7A" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_xK_gBRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
+    <details xmi:id="_xK_gBhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+    <details xmi:id="_xK_gBxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_xK_gCBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_xK_gCRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBInstance" value="1"/>
+    <details xmi:id="_xK_gChu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBStereotypedDeployment1" value="1"/>
+    <details xmi:id="_xK_gCxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+    <details xmi:id="_xK_gDBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+    <details xmi:id="_xK_gDRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+    <details xmi:id="_xK_gDhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+    <details xmi:id="_xK_gDxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+    <details xmi:id="_xK_gEBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBDeployment1" value="1"/>
+    <details xmi:id="_xK_gERu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBDeploymentDiagram" value="1"/>
+    <details xmi:id="_xK_gEhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_xK_gExu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_xK_gFBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBComponentDiagram" value="1"/>
+    <details xmi:id="_xK_gFRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_xK_gFhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBObjectDiagram" value="1"/>
+    <details xmi:id="_xK_gFxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBArtifact" value="1"/>
+    <details xmi:id="_xK_gGBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBStateChartDiagram" value="1"/>
+    <details xmi:id="_xK_gGRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_xK_gGhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+    <details xmi:id="_xK_gGxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBDependancy" value="1"/>
+    <details xmi:id="_xK_gHBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBElementImport1" value="1"/>
+    <details xmi:id="_xK_gHRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_xK_gHhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBStateMachine1" value="1"/>
+    <details xmi:id="_xK_gHxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+    <details xmi:id="_xK_gIBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBStereotypedComponent" value="1"/>
+    <details xmi:id="_xK_gIRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_xK_gIhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+    <details xmi:id="_xK_gIxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBCommunicationDiagram" value="1"/>
+    <details xmi:id="_xK_gJBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBComponent" value="1"/>
+    <details xmi:id="_xK_gJRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+    <details xmi:id="_xK_gJhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+    <details xmi:id="_xK_gJxu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBCollaborationUse" value="1"/>
+    <details xmi:id="_xK_gKBu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBStereotypedArtifact" value="1"/>
+  </eAnnotations>
+  <packageImport xmi:id="_xK_gKRu_EfG4q7NLRPuP7A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_R15voBvDEfG4q7NLRPuP7A" name="integracion">
+    <eAnnotations xmi:id="_R15voRvDEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_YZkQ8BvDEfG4q7NLRPuP7A" name="cliente">
+      <eAnnotations xmi:id="_YZkQ8RvDEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_FTQ8MBvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_FTQ8MRvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_ZZlcIBvGEfG4q7NLRPuP7A" name="trabajador">
+      <eAnnotations xmi:id="_ZZlcIRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_MaDYsBvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_MaDYsRvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_pb8sgBvGEfG4q7NLRPuP7A" name="factoria">
+      <eAnnotations xmi:id="_pb8sgRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_H6xJ8BvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_H6xJ8RvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_qqVyQBvGEfG4q7NLRPuP7A" name="venta">
+      <eAnnotations xmi:id="_qqfjQBvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_NUxUgBvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_NUxUgRvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_sopSABvGEfG4q7NLRPuP7A" name="producto">
+      <eAnnotations xmi:id="_sopSARvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_LbhT4BvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_LbhT4RvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_to9fgBvGEfG4q7NLRPuP7A" name="marca">
+      <eAnnotations xmi:id="_to9fgRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KdzucBvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_KdzucRvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_3PIvkBvGEfG4q7NLRPuP7A" name="ventaProducto">
+      <eAnnotations xmi:id="_3PIvkRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_UCmQsBvDEfG4q7NLRPuP7A" name="negocio">
+    <eAnnotations xmi:id="_UCmQsRvDEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_xRo2YBvGEfG4q7NLRPuP7A" name="cliente">
+      <eAnnotations xmi:id="_xRo2YRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_BJSPEBvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_BJSPERvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_yUqZoBvGEfG4q7NLRPuP7A" name="factoria">
+      <eAnnotations xmi:id="_yUqZoRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_AKJGQBvIEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_AKJGQRvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_zWb_sBvGEfG4q7NLRPuP7A" name="marca">
+      <eAnnotations xmi:id="_zWb_sRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_0REmgBvHEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_0REmgRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ff77sBvHEfG4q7NLRPuP7A" name="venta">
+      <eAnnotations xmi:id="_Ff77sRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_vsjScBvHEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_vsjScRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Hh6agBvHEfG4q7NLRPuP7A" name="ventaProducto">
+      <eAnnotations xmi:id="_Hh6agRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_LA0KUBvHEfG4q7NLRPuP7A" name="producto">
+      <eAnnotations xmi:id="_LA0KURvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ynvRMBvHEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_yn5CMBvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_o2JbUBvHEfG4q7NLRPuP7A" name="trabajador">
+      <eAnnotations xmi:id="_o2JbURvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_qPd-sBvHEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_qPnvsBvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_rh2MkBvHEfG4q7NLRPuP7A" name="empleado">
+        <eAnnotations xmi:id="_rh2MkRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_slNuEBvHEfG4q7NLRPuP7A" name="administrador">
+        <eAnnotations xmi:id="_slNuERvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_VIVwwBvDEfG4q7NLRPuP7A" name="presentacion">
+    <eAnnotations xmi:id="_VIVwwRvDEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_RyQB4BvHEfG4q7NLRPuP7A" name="cliente">
+      <eAnnotations xmi:id="_RyQB4RvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_TDV2UBvHEfG4q7NLRPuP7A" name="controlador">
+      <eAnnotations xmi:id="_TDV2URvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_bz6UEBvHEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_bz6UERvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_UU8BEBvHEfG4q7NLRPuP7A" name="venta">
+      <eAnnotations xmi:id="_UU8BERvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_VMCoMBvHEfG4q7NLRPuP7A" name="trabajador">
+      <eAnnotations xmi:id="_VMCoMRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Wd-KIBvHEfG4q7NLRPuP7A" name="producto">
+      <eAnnotations xmi:id="_Wd-KIRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Xnev4BvHEfG4q7NLRPuP7A" name="marca">
+      <eAnnotations xmi:id="_Xnev4RvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_f8Ki4BvHEfG4q7NLRPuP7A" name="factoria">
+      <eAnnotations xmi:id="_f8Ki4RvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hDZQsBvHEfG4q7NLRPuP7A" name="Imp">
+        <eAnnotations xmi:id="_hDiaoBvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      </packagedElement>
+    </packagedElement>
+  </packagedElement>
+  <profileApplication xmi:id="_xK_gKhu_EfG4q7NLRPuP7A">
+    <eAnnotations xmi:id="_xK_gKxu_EfG4q7NLRPuP7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_xK_gLBu_EfG4q7NLRPuP7A">
+    <eAnnotations xmi:id="_xK_gLRu_EfG4q7NLRPuP7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_xK_gLhu_EfG4q7NLRPuP7A">
+    <eAnnotations xmi:id="_xK_gLxu_EfG4q7NLRPuP7A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_4OVBUD0TEeKt-L0gyEptgQ?Deployment/Deployment?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+</uml:Package>

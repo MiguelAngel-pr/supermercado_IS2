@@ -86,7 +86,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_ABktOBvVEfGaLcD9Jm14_Q" visible="false" type="AttributeCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_ABlUQBvVEfGaLcD9Jm14_Q" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_ABlUQRvVEfGaLcD9Jm14_Q" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ABktMRvVEfGaLcD9Jm14_Q" x="8731" y="2328" width="9441"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ABktMRvVEfGaLcD9Jm14_Q" x="9636" y="3828" width="9441"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_Rueh4BvXEfGaLcD9Jm14_Q" element="_Rud60BvXEfGaLcD9Jm14_Q" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_Rueh4hvXEfGaLcD9Jm14_Q" type="ImageCompartment">
@@ -102,6 +102,14 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rueh4RvXEfGaLcD9Jm14_Q" x="2244" y="7788"/>
           </children>
           <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_WnhpkBvZEfGaLcD9Jm14_Q" element="_WngbcBvZEfGaLcD9Jm14_Q" source="_ABktMBvVEfGaLcD9Jm14_Q" target="_Rueh4BvXEfGaLcD9Jm14_Q" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_WnhpkhvZEfGaLcD9Jm14_Q" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_WnhplBvZEfGaLcD9Jm14_Q" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_WnhplRvZEfGaLcD9Jm14_Q" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WnhpkxvZEfGaLcD9Jm14_Q" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WnhpkRvZEfGaLcD9Jm14_Q" points="[-157, 75, 162, -94]$[-318, 145, 1, -24]"/>
+          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Package" xmi:id="_LbhT4BvIEfG4q7NLRPuP7A" name="Imp">
@@ -169,7 +177,7 @@
         <packagedElement xmi:type="uml:Realization" xmi:id="_EVt7kBvYEfGaLcD9Jm14_Q" supplier="_ABjfEBvVEfGaLcD9Jm14_Q" client="_B0D3IBvYEfGaLcD9Jm14_Q"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_Ht6mcBvYEfGaLcD9Jm14_Q" supplier="_Rud60BvXEfGaLcD9Jm14_Q" client="_B0D3IBvYEfGaLcD9Jm14_Q"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_ABjfEBvVEfGaLcD9Jm14_Q" name="DAOProducto" clientDependency="_e6nMABvXEfGaLcD9Jm14_Q">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_ABjfEBvVEfGaLcD9Jm14_Q" name="DAOProducto" clientDependency="_e6nMABvXEfGaLcD9Jm14_Q _WngbcBvZEfGaLcD9Jm14_Q">
         <ownedOperation xmi:id="_TWEcsBvVEfGaLcD9Jm14_Q" name="create">
           <ownedParameter xmi:id="_uzFygBvVEfGaLcD9Jm14_Q" name="tProducto" type="_01I0gRvVEfGaLcD9Jm14_Q"/>
           <ownedParameter xmi:id="_01JbkBvVEfGaLcD9Jm14_Q" name="Parameter1" type="_1KINEBvVEfGaLcD9Jm14_Q" direction="return"/>
@@ -211,6 +219,7 @@
       <packagedElement xmi:type="uml:Dependency" xmi:id="_e6nMABvXEfGaLcD9Jm14_Q" client="_ABjfEBvVEfGaLcD9Jm14_Q">
         <supplier xmi:type="uml:Interface" href="pathmap://SPRINGMVC_LIBRARY/SpringMVCModelLibrary.emx#_JOEssEGtEeGvC9qvmk6tzQ?SpringMVCModelLibrary%20(Deprecated)/java/util/Set?"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_WngbcBvZEfGaLcD9Jm14_Q" supplier="_Rud60BvXEfGaLcD9Jm14_Q" client="_ABjfEBvVEfGaLcD9Jm14_Q"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_to9fgBvGEfG4q7NLRPuP7A" name="marca">
       <eAnnotations xmi:id="_to9fgRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>

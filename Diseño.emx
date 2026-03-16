@@ -140,8 +140,51 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_0REmgBvHEfG4q7NLRPuP7A" name="Imp">
         <eAnnotations xmi:id="_0REmgRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_EMwPwCFdEfGpv6m_kf5ljg" name="TMarca"/>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_HSWHsCFdEfGpv6m_kf5ljg" name="SAMarca"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EMwPwCFdEfGpv6m_kf5ljg" name="TMarca">
+        <ownedAttribute xmi:id="_bGa5sCFeEfGpv6m_kf5ljg" name="nombre" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_evMXMCFeEfGpv6m_kf5ljg" name="id" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_NSSmACFfEfGpv6m_kf5ljg" name="activo" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_lokCwCFeEfGpv6m_kf5ljg" name="getNombre">
+          <ownedParameter xmi:id="_nB7pcCFeEfGpv6m_kf5ljg" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_sSrKUCFeEfGpv6m_kf5ljg" name="getId">
+          <ownedParameter xmi:id="_tpNfcCFeEfGpv6m_kf5ljg" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_SKfrECFfEfGpv6m_kf5ljg" name="getActivo">
+          <ownedParameter xmi:id="_Ta7YMCFfEfGpv6m_kf5ljg" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_YjhCoCFfEfGpv6m_kf5ljg" name="setActivo">
+          <ownedParameter xmi:id="_cBx5QCFfEfGpv6m_kf5ljg" name="activo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_el9GMCFfEfGpv6m_kf5ljg" name="setId">
+          <ownedParameter xmi:id="_f5MPsCFfEfGpv6m_kf5ljg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_HSWHsCFdEfGpv6m_kf5ljg" name="SAMarca">
+        <ownedOperation xmi:id="_wpYr4CFeEfGpv6m_kf5ljg" name="create">
+          <ownedParameter xmi:id="_0PugcCFeEfGpv6m_kf5ljg" name="TMarca" type="_EMwPwCFdEfGpv6m_kf5ljg"/>
+          <ownedParameter xmi:id="_0PugcSFeEfGpv6m_kf5ljg" name="Parameter1" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_CPME8CFfEfGpv6m_kf5ljg" name="delete">
+          <ownedParameter xmi:id="_HbtNICFfEfGpv6m_kf5ljg" name="TMarca marca"/>
+        </ownedOperation>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Ff77sBvHEfG4q7NLRPuP7A" name="venta">
       <eAnnotations xmi:id="_Ff77sRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>

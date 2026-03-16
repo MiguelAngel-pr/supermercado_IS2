@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
+<!--Rational Software Architect Designer 10.0.0-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_xK_gARu_EfG4q7NLRPuP7A" name="Diseño">
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_xK_gARu_EfG4q7NLRPuP7A" name="Diseño">
   <eAnnotations xmi:id="_xK_gAhu_EfG4q7NLRPuP7A" source="uml2.diagrams"/>
   <eAnnotations xmi:id="_xK_gBBu_EfG4q7NLRPuP7A" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
     <details xmi:id="_xK_gBRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
@@ -103,10 +103,45 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_zWb_sBvGEfG4q7NLRPuP7A" name="marca">
-      <eAnnotations xmi:id="_zWb_sRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+      <eAnnotations xmi:id="_zWb_sRvGEfG4q7NLRPuP7A" source="uml2.diagrams">
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Cw1EUCFdEfGpv6m_kf5ljg" type="Class" name="TMarca">
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_EMw20CFdEfGpv6m_kf5ljg" element="_EMwPwCFdEfGpv6m_kf5ljg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_EMw20iFdEfGpv6m_kf5ljg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_EMw20yFdEfGpv6m_kf5ljg" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_EMw21CFdEfGpv6m_kf5ljg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_EMw21SFdEfGpv6m_kf5ljg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_EMw21iFdEfGpv6m_kf5ljg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_EMxd4CFdEfGpv6m_kf5ljg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_EMxd4SFdEfGpv6m_kf5ljg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_EMxd4iFdEfGpv6m_kf5ljg" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_EMxd4yFdEfGpv6m_kf5ljg" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EMw20SFdEfGpv6m_kf5ljg" x="13255" y="4392" width="7166" height="4176"/>
+          </children>
+          <element xsi:nil="true"/>
+        </contents>
+        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_GQEyYCFdEfGpv6m_kf5ljg" type="Class" name="SAMarca">
+          <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_HSWuwCFdEfGpv6m_kf5ljg" element="_HSWHsCFdEfGpv6m_kf5ljg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+            <children xmi:type="notation:DecorationNode" xmi:id="_HSWuwiFdEfGpv6m_kf5ljg" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_HSWuwyFdEfGpv6m_kf5ljg" width="530" height="530"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxCFdEfGpv6m_kf5ljg" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxSFdEfGpv6m_kf5ljg" type="Kind"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxiFdEfGpv6m_kf5ljg" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxyFdEfGpv6m_kf5ljg" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyCFdEfGpv6m_kf5ljg" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuySFdEfGpv6m_kf5ljg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyiFdEfGpv6m_kf5ljg" visible="false" type="SignalCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSWuwSFdEfGpv6m_kf5ljg" x="13784" y="3598" width="5844" height="4175"/>
+          </children>
+          <element xsi:nil="true"/>
+        </contents>
+      </eAnnotations>
       <packagedElement xmi:type="uml:Package" xmi:id="_0REmgBvHEfG4q7NLRPuP7A" name="Imp">
         <eAnnotations xmi:id="_0REmgRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_EMwPwCFdEfGpv6m_kf5ljg" name="TMarca"/>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_HSWHsCFdEfGpv6m_kf5ljg" name="SAMarca"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Ff77sBvHEfG4q7NLRPuP7A" name="venta">
       <eAnnotations xmi:id="_Ff77sRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>

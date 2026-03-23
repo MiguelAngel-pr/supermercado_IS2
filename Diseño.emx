@@ -4,24 +4,7 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Plataforma de modelado de Rational (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_xK_gARu_EfG4q7NLRPuP7A" name="Diseño">
-  <eAnnotations xmi:id="_xK_gAhu_EfG4q7NLRPuP7A" source="uml2.diagrams">
-    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ooml8CZzEfGg7-SrEDUrgQ" type="Class" name="GUIEvents">
-      <children xmi:type="umlnotation:UMLShape" xmi:id="_VZaV8CZ0EfGg7-SrEDUrgQ" element="_TtSLUCZ0EfGg7-SrEDUrgQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-        <children xmi:type="notation:DecorationNode" xmi:id="_VZa9ACZ0EfGg7-SrEDUrgQ" type="ImageCompartment">
-          <layoutConstraint xmi:type="notation:Size" xmi:id="_VZa9ASZ0EfGg7-SrEDUrgQ" width="1320" height="1320"/>
-        </children>
-        <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZa9AiZ0EfGg7-SrEDUrgQ" type="Stereotype"/>
-        <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZa9AyZ0EfGg7-SrEDUrgQ" type="Kind"/>
-        <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZa9BCZ0EfGg7-SrEDUrgQ" type="Name"/>
-        <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZbkECZ0EfGg7-SrEDUrgQ" type="Parent"/>
-        <children xmi:type="notation:SemanticListCompartment" xmi:id="_VZbkESZ0EfGg7-SrEDUrgQ" type="EnumerationCompartment"/>
-        <children xmi:type="notation:SemanticListCompartment" xmi:id="_VZbkEiZ0EfGg7-SrEDUrgQ" visible="false" type="AttributeCompartment"/>
-        <children xmi:type="notation:SemanticListCompartment" xmi:id="_VZbkEyZ0EfGg7-SrEDUrgQ" visible="false" type="OperationCompartment"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VZaV8SZ0EfGg7-SrEDUrgQ" x="3429" y="127"/>
-      </children>
-      <element xsi:nil="true"/>
-    </contents>
-  </eAnnotations>
+  <eAnnotations xmi:id="_xK_gAhu_EfG4q7NLRPuP7A" source="uml2.diagrams"/>
   <eAnnotations xmi:id="_xK_gBBu_EfG4q7NLRPuP7A" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
     <details xmi:id="_xK_gBRu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBSpecificInstanceType1" value="1"/>
     <details xmi:id="_xK_gBhu_EfG4q7NLRPuP7A" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
@@ -877,6 +860,22 @@
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_NBKRlyZ0EfGg7-SrEDUrgQ" visible="false" type="AttributeCompartment"/>
           <children xmi:type="notation:SemanticListCompartment" xmi:id="_NBKRmCZ0EfGg7-SrEDUrgQ" visible="false" type="OperationCompartment"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NBJqgSZ0EfGg7-SrEDUrgQ" x="4064" y="264" width="8303" height="14620"/>
+        </children>
+        <element xsi:nil="true"/>
+      </contents>
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Ooml8CZzEfGg7-SrEDUrgQ" type="Class" name="GUIEvents">
+        <children xmi:type="umlnotation:UMLShape" xmi:id="_VZaV8CZ0EfGg7-SrEDUrgQ" element="_TtSLUCZ0EfGg7-SrEDUrgQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+          <children xmi:type="notation:DecorationNode" xmi:id="_VZa9ACZ0EfGg7-SrEDUrgQ" type="ImageCompartment">
+            <layoutConstraint xmi:type="notation:Size" xmi:id="_VZa9ASZ0EfGg7-SrEDUrgQ" width="1320" height="1320"/>
+          </children>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZa9AiZ0EfGg7-SrEDUrgQ" type="Stereotype"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZa9AyZ0EfGg7-SrEDUrgQ" type="Kind"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZa9BCZ0EfGg7-SrEDUrgQ" type="Name"/>
+          <children xmi:type="notation:BasicDecorationNode" xmi:id="_VZbkECZ0EfGg7-SrEDUrgQ" type="Parent"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_VZbkESZ0EfGg7-SrEDUrgQ" type="EnumerationCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_VZbkEiZ0EfGg7-SrEDUrgQ" visible="false" type="AttributeCompartment"/>
+          <children xmi:type="notation:SemanticListCompartment" xmi:id="_VZbkEyZ0EfGg7-SrEDUrgQ" visible="false" type="OperationCompartment"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VZaV8SZ0EfGg7-SrEDUrgQ" x="3429" y="127"/>
         </children>
         <element xsi:nil="true"/>
       </contents>
@@ -2273,7 +2272,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_l7ifUCbTEfGVusFB8f1ygA" name="handleAction">
           <ownedParameter xmi:id="_qOSt8CbTEfGVusFB8f1ygA" name="event" type="_Jnws0CZ0EfGg7-SrEDUrgQ"/>
-          <ownedParameter xmi:id="_qOTVACbTEfGVusFB8f1ygA" name="data" type="_rBPN0SbTEfGVusFB8f1ygA">
+          <ownedParameter xmi:id="_qOTVACbTEfGVusFB8f1ygA" name="data" type="__uBpICbXEfGVusFB8f1ygA">
             <upperValue xmi:type="uml:OpaqueExpression" xmi:id="_rBRDACbTEfGVusFB8f1ygA">
               <language></language>
               <body>JavaSE-1.8</body>
@@ -2382,7 +2381,7 @@
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_rBPN0CbTEfGVusFB8f1ygA" name="PrimitiveTypes">
-    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_rBPN0SbTEfGVusFB8f1ygA" name="Biblioteca del sistema JRE"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="__uBpICbXEfGVusFB8f1ygA" name="Biblioteca del sistema JRE"/>
   </packagedElement>
   <profileApplication xmi:id="_xK_gKhu_EfG4q7NLRPuP7A">
     <eAnnotations xmi:id="_xK_gKxu_EfG4q7NLRPuP7A" source="http://www.eclipse.org/uml2/2.0.0/UML">

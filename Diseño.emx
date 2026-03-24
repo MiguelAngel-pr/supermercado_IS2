@@ -129,10 +129,14 @@
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxSFdEfGpv6m_kf5ljg" type="Kind"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxiFdEfGpv6m_kf5ljg" type="Name"/>
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_HSWuxyFdEfGpv6m_kf5ljg" type="Parent"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyCFdEfGpv6m_kf5ljg" type="AttributeCompartment"/>
-            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuySFdEfGpv6m_kf5ljg" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyCFdEfGpv6m_kf5ljg" type="AttributeCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_fjvBwCdtEfGo9oNyD-9RPA" value="0.23750330600370273"/>
+            </children>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuySFdEfGpv6m_kf5ljg" type="OperationCompartment">
+              <layoutConstraint xmi:type="notation:Ratio" xmi:id="_fjvBwSdtEfGo9oNyD-9RPA" value="0.7624966939962973"/>
+            </children>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyiFdEfGpv6m_kf5ljg" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSWuwSFdEfGpv6m_kf5ljg" x="10032" y="1848" width="6426" height="4862"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSWuwSFdEfGpv6m_kf5ljg" x="13728" y="1848" width="6426" height="4862"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_SaZCYCdsEfGo9oNyD-9RPA" element="_EMwPwCFdEfGpv6m_kf5ljg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_SafwECdsEfGo9oNyD-9RPA" type="ImageCompartment">
@@ -148,6 +152,15 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SaZCYSdsEfGo9oNyD-9RPA" x="3036" y="1716" width="4177" height="5659"/>
           </children>
           <element xsi:nil="true"/>
+          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_nucj8CduEfGo9oNyD-9RPA" element="_nuaHsCduEfGo9oNyD-9RPA" source="_HSWuwCFdEfGpv6m_kf5ljg" target="_SaZCYCdsEfGo9oNyD-9RPA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+            <children xmi:type="notation:DecorationNode" xmi:id="_nudLACduEfGo9oNyD-9RPA" type="NameLabel">
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nudyECduEfGo9oNyD-9RPA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_nudyESduEfGo9oNyD-9RPA" type="Name"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nudLASduEfGo9oNyD-9RPA" y="-186"/>
+            </children>
+            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nucj8SduEfGo9oNyD-9RPA" points="[77, 8, 77, 8]$[77, 8, 77, 8]"/>
+            <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_orFLUCduEfGo9oNyD-9RPA" id="(0.012916277622159975,0.5067873303167421)"/>
+          </edges>
         </contents>
       </eAnnotations>
       <packagedElement xmi:type="uml:Package" xmi:id="_0REmgBvHEfG4q7NLRPuP7A" name="Imp">
@@ -203,15 +216,41 @@
           <ownedParameter xmi:id="_KyBi0CdsEfGo9oNyD-9RPA" name="tMarca" type="_EMwPwCFdEfGpv6m_kf5ljg"/>
         </ownedOperation>
       </packagedElement>
-      <packagedElement xmi:type="uml:Interface" xmi:id="_HSWHsCFdEfGpv6m_kf5ljg" name="SAMarca">
+      <packagedElement xmi:type="uml:Interface" xmi:id="_HSWHsCFdEfGpv6m_kf5ljg" name="SAMarca" clientDependency="_Ye20UCduEfGo9oNyD-9RPA _lPOIcCduEfGo9oNyD-9RPA _nuaHsCduEfGo9oNyD-9RPA">
         <ownedOperation xmi:id="_wpYr4CFeEfGpv6m_kf5ljg" name="create">
           <ownedParameter xmi:id="_0PugcCFeEfGpv6m_kf5ljg" name="TMarca" type="_EMwPwCFdEfGpv6m_kf5ljg"/>
           <ownedParameter xmi:id="_0PugcSFeEfGpv6m_kf5ljg" name="Parameter1" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_CPME8CFfEfGpv6m_kf5ljg" name="delete">
-          <ownedParameter xmi:id="_HbtNICFfEfGpv6m_kf5ljg" name="TMarca marca"/>
+          <ownedParameter xmi:id="_HbtNICFfEfGpv6m_kf5ljg" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_eMx14CdtEfGo9oNyD-9RPA" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_rrDY4CdtEfGo9oNyD-9RPA" name="update">
+          <ownedParameter xmi:id="_w9KywCdtEfGo9oNyD-9RPA" name="tMarca" type="_EMwPwCFdEfGpv6m_kf5ljg"/>
+          <ownedParameter xmi:id="_w9KywSdtEfGo9oNyD-9RPA" name="Parameter1" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_zV0sMCdtEfGo9oNyD-9RPA" name="read">
+          <ownedParameter xmi:id="_44YV0CdtEfGo9oNyD-9RPA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_44Y84CdtEfGo9oNyD-9RPA" name="Parameter1" type="_EMwPwCFdEfGpv6m_kf5ljg" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_RArykCduEfGo9oNyD-9RPA" name="readAll">
+          <ownedParameter xmi:id="_VQ2AMCduEfGo9oNyD-9RPA" name="Parameter1" type="_EMwPwCFdEfGpv6m_kf5ljg" direction="return">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_VQ3OUSduEfGo9oNyD-9RPA" value="*"/>
+            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_VQ3OUCduEfGo9oNyD-9RPA"/>
+          </ownedParameter>
         </ownedOperation>
       </packagedElement>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_Ye20UCduEfGo9oNyD-9RPA" supplier="_HSWHsCFdEfGpv6m_kf5ljg" client="_HSWHsCFdEfGpv6m_kf5ljg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_lPOIcCduEfGo9oNyD-9RPA" supplier="_HSWHsCFdEfGpv6m_kf5ljg" client="_HSWHsCFdEfGpv6m_kf5ljg"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_nuaHsCduEfGo9oNyD-9RPA" supplier="_EMwPwCFdEfGpv6m_kf5ljg" client="_HSWHsCFdEfGpv6m_kf5ljg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Ff77sBvHEfG4q7NLRPuP7A" name="venta">
       <eAnnotations xmi:id="_Ff77sRvHEfG4q7NLRPuP7A" source="uml2.diagrams"/>

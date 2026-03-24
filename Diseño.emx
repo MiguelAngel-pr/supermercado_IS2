@@ -116,7 +116,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_EMxd4SFdEfGpv6m_kf5ljg" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_EMxd4iFdEfGpv6m_kf5ljg" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_EMxd4yFdEfGpv6m_kf5ljg" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EMw20SFdEfGpv6m_kf5ljg" x="13255" y="4392" width="7166" height="4176"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EMw20SFdEfGpv6m_kf5ljg" x="8184" y="924" width="8276" height="6847"/>
           </children>
           <element xsi:nil="true"/>
         </contents>
@@ -132,7 +132,20 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyCFdEfGpv6m_kf5ljg" type="AttributeCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuySFdEfGpv6m_kf5ljg" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_HSWuyiFdEfGpv6m_kf5ljg" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSWuwSFdEfGpv6m_kf5ljg" x="13784" y="3598" width="5844" height="4175"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HSWuwSFdEfGpv6m_kf5ljg" x="10032" y="1848" width="6426" height="4862"/>
+          </children>
+          <children xmi:type="umlnotation:UMLShape" xmi:id="_SaZCYCdsEfGo9oNyD-9RPA" element="_EMwPwCFdEfGpv6m_kf5ljg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+            <children xmi:type="notation:DecorationNode" xmi:id="_SafwECdsEfGo9oNyD-9RPA" type="ImageCompartment">
+              <layoutConstraint xmi:type="notation:Size" xmi:id="_SafwESdsEfGo9oNyD-9RPA" width="1320" height="1320"/>
+            </children>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_SafwEidsEfGo9oNyD-9RPA" type="Stereotype"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_SagXICdsEfGo9oNyD-9RPA" type="Name"/>
+            <children xmi:type="notation:BasicDecorationNode" xmi:id="_SagXISdsEfGo9oNyD-9RPA" type="Parent"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_SagXIidsEfGo9oNyD-9RPA" type="AttributeCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_Sag-MCdsEfGo9oNyD-9RPA" type="OperationCompartment"/>
+            <children xmi:type="notation:SemanticListCompartment" xmi:id="_SahlQCdsEfGo9oNyD-9RPA" visible="false" type="SignalCompartment"/>
+            <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_SahlQSdsEfGo9oNyD-9RPA" visible="false" type="StructureCompartment"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SaZCYSdsEfGo9oNyD-9RPA" x="3036" y="1716" width="4177" height="5659"/>
           </children>
           <element xsi:nil="true"/>
         </contents>
@@ -174,6 +187,20 @@
           <ownedParameter xmi:id="_f5MPsCFfEfGpv6m_kf5ljg" name="id">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
           </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_AGIn4CdsEfGo9oNyD-9RPA" name="TMarca">
+          <ownedParameter xmi:id="_FAu5oCdsEfGo9oNyD-9RPA" name="id">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_FAvgsCdsEfGo9oNyD-9RPA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_FAvgsSdsEfGo9oNyD-9RPA" name="activo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_HYzkQCdsEfGo9oNyD-9RPA" name="TMarca">
+          <ownedParameter xmi:id="_KyBi0CdsEfGo9oNyD-9RPA" name="tMarca" type="_EMwPwCFdEfGpv6m_kf5ljg"/>
         </ownedOperation>
       </packagedElement>
       <packagedElement xmi:type="uml:Interface" xmi:id="_HSWHsCFdEfGpv6m_kf5ljg" name="SAMarca">

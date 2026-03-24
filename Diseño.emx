@@ -435,7 +435,55 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_ZZlcIBvGEfG4q7NLRPuP7A" name="trabajador">
       <eAnnotations xmi:id="_ZZlcIRvGEfG4q7NLRPuP7A" source="uml2.diagrams"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_MaDYsBvIEfG4q7NLRPuP7A" name="Imp">
-        <eAnnotations xmi:id="_MaDYsRvIEfG4q7NLRPuP7A" source="uml2.diagrams"/>
+        <eAnnotations xmi:id="_MaDYsRvIEfG4q7NLRPuP7A" source="uml2.diagrams">
+          <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_EHfeICdkEfGHIvfLid7PdA" type="Class" name="DAOTrabajador">
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_Gx_8kCdkEfGHIvfLid7PdA" element="_GxY4kCdkEfGHIvfLid7PdA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_GyGqQCdkEfGHIvfLid7PdA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_GyGqQSdkEfGHIvfLid7PdA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_GyGqQidkEfGHIvfLid7PdA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_GyGqQydkEfGHIvfLid7PdA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_JmxxUCdkEfGHIvfLid7PdA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_JmxxUSdkEfGHIvfLid7PdA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_JmyYYCdkEfGHIvfLid7PdA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_JmzmgCdkEfGHIvfLid7PdA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Jm0NkCdkEfGHIvfLid7PdA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gx_8kSdkEfGHIvfLid7PdA" x="8064" y="1502" width="4335" height="2027"/>
+            </children>
+            <children xmi:type="umlnotation:UMLShape" xmi:id="_NMFEECdkEfGHIvfLid7PdA" element="_NMDO4CdkEfGHIvfLid7PdA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+              <children xmi:type="notation:DecorationNode" xmi:id="_NMFEEidkEfGHIvfLid7PdA" type="ImageCompartment">
+                <layoutConstraint xmi:type="notation:Size" xmi:id="_NMFEEydkEfGHIvfLid7PdA" width="1320" height="1320"/>
+              </children>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_NMFEFCdkEfGHIvfLid7PdA" type="Stereotype"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_NMFEFSdkEfGHIvfLid7PdA" type="Name"/>
+              <children xmi:type="notation:BasicDecorationNode" xmi:id="_NMFEFidkEfGHIvfLid7PdA" type="Parent"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_NMFEFydkEfGHIvfLid7PdA" type="AttributeCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_NMFrICdkEfGHIvfLid7PdA" type="OperationCompartment"/>
+              <children xmi:type="notation:SemanticListCompartment" xmi:id="_NMFrISdkEfGHIvfLid7PdA" visible="false" type="SignalCompartment"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_NMFrIidkEfGHIvfLid7PdA" visible="false" type="StructureCompartment"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NMFEESdkEfGHIvfLid7PdA" x="18161" y="1524" width="5287" height="3149"/>
+            </children>
+            <element xsi:nil="true"/>
+          </contents>
+        </eAnnotations>
+        <packagedElement xmi:type="uml:Class" xmi:id="_GxY4kCdkEfGHIvfLid7PdA" name="DAOTrabajador"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NMDO4CdkEfGHIvfLid7PdA" name="TTrabajador">
+          <ownedAttribute xmi:id="_yxMEMCdkEfGHIvfLid7PdA" name="id" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_aVYcoCdkEfGHIvfLid7PdA" name="Nombre" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_bsUaYCdkEfGHIvfLid7PdA" name="Apellidos" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_ckD6sCdkEfGHIvfLid7PdA" name="NIF" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_dbob4CdkEfGHIvfLid7PdA" name="Jornada" visibility="private">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_pb8sgBvGEfG4q7NLRPuP7A" name="factoria">

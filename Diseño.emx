@@ -637,7 +637,7 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="__d1pmCFcEfGfxeC3fkUNXQ" type="AttributeCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="__d1pmSFcEfGfxeC3fkUNXQ" type="OperationCompartment"/>
               <children xmi:type="notation:SemanticListCompartment" xmi:id="__d2QoCFcEfGfxeC3fkUNXQ" visible="false" type="SignalCompartment"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__d1pkSFcEfGfxeC3fkUNXQ" x="19932" y="6600"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="__d1pkSFcEfGfxeC3fkUNXQ" x="21717" y="5334"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Skj74Cg5EfGgMJAFxIY3AA" element="_kp_CACFbEfGfxeC3fkUNXQ" fontName="Segoe UI" fontHeight="8" showListSignature="true" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
               <children xmi:type="notation:DecorationNode" xmi:id="_Skki8Cg5EfGgMJAFxIY3AA" type="ImageCompartment">

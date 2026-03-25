@@ -190,7 +190,7 @@
               <children xmi:type="notation:ListCompartment" xmi:id="_RU45OCg4EfGgMJAFxIY3AA" visible="false" type="ANNOTATED_ATTRIBUTE_COMPARTMENT" collapsed="true"/>
               <children xmi:type="notation:ListCompartment" xmi:id="_RU45OSg4EfGgMJAFxIY3AA" visible="false" type="ANNOTATED_OPERATION_COMPARTMENT" collapsed="true"/>
               <element xmi:type="uml:Class" href="mmi:///#jbintype%5Ename=java.sql.DriverManager%5Bproject%5Eid=concesionario_is2%5D$uml.Class"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RU45Oig4EfGgMJAFxIY3AA" x="1246" y="6536"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RU45Oig4EfGgMJAFxIY3AA" x="1056" y="5544"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_SgUxkSg4EfGgMJAFxIY3AA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
               <children xmi:type="notation:DecorationNode" xmi:id="_SgUxkig4EfGgMJAFxIY3AA" type="ImageCompartment">
@@ -542,7 +542,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_kqAQIyFbEfGfxeC3fkUNXQ" type="AttributeCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_kqAQJCFbEfGfxeC3fkUNXQ" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_kqAQJSFbEfGfxeC3fkUNXQ" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kp_pESFbEfGfxeC3fkUNXQ" x="10927" y="3333" width="8966" height="4704"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kp_pESFbEfGfxeC3fkUNXQ" x="10927" y="3333" width="8966" height="6688"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_vIOGACFcEfGfxeC3fkUNXQ" element="_X2MgECFTEfGfxeC3fkUNXQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_vIOGAiFcEfGfxeC3fkUNXQ" type="ImageCompartment">

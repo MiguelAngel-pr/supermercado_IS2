@@ -664,7 +664,7 @@
               <children xmi:type="notation:SemanticListCompartment" xmi:id="_YKV4qSg5EfGgMJAFxIY3AA" visible="false" type="SignalCompartment"/>
               <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_YKV4qig5EfGgMJAFxIY3AA" visible="false" type="StructureCompartment"/>
               <element xmi:type="uml:Class" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_c6fPIAAmEfCsKYR2l8XCSg?Diseño/integracion/factoria/DAOFactory?"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YKV4qyg5EfGgMJAFxIY3AA" x="3429" y="4191"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YKV4qyg5EfGgMJAFxIY3AA" x="2794" y="4572"/>
             </children>
             <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_ZOxKESg5EfGgMJAFxIY3AA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
               <children xmi:type="notation:DecorationNode" xmi:id="_ZOxKEig5EfGgMJAFxIY3AA" type="ImageCompartment">
@@ -681,7 +681,7 @@
                 <element xmi:type="uml:RedefinableTemplateSignature" href="mmi:///#jtsig%5Ename=Comparator%5Bjbintype%5Ename=java.util.Comparator%5Bproject%5Eid=concesionario_is2%5D%5D$uml.RedefinableTemplateSignature"/>
               </children>
               <element xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.util.Comparator%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZOxKHCg5EfGgMJAFxIY3AA" x="786" y="6306"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZOxKHCg5EfGgMJAFxIY3AA" x="381" y="5588"/>
             </children>
             <children xmi:type="umlnotation:UMLShape" xmi:id="_aE1PYSg5EfGgMJAFxIY3AA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
               <children xmi:type="notation:DecorationNode" xmi:id="_aE1PYig5EfGgMJAFxIY3AA" type="ImageCompartment">

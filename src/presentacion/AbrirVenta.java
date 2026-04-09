@@ -1,6 +1,8 @@
 package presentacion;
 
 import javax.swing.*;
+
+import negocio.TCarrito;
 import negocio.TVentaProducto;
 
 public class AbrirVenta extends JFrame implements IGUI {

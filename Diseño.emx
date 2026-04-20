@@ -4843,7 +4843,7 @@
               <layoutConstraint xmi:type="notation:Ratio" xmi:id="_qWatSzmtEfGxE5Y0ruwW4A" value="0.8912258338644572"/>
             </children>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_qWatTDmtEfGxE5Y0ruwW4A" visible="false" type="SignalCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qWatTTmtEfGxE5Y0ruwW4A" x="9525" y="3556" width="7482" height="5788"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qWatTTmtEfGxE5Y0ruwW4A" x="9525" y="3556" width="8513" height="5788"/>
           </children>
           <element xsi:nil="true"/>
         </contents>
@@ -6733,7 +6733,7 @@
             <end xmi:id="_5rMJ_jdQEfGHar0WSay6fA" role="_5rMy7TdQEfGHar0WSay6fA"/>
           </ownedConnector>
           <lifeline xmi:id="_5rMJ_zdQEfGHar0WSay6fA" name="Property" represents="_5rMy7DdQEfGHar0WSay6fA" coveredBy="_5rMKBjdQEfGHar0WSay6fA _5rMKWjdQEfGHar0WSay6fA"/>
-          <lifeline xmi:id="_5rMKADdQEfGHar0WSay6fA" name="dAOVentaImp" represents="_5rMy3zdQEfGHar0WSay6fA" coveredBy="_5rMKBzdQEfGHar0WSay6fA _5rMKCDdQEfGHar0WSay6fA _5rMKWTdQEfGHar0WSay6fA _5rMKCTdQEfGHar0WSay6fA _5rMKDTdQEfGHar0WSay6fA _5rMKDjdQEfGHar0WSay6fA _5rMKEjdQEfGHar0WSay6fA _5rMKFjdQEfGHar0WSay6fA _5rMKFzdQEfGHar0WSay6fA _5rMKGzdQEfGHar0WSay6fA _5rMKHDdQEfGHar0WSay6fA _5rMKIDdQEfGHar0WSay6fA _5rMKITdQEfGHar0WSay6fA _5rMKJTdQEfGHar0WSay6fA _5rMKJjdQEfGHar0WSay6fA _5rMKLzdQEfGHar0WSay6fA _5rMKMzdQEfGHar0WSay6fA _5rMKNDdQEfGHar0WSay6fA _5rMKODdQEfGHar0WSay6fA _5rMKPjdQEfGHar0WSay6fA _5rMKQjdQEfGHar0WSay6fA _5rMKSjdQEfGHar0WSay6fA _5rMKTjdQEfGHar0WSay6fA _5rMKTzdQEfGHar0WSay6fA _5rMKUzdQEfGHar0WSay6fA _5rMKVDdQEfGHar0WSay6fA _5rMKWDdQEfGHar0WSay6fA _5rMKOTdQEfGHar0WSay6fA _5rMKPTdQEfGHar0WSay6fA _nNF3sTzVEfGT65Umjt6f8w _nNF3tjzVEfGT65Umjt6f8w _5rMKSDdQEfGHar0WSay6fA"/>
+          <lifeline xmi:id="_5rMKADdQEfGHar0WSay6fA" name="dAOVentaImp" represents="_5rMy3zdQEfGHar0WSay6fA" coveredBy="_5rMKBzdQEfGHar0WSay6fA _5rMKCDdQEfGHar0WSay6fA _5rMKWTdQEfGHar0WSay6fA _5rMKCTdQEfGHar0WSay6fA _5rMKDTdQEfGHar0WSay6fA _5rMKDjdQEfGHar0WSay6fA _5rMKEjdQEfGHar0WSay6fA _5rMKFjdQEfGHar0WSay6fA _5rMKFzdQEfGHar0WSay6fA _5rMKGzdQEfGHar0WSay6fA _5rMKHDdQEfGHar0WSay6fA _5rMKIDdQEfGHar0WSay6fA _5rMKITdQEfGHar0WSay6fA _5rMKJTdQEfGHar0WSay6fA _5rMKJjdQEfGHar0WSay6fA _5rMKLzdQEfGHar0WSay6fA _5rMKMzdQEfGHar0WSay6fA _5rMKNDdQEfGHar0WSay6fA _5rMKODdQEfGHar0WSay6fA _5rMKPjdQEfGHar0WSay6fA _5rMKQjdQEfGHar0WSay6fA _5rMKSjdQEfGHar0WSay6fA _5rMKTjdQEfGHar0WSay6fA _5rMKTzdQEfGHar0WSay6fA _5rMKUzdQEfGHar0WSay6fA _5rMKVDdQEfGHar0WSay6fA _5rMKWDdQEfGHar0WSay6fA _5rMKOTdQEfGHar0WSay6fA _5rMKPTdQEfGHar0WSay6fA _5rMKSDdQEfGHar0WSay6fA _nNF3sTzVEfGT65Umjt6f8w _nNF3tjzVEfGT65Umjt6f8w"/>
           <lifeline xmi:id="_5rMKATdQEfGHar0WSay6fA" name="driverManager" represents="_5rMy4jdQEfGHar0WSay6fA" coveredBy="_5rMKCjdQEfGHar0WSay6fA _5rMKCzdQEfGHar0WSay6fA _5rMKDDdQEfGHar0WSay6fA _5rMKDjdQEfGHar0WSay6fA _5rMKJjdQEfGHar0WSay6fA"/>
           <lifeline xmi:id="_5rMKAjdQEfGHar0WSay6fA" name="connection" represents="_5rMy4zdQEfGHar0WSay6fA" coveredBy="_5rMKDjdQEfGHar0WSay6fA _5rMKEzdQEfGHar0WSay6fA _5rMKFDdQEfGHar0WSay6fA _5rMKFTdQEfGHar0WSay6fA _5rMKJjdQEfGHar0WSay6fA _5rMKVTdQEfGHar0WSay6fA _5rMKVjdQEfGHar0WSay6fA _5rMKVzdQEfGHar0WSay6fA"/>
           <lifeline xmi:id="_5rMKAzdQEfGHar0WSay6fA" name="preparedStatement" represents="_5rMy5DdQEfGHar0WSay6fA" coveredBy="_5rMKDjdQEfGHar0WSay6fA _5rMKGDdQEfGHar0WSay6fA _5rMKGTdQEfGHar0WSay6fA _5rMKGjdQEfGHar0WSay6fA _5rMKHTdQEfGHar0WSay6fA _5rMKHjdQEfGHar0WSay6fA _5rMKHzdQEfGHar0WSay6fA _5rMKJjdQEfGHar0WSay6fA _5rMKUDdQEfGHar0WSay6fA _5rMKUTdQEfGHar0WSay6fA _5rMKUjdQEfGHar0WSay6fA"/>
@@ -6965,9 +6965,9 @@
           <message xmi:id="_5rMKdDdQEfGHar0WSay6fA" name="close" messageSort="reply" receiveEvent="_5rMKWDdQEfGHar0WSay6fA" sendEvent="_5rMKVzdQEfGHar0WSay6fA" connector="_5rMJ8zdQEfGHar0WSay6fA"/>
           <message xmi:id="_5rMKdTdQEfGHar0WSay6fA" name="idTrabajador = getInt(&quot;idTrabajador&quot;)" receiveEvent="_5rMKOjdQEfGHar0WSay6fA" sendEvent="_5rMKOTdQEfGHar0WSay6fA" connector="_5rMJ-TdQEfGHar0WSay6fA"/>
           <message xmi:id="_5rMKdjdQEfGHar0WSay6fA" name="getInt" messageSort="reply" receiveEvent="_5rMKPTdQEfGHar0WSay6fA" sendEvent="_5rMKPDdQEfGHar0WSay6fA" connector="_5rMJ-TdQEfGHar0WSay6fA"/>
+          <message xmi:id="_5rMKeTdQEfGHar0WSay6fA" name="tVenta = TVenta(id, fecha, importe, idEmpleado, idCliente)" messageSort="createMessage" receiveEvent="_5rMKSTdQEfGHar0WSay6fA" sendEvent="_5rMKSDdQEfGHar0WSay6fA" connector="_5rMJ_DdQEfGHar0WSay6fA"/>
           <message xmi:id="_nNF3sDzVEfGT65Umjt6f8w" name="importe = getDouble(&quot;importe&quot;)" receiveEvent="_nNF3sjzVEfGT65Umjt6f8w" sendEvent="_nNF3sTzVEfGT65Umjt6f8w" connector="_5rMJ-TdQEfGHar0WSay6fA"/>
           <message xmi:id="_nNF3tTzVEfGT65Umjt6f8w" name="getDouble" messageSort="reply" receiveEvent="_nNF3tjzVEfGT65Umjt6f8w" sendEvent="_nNF3tDzVEfGT65Umjt6f8w" connector="_5rMJ-TdQEfGHar0WSay6fA"/>
-          <message xmi:id="_5rMKeTdQEfGHar0WSay6fA" name="tVenta = TVenta(id, fecha, importe, idEmpleado, idCliente)" messageSort="createMessage" receiveEvent="_5rMKSTdQEfGHar0WSay6fA" sendEvent="_5rMKSDdQEfGHar0WSay6fA" connector="_5rMJ_DdQEfGHar0WSay6fA"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_5rMKejdQEfGHar0WSay6fA" name="InteractionDelete">
           <eAnnotations xmi:id="_5rMKezdQEfGHar0WSay6fA" source="uml2.diagrams">
@@ -9220,77 +9220,66 @@
       <packagedElement xmi:type="uml:Interface" xmi:id="_qWaGMDmtEfGxE5Y0ruwW4A" name="DAOVenta">
         <ownedComment xmi:id="_qWaGMTmtEfGxE5Y0ruwW4A"/>
         <ownedOperation xmi:id="_qWaGMjmtEfGxE5Y0ruwW4A" name="create">
-          <ownedParameter xmi:id="_qWaGMzmtEfGxE5Y0ruwW4A" name="venta">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_qWaGMzmtEfGxE5Y0ruwW4A" name="venta" type="_8pifUDmtEfGxE5Y0ruwW4A"/>
           <ownedParameter xmi:id="_qWaGNDmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGNTmtEfGxE5Y0ruwW4A" name="read">
           <ownedParameter xmi:id="_qWaGNjmtEfGxE5Y0ruwW4A" name="id">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_qWaGNzmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_qWaGNzmtEfGxE5Y0ruwW4A" name="Parameter1" type="_8pifUDmtEfGxE5Y0ruwW4A" direction="return"/>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGODmtEfGxE5Y0ruwW4A" name="readAll">
-          <ownedParameter xmi:id="_qWaGOTmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
+          <ownedParameter xmi:id="_qWaGOTmtEfGxE5Y0ruwW4A" name="Parameter1" type="_8pifUDmtEfGxE5Y0ruwW4A" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWaGOjmtEfGxE5Y0ruwW4A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qWaGOzmtEfGxE5Y0ruwW4A"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGPDmtEfGxE5Y0ruwW4A" name="update">
-          <ownedParameter xmi:id="_qWaGPTmtEfGxE5Y0ruwW4A" name="venta">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
-          </ownedParameter>
+          <ownedParameter xmi:id="_qWaGPTmtEfGxE5Y0ruwW4A" name="venta" type="_8pifUDmtEfGxE5Y0ruwW4A"/>
           <ownedParameter xmi:id="_qWaGPjmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
             <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGPzmtEfGxE5Y0ruwW4A" name="delete">
           <ownedParameter xmi:id="_qWaGQDmtEfGxE5Y0ruwW4A" name="id">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGQTmtEfGxE5Y0ruwW4A" name="readByCliente">
           <ownedParameter xmi:id="_qWaGQjmtEfGxE5Y0ruwW4A" name="idCliente">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_qWaGQzmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
+          <ownedParameter xmi:id="_qWaGQzmtEfGxE5Y0ruwW4A" name="Parameter1" type="_8pifUDmtEfGxE5Y0ruwW4A" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWaGRDmtEfGxE5Y0ruwW4A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qWaGRTmtEfGxE5Y0ruwW4A"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGRjmtEfGxE5Y0ruwW4A" name="readByTrabajador">
           <ownedParameter xmi:id="_qWaGRzmtEfGxE5Y0ruwW4A" name="idTrabajador">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_qWaGSDmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
+          <ownedParameter xmi:id="_qWaGSDmtEfGxE5Y0ruwW4A" name="Parameter1" type="_8pifUDmtEfGxE5Y0ruwW4A" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWaGSTmtEfGxE5Y0ruwW4A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qWaGSjmtEfGxE5Y0ruwW4A"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGSzmtEfGxE5Y0ruwW4A" name="readByFecha">
           <ownedParameter xmi:id="_qWaGTDmtEfGxE5Y0ruwW4A" name="fecha">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_jLCf4CbOEfGsGKAyk9i8ww?Diseño/PrimitiveTypes/Date?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_qWaGTTmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
+          <ownedParameter xmi:id="_qWaGTTmtEfGxE5Y0ruwW4A" name="Parameter1" type="_8pifUDmtEfGxE5Y0ruwW4A" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWaGTjmtEfGxE5Y0ruwW4A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qWaGTzmtEfGxE5Y0ruwW4A"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGUDmtEfGxE5Y0ruwW4A" name="readByImporte">
           <ownedParameter xmi:id="_qWaGUTmtEfGxE5Y0ruwW4A" name="importe">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_aRj9wCbOEfGsGKAyk9i8ww?Diseño/PrimitiveTypes/double?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://TRANSFORM_JAVA_LIBRARIES/JavaWrapperTypes.emx#_kgV5sCzXEeOjm7YHwNvJcA?JavaWrapperTypes/Double?"/>
           </ownedParameter>
-          <ownedParameter xmi:id="_qWaGUjmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_pieikRvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/tVenta?"/>
+          <ownedParameter xmi:id="_qWaGUjmtEfGxE5Y0ruwW4A" name="Parameter1" type="_8pifUDmtEfGxE5Y0ruwW4A" direction="return">
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_qWaGUzmtEfGxE5Y0ruwW4A" value="*"/>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_qWaGVDmtEfGxE5Y0ruwW4A"/>
           </ownedParameter>
@@ -12488,7 +12477,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_8pjtkDmtEfGxE5Y0ruwW4A" visible="false" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_8pjtkTmtEfGxE5Y0ruwW4A" visible="false" type="SignalCompartment"/>
             <element xmi:type="uml:Interface" href="supermercado_IS2/bin/Diseño.emx#_CUAh4ChiEfGCTfm5D3RBBQ?Diseño/negocio/venta/Serializable?"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pjtkjmtEfGxE5Y0ruwW4A" x="18612" y="6204"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pjtkjmtEfGxE5Y0ruwW4A" x="18612" y="6204" width="4705" height="2483"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8pjtkzmtEfGxE5Y0ruwW4A" element="_8pkUsjmtEfGxE5Y0ruwW4A" source="_8pjtezmtEfGxE5Y0ruwW4A" target="_8pjtiDmtEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">

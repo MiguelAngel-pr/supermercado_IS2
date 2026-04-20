@@ -17604,19 +17604,19 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_8pifUDmtEfGxE5Y0ruwW4A" name="TVenta" clientDependency="_8pkUsjmtEfGxE5Y0ruwW4A">
         <ownedAttribute xmi:id="_8pifUTmtEfGxE5Y0ruwW4A" name="id" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_8pifUjmtEfGxE5Y0ruwW4A" name="idTrabajador" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_8pifUzmtEfGxE5Y0ruwW4A" name="idCliente" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_8pifVDmtEfGxE5Y0ruwW4A" name="fecha" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_jLCf4CbOEfGsGKAyk9i8ww?Diseño/PrimitiveTypes/Date?"/>
+          <type xmi:type="uml:Class" href="pathmap://SPRINGMVC_LIBRARY/SpringMVCModelLibrary.emx#_0FGMEkGlEeGvC9qvmk6tzQ?SpringMVCModelLibrary%20(Deprecated)/java/sql/Date?"/>
         </ownedAttribute>
         <ownedAttribute xmi:id="_8pifVTmtEfGxE5Y0ruwW4A" name="importe" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_aRj9wCbOEfGsGKAyk9i8ww?Diseño/PrimitiveTypes/double?"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
         </ownedAttribute>
         <ownedOperation xmi:id="_8pifVjmtEfGxE5Y0ruwW4A" name="TVenta">
           <ownedParameter xmi:id="_8pifVzmtEfGxE5Y0ruwW4A" name="id">

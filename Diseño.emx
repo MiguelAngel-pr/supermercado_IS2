@@ -12842,7 +12842,7 @@
             </children>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_8pkUljmtEfGxE5Y0ruwW4A" visible="false" type="SignalCompartment"/>
             <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_8pkUlzmtEfGxE5Y0ruwW4A" visible="false" type="StructureCompartment"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pkUmDmtEfGxE5Y0ruwW4A" x="5016" y="4620" width="3386" height="634"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pkUmDmtEfGxE5Y0ruwW4A" x="4884" y="3960" width="3386" height="634"/>
           </children>
           <children xmi:type="umlnotation:UMLShape" xmi:id="_Vn7aEDmvEfGxE5Y0ruwW4A" element="_mC6wgDNGEfGhX9jB5QDOQQ" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
             <children xmi:type="notation:DecorationNode" xmi:id="_Vn8BIDmvEfGxE5Y0ruwW4A" type="ImageCompartment">
@@ -13252,6 +13252,19 @@
         <supplier xmi:type="uml:Class" href="supermercado_IS2/bin/Diseño.emx#_0EL6QChuEfGJtO5Elk8gVw?Diseño/negocio/ventaProducto/TVentaProducto?"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_YU0eIDmvEfGxE5Y0ruwW4A" supplier="_mC6wgDNGEfGhX9jB5QDOQQ" client="_8pjtcDmtEfGxE5Y0ruwW4A"/>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_C6YlgDzTEfGc6KPTa0Bk5Q" name="secuencia">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_FRxToDzTEfGc6KPTa0Bk5Q" name="Interaction1">
+          <eAnnotations xmi:id="_FRyhwDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FRzI0DzTEfGc6KPTa0Bk5Q" type="Sequence" element="_FRxToDzTEfGc6KPTa0Bk5Q" name="Alta" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_FRzI0TzTEfGc6KPTa0Bk5Q" element="_FRxToDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_FRzI0jzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_FRzI0zzTEfGc6KPTa0Bk5Q" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FRzI1DzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Hh6agBvHEfG4q7NLRPuP7A" name="ventaProducto">
       <eAnnotations xmi:id="_Hh6agRvHEfG4q7NLRPuP7A" source="uml2.diagrams">

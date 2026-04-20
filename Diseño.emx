@@ -12693,7 +12693,7 @@
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_8pjtkDmtEfGxE5Y0ruwW4A" visible="false" type="OperationCompartment"/>
             <children xmi:type="notation:SemanticListCompartment" xmi:id="_8pjtkTmtEfGxE5Y0ruwW4A" visible="false" type="SignalCompartment"/>
             <element xmi:type="uml:Interface" href="supermercado_IS2/bin/Diseño.emx#_CUAh4ChiEfGCTfm5D3RBBQ?Diseño/negocio/venta/Serializable?"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pjtkjmtEfGxE5Y0ruwW4A" x="18612" y="6600"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8pjtkjmtEfGxE5Y0ruwW4A" x="18612" y="6204"/>
           </children>
           <element xsi:nil="true"/>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_8pjtkzmtEfGxE5Y0ruwW4A" element="_8pkUsjmtEfGxE5Y0ruwW4A" source="_8pjtezmtEfGxE5Y0ruwW4A" target="_8pjtiDmtEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -13253,24 +13253,13 @@
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_YU0eIDmvEfGxE5Y0ruwW4A" supplier="_mC6wgDNGEfGhX9jB5QDOQQ" client="_8pjtcDmtEfGxE5Y0ruwW4A"/>
       <packagedElement xmi:type="uml:Collaboration" xmi:id="_C6YlgDzTEfGc6KPTa0Bk5Q" name="secuencia">
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_FRxToDzTEfGc6KPTa0Bk5Q" name="InteractionCreate">
-          <eAnnotations xmi:id="_FRyhwDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_FRzI0DzTEfGc6KPTa0Bk5Q" type="Sequence" element="_FRxToDzTEfGc6KPTa0Bk5Q" name="Alta" measurementUnit="Himetric">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_FRzI0TzTEfGc6KPTa0Bk5Q" element="_FRxToDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_FRzI0jzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_FRzI0zzTEfGc6KPTa0Bk5Q" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FRzI1DzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
-              </children>
-            </contents>
-          </eAnnotations>
-        </ownedBehavior>
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aFFKgDzTEfGc6KPTa0Bk5Q" name="InteractionDelete">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aFFKgDzTEfGc6KPTa0Bk5Q" name="InteractionAbrir">
           <eAnnotations xmi:id="_aFFxkDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_aFFxkTzTEfGc6KPTa0Bk5Q" type="Sequence" element="_aFFKgDzTEfGc6KPTa0Bk5Q" name="Baja" measurementUnit="Himetric">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_aFFxkjzTEfGc6KPTa0Bk5Q" element="_aFFKgDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_aFFxkzzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_aFFxlDzTEfGc6KPTa0Bk5Q" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aFFxlTzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_hvwhwDzUEfGc6KPTa0Bk5Q" type="Sequence" element="_aFFKgDzTEfGc6KPTa0Bk5Q" name="Abrir" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_hvwhwTzUEfGc6KPTa0Bk5Q" element="_aFFKgDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_hvwhwjzUEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_hvwhwzzUEfGc6KPTa0Bk5Q" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hvwhxDzUEfGc6KPTa0Bk5Q" x="793" y="793"/>
               </children>
             </contents>
           </eAnnotations>
@@ -13286,39 +13275,6 @@
             </contents>
           </eAnnotations>
         </ownedBehavior>
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_gCjOgDzTEfGc6KPTa0Bk5Q" name="InteractionReadAll">
-          <eAnnotations xmi:id="_gCj1kDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_gCj1kTzTEfGc6KPTa0Bk5Q" type="Sequence" element="_gCjOgDzTEfGc6KPTa0Bk5Q" name="ReadAll" measurementUnit="Himetric">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_gCj1kjzTEfGc6KPTa0Bk5Q" element="_gCjOgDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gCj1kzzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_gCj1lDzTEfGc6KPTa0Bk5Q" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gCj1lTzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
-              </children>
-            </contents>
-          </eAnnotations>
-        </ownedBehavior>
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_lQRQkDzTEfGc6KPTa0Bk5Q" name="InteractionReadByCliente">
-          <eAnnotations xmi:id="_lQR3oDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_lQR3oTzTEfGc6KPTa0Bk5Q" type="Sequence" element="_lQRQkDzTEfGc6KPTa0Bk5Q" name="ReadByCliente" measurementUnit="Himetric">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_lQR3ojzTEfGc6KPTa0Bk5Q" element="_lQRQkDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_lQR3ozzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_lQR3pDzTEfGc6KPTa0Bk5Q" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lQR3pTzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
-              </children>
-            </contents>
-          </eAnnotations>
-        </ownedBehavior>
-        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_pPoCEDzTEfGc6KPTa0Bk5Q" name="InteractionReadByTrabajador">
-          <eAnnotations xmi:id="_pPopIDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
-            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_pPopITzTEfGc6KPTa0Bk5Q" type="Sequence" element="_pPoCEDzTEfGc6KPTa0Bk5Q" name="ReadByTrabajador" measurementUnit="Himetric">
-              <children xmi:type="umlnotation:UMLShape" xmi:id="_pPopIjzTEfGc6KPTa0Bk5Q" element="_pPoCEDzTEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_pPopIzzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_pPopJDzTEfGc6KPTa0Bk5Q" type="Name"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pPopJTzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
-              </children>
-            </contents>
-          </eAnnotations>
-        </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_sIHSIDzTEfGc6KPTa0Bk5Q" name="InteractionUpdate">
           <eAnnotations xmi:id="_sIH5MDzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_sIH5MTzTEfGc6KPTa0Bk5Q" type="Sequence" element="_sIHSIDzTEfGc6KPTa0Bk5Q" name="Modificar" measurementUnit="Himetric">
@@ -13326,6 +13282,17 @@
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_sIH5MzzTEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_sIH5NDzTEfGc6KPTa0Bk5Q" type="Name"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sIH5NTzTEfGc6KPTa0Bk5Q" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_isyKsDzUEfGc6KPTa0Bk5Q" name="InteractionCerrar">
+          <eAnnotations xmi:id="_isyxwDzUEfGc6KPTa0Bk5Q" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_isyxwTzUEfGc6KPTa0Bk5Q" type="Sequence" element="_isyKsDzUEfGc6KPTa0Bk5Q" name="Cerrar" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_isyxwjzUEfGc6KPTa0Bk5Q" element="_isyKsDzUEfGc6KPTa0Bk5Q" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_isyxwzzUEfGc6KPTa0Bk5Q" type="interaction_compartment"/>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_isyxxDzUEfGc6KPTa0Bk5Q" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_isyxxTzUEfGc6KPTa0Bk5Q" x="793" y="793"/>
               </children>
             </contents>
           </eAnnotations>

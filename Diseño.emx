@@ -9240,7 +9240,7 @@
         <ownedOperation xmi:id="_qWaGPDmtEfGxE5Y0ruwW4A" name="update">
           <ownedParameter xmi:id="_qWaGPTmtEfGxE5Y0ruwW4A" name="venta" type="_8pifUDmtEfGxE5Y0ruwW4A"/>
           <ownedParameter xmi:id="_qWaGPjmtEfGxE5Y0ruwW4A" name="Parameter1" direction="return">
-            <type xmi:type="uml:PrimitiveType" href="supermercado_IS2/bin/Diseño.emx#_ppGvABvXEfG-qOrstNO2eQ?Diseño/PrimitiveTypes/int?"/>
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
         <ownedOperation xmi:id="_qWaGPzmtEfGxE5Y0ruwW4A" name="delete">

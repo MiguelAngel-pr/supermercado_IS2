@@ -16,10 +16,6 @@ public class SAClienteImp implements SACliente {
 
         if (existing == null) {
             id = daoCliente.create(tCliente);
-        } else if (!existing.getActivo()) {
-            tCliente.setId(existing.getId());
-            tCliente.setActivo(true);
-            id = daoCliente.update(tCliente);
         }
         return id;
     }
@@ -51,7 +47,7 @@ public class SAClienteImp implements SACliente {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOCliente daoCliente = daoFactory.createCliente();
         TCliente tCliente = daoCliente.read(id);
-        if (tCliente != null && tCliente.getActivo()) {
+        if (tCliente != null) {
             result = daoCliente.delete(id);
         }
         return result;

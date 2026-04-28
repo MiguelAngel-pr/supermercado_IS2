@@ -33,7 +33,7 @@ public class ActualizarProducto extends JFrame implements IGUI {
                 int cantidad = Integer.parseInt(cantidadField.getText().trim());
                 int idMarca = Integer.parseInt(idMarcaField.getText().trim());
                 TProducto tProducto = new TProducto(id, nombreField.getText().trim(), precio,
-                    fechaField.getText().trim(), cantidad, idMarca, true);
+                    fechaField.getText().trim(), cantidad, idMarca);
                 Controller.getInstance().handleAction(Events.ACTUALIZAR_PRODUCTO, tProducto);
                 dispose();
             } catch (NumberFormatException ex) {

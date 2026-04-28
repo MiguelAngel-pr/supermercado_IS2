@@ -32,7 +32,7 @@ public class ActualizarVenta extends JFrame implements IGUI {
                 int idCliente = Integer.parseInt(idClienteField.getText().trim());
                 double importe = Double.parseDouble(importeField.getText().trim());
                 String fecha = fechaField.getText().trim();
-                TVenta tVenta = new TVenta(id, fecha, importe, idCliente, idEmpleado, true);
+                TVenta tVenta = new TVenta(id, fecha, importe, idCliente, idEmpleado);
                 Controller.getInstance().handleAction(Events.ACTUALIZAR_VENTA, tVenta);
                 dispose();
             } catch (NumberFormatException ex) {

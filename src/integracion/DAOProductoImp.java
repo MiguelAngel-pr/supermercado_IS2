@@ -16,14 +16,13 @@ public class DAOProductoImp implements DAOProducto {
         int id = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             PreparedStatement ps = conn.prepareStatement(
-                "INSERT INTO Producto (nombre, precio, fechaCaducidad, cantidad, idMarca, activo) VALUES (?, ?, ?, ?, ?, ?)",
+                "INSERT INTO Producto (nombre, precio, fechaCaducidad, cantidad, idMarca) VALUES (?, ?, ?, ?, ?)",
                 Statement.RETURN_GENERATED_KEYS);
             ps.setString(1, tProducto.getNombre());
             ps.setDouble(2, tProducto.getPrecio());
             ps.setString(3, tProducto.getFechaCaducidad());
             ps.setInt(4, tProducto.getCantidad());
             ps.setInt(5, tProducto.getIdMarca());
-            ps.setBoolean(6, true);
             ps.executeUpdate();
             ResultSet rs = ps.getGeneratedKeys();
             if (rs.next()) id = rs.getInt(1);
@@ -41,7 +40,7 @@ public class DAOProductoImp implements DAOProducto {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 tProducto = new TProducto(rs.getInt("id"), rs.getString("nombre"), rs.getDouble("precio"),
-                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca"), rs.getBoolean("activo"));
+                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca"));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -56,7 +55,7 @@ public class DAOProductoImp implements DAOProducto {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 set.add(new TProducto(rs.getInt("id"), rs.getString("nombre"), rs.getDouble("precio"),
-                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca"), rs.getBoolean("activo")));
+                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -72,7 +71,7 @@ public class DAOProductoImp implements DAOProducto {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 set.add(new TProducto(rs.getInt("id"), rs.getString("nombre"), rs.getDouble("precio"),
-                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca"), rs.getBoolean("activo")));
+                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -89,7 +88,7 @@ public class DAOProductoImp implements DAOProducto {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 set.add(new TProducto(rs.getInt("id"), rs.getString("nombre"), rs.getDouble("precio"),
-                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca"), rs.getBoolean("activo")));
+                    rs.getString("fechaCaducidad"), rs.getInt("cantidad"), rs.getInt("idMarca")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -101,14 +100,13 @@ public class DAOProductoImp implements DAOProducto {
         int id = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             PreparedStatement ps = conn.prepareStatement(
-                "UPDATE Producto SET nombre=?, precio=?, fechaCaducidad=?, cantidad=?, idMarca=?, activo=? WHERE id=?");
+                "UPDATE Producto SET nombre=?, precio=?, fechaCaducidad=?, cantidad=?, idMarca=? WHERE id=?");
             ps.setString(1, tProducto.getNombre());
             ps.setDouble(2, tProducto.getPrecio());
             ps.setString(3, tProducto.getFechaCaducidad());
             ps.setInt(4, tProducto.getCantidad());
             ps.setInt(5, tProducto.getIdMarca());
-            ps.setBoolean(6, tProducto.getActivo());
-            ps.setInt(7, tProducto.getId());
+            ps.setInt(6, tProducto.getId());
             if (ps.executeUpdate() == 1) id = tProducto.getId();
             ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -119,7 +117,7 @@ public class DAOProductoImp implements DAOProducto {
     public int delete(int id) {
         int result = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
-            PreparedStatement ps = conn.prepareStatement("UPDATE Producto SET activo=0 WHERE id=?");
+            PreparedStatement ps = conn.prepareStatement("DELETE FROM Producto WHERE id=?");
             ps.setInt(1, id);
             if (ps.executeUpdate() == 1) result = id;
             ps.close();

@@ -12,16 +12,14 @@ public class TCliente implements Serializable {
     private String NIF;
     private String email;
     private String telefono;
-    private boolean activo;
 
-    public TCliente(int id, String nombre, String apellidos, String NIF, String email, String telefono, boolean activo) {
+    public TCliente(int id, String nombre, String apellidos, String NIF, String email, String telefono) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.NIF = NIF;
         this.email = email;
         this.telefono = telefono;
-        this.activo = activo;
     }
 
     public int getId() { return id; }
@@ -31,13 +29,10 @@ public class TCliente implements Serializable {
     public String getNIF() { return NIF; }
     public String getEmail() { return email; }
     public String getTelefono() { return telefono; }
-    public boolean getActivo() { return activo; }
-    public void setActivo(boolean activo) { this.activo = activo; }
 
     @Override
     public String toString() {
         return "Id: " + id + ", Nombre: " + nombre + ", Apellidos: " + apellidos +
-               ", NIF: " + NIF + ", Email: " + email + ", Telefono: " + telefono +
-               ", Activo: " + activo + "\n";
+               ", NIF: " + NIF + ", Email: " + email + ", Telefono: " + telefono + "\n";
     }
 }

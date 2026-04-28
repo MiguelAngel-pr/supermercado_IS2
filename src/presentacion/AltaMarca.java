@@ -28,7 +28,7 @@ public class AltaMarca extends JFrame implements IGUI {
 
         btnAceptar.addActionListener(e -> {
             if (!nombreField.getText().trim().isEmpty()) {
-                TMarca tMarca = new TMarca(-1, nombreField.getText().trim(), true);
+                TMarca tMarca = new TMarca(-1, nombreField.getText().trim());
                 Controller.getInstance().handleAction(Events.ALTA_MARCA, tMarca);
                 dispose();
             }

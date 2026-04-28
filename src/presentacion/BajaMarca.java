@@ -29,7 +29,7 @@ public class BajaMarca extends JFrame implements IGUI {
         btnAceptar.addActionListener(e -> {
             try {
                 int id = Integer.parseInt(idField.getText().trim());
-                TMarca tMarca = new TMarca(id, "", true);
+                TMarca tMarca = new TMarca(id, "");
                 Controller.getInstance().handleAction(Events.BAJA_MARCA, tMarca);
                 dispose();
             } catch (NumberFormatException ex) {

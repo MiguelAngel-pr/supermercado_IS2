@@ -34,7 +34,7 @@ public class ActualizarMarca extends JFrame implements IGUI {
                 int id = Integer.parseInt(idField.getText().trim());
                 String nombre = nombreField.getText().trim();
                 if (!nombre.isEmpty()) {
-                    TMarca tMarca = new TMarca(id, nombre, true);
+                    TMarca tMarca = new TMarca(id, nombre);
                     Controller.getInstance().handleAction(Events.ACTUALIZAR_MARCA, tMarca);
                     dispose();
                 }

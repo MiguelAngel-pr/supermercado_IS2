@@ -30,7 +30,7 @@ public class AltaCliente extends JFrame implements IGUI {
                     && !apellidosField.getText().trim().isEmpty()) {
                 TCliente tCliente = new TCliente(-1, nombreField.getText().trim(),
                     apellidosField.getText().trim(), nifField.getText().trim(),
-                    emailField.getText().trim(), telefonoField.getText().trim(), true);
+                    emailField.getText().trim(), telefonoField.getText().trim());
                 Controller.getInstance().handleAction(Events.ALTA_CLIENTE, tCliente);
                 dispose();
             }

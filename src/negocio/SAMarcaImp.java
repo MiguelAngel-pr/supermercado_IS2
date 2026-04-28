@@ -16,10 +16,6 @@ public class SAMarcaImp implements SAMarca {
 
         if (existing == null) {
             id = daoMarca.create(tMarca);
-        } else if (!existing.getActivo()) {
-            tMarca.setId(existing.getId());
-            tMarca.setActivo(true);
-            id = daoMarca.update(tMarca);
         }
         return id;
     }
@@ -58,7 +54,7 @@ public class SAMarcaImp implements SAMarca {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOMarca daoMarca = daoFactory.createMarca();
         TMarca tMarca = daoMarca.read(id);
-        if (tMarca != null && tMarca.getActivo()) {
+        if (tMarca != null) {
             result = daoMarca.delete(id);
         }
         return result;

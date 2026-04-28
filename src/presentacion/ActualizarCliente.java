@@ -31,7 +31,7 @@ public class ActualizarCliente extends JFrame implements IGUI {
                 int id = Integer.parseInt(idField.getText().trim());
                 TCliente tCliente = new TCliente(id, nombreField.getText().trim(),
                     apellidosField.getText().trim(), nifField.getText().trim(),
-                    emailField.getText().trim(), telefonoField.getText().trim(), true);
+                    emailField.getText().trim(), telefonoField.getText().trim());
                 Controller.getInstance().handleAction(Events.ACTUALIZAR_CLIENTE, tCliente);
                 dispose();
             } catch (NumberFormatException ex) {

@@ -42,9 +42,9 @@ public class AltaEmpleado extends JFrame implements IGUI {
                 if (!nombre.isEmpty() && !nif.isEmpty()) {
                     Object trabajador;
                     if (tipoCombo.getSelectedIndex() == 1) {
-                        trabajador = new TAdministrador(-1, nombre, apellidos, nif, jornada, true, salario, "");
+                        trabajador = new TAdministrador(-1, nombre, apellidos, nif, jornada, salario, "");
                     } else {
-                        trabajador = new TEmpleado(-1, nombre, apellidos, nif, jornada, true, salario, idAdmin);
+                        trabajador = new TEmpleado(-1, nombre, apellidos, nif, jornada, salario, idAdmin);
                     }
                     Controller.getInstance().handleAction(Events.ALTA_EMPLEADO, trabajador);
                     dispose();

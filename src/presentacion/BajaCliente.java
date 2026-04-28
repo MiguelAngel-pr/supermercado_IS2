@@ -26,7 +26,7 @@ public class BajaCliente extends JFrame implements IGUI {
         btnAceptar.addActionListener(e -> {
             try {
                 int id = Integer.parseInt(idField.getText().trim());
-                TCliente tCliente = new TCliente(id, "", "", "", "", "", true);
+                TCliente tCliente = new TCliente(id, "", "", "", "", "");
                 Controller.getInstance().handleAction(Events.BAJA_CLIENTE, tCliente);
                 dispose();
             } catch (NumberFormatException ex) {

@@ -12,16 +12,14 @@ public abstract class TTrabajador implements Serializable {
     private String NIF;
     private String jornada;
     private boolean isAdministrador;
-    private boolean activo;
 
-    public TTrabajador(int id, String nombre, String apellidos, String NIF, String jornada, boolean isAdministrador, boolean activo) {
+    public TTrabajador(int id, String nombre, String apellidos, String NIF, String jornada, boolean isAdministrador) {
         this.id = id;
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.NIF = NIF;
         this.jornada = jornada;
         this.isAdministrador = isAdministrador;
-        this.activo = activo;
     }
 
     public int getId() { return id; }
@@ -31,8 +29,6 @@ public abstract class TTrabajador implements Serializable {
     public String getNIF() { return NIF; }
     public String getJornada() { return jornada; }
     public boolean getIsAdministrador() { return isAdministrador; }
-    public boolean getActivo() { return activo; }
-    public void setActivo(boolean activo) { this.activo = activo; }
 
     public abstract String getIdsEmpleados();
     public abstract int getIdAdmin();
@@ -41,6 +37,6 @@ public abstract class TTrabajador implements Serializable {
     public String toString() {
         return "Id: " + id + ", Nombre: " + nombre + ", Apellidos: " + apellidos +
                ", NIF: " + NIF + ", Jornada: " + jornada +
-               ", Es administrador: " + isAdministrador + ", Activo: " + activo + "\n";
+               ", Es administrador: " + isAdministrador + "\n";
     }
 }

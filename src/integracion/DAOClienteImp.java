@@ -16,14 +16,13 @@ public class DAOClienteImp implements DAOCliente {
         int id = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             PreparedStatement ps = conn.prepareStatement(
-                "INSERT INTO Cliente (nombre, apellidos, nif, email, telefono, activo) VALUES (?, ?, ?, ?, ?, ?)",
+                "INSERT INTO Cliente (nombre, apellidos, nif, email, telefono) VALUES (?, ?, ?, ?, ?)",
                 Statement.RETURN_GENERATED_KEYS);
             ps.setString(1, tCliente.getNombre());
             ps.setString(2, tCliente.getApellidos());
             ps.setString(3, tCliente.getNIF());
             ps.setString(4, tCliente.getEmail());
             ps.setString(5, tCliente.getTelefono());
-            ps.setBoolean(6, true);
             ps.executeUpdate();
             ResultSet rs = ps.getGeneratedKeys();
             if (rs.next()) id = rs.getInt(1);
@@ -42,7 +41,7 @@ public class DAOClienteImp implements DAOCliente {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 tCliente = new TCliente(rs.getInt("id"), rs.getString("nombre"), rs.getString("apellidos"),
-                    rs.getString("nif"), rs.getString("email"), rs.getString("telefono"), rs.getBoolean("activo"));
+                    rs.getString("nif"), rs.getString("email"), rs.getString("telefono"));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -57,7 +56,7 @@ public class DAOClienteImp implements DAOCliente {
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 set.add(new TCliente(rs.getInt("id"), rs.getString("nombre"), rs.getString("apellidos"),
-                    rs.getString("nif"), rs.getString("email"), rs.getString("telefono"), rs.getBoolean("activo")));
+                    rs.getString("nif"), rs.getString("email"), rs.getString("telefono")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -69,14 +68,13 @@ public class DAOClienteImp implements DAOCliente {
         int id = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             PreparedStatement ps = conn.prepareStatement(
-                "UPDATE Cliente SET nombre=?, apellidos=?, nif=?, email=?, telefono=?, activo=? WHERE id=?");
+                "UPDATE Cliente SET nombre=?, apellidos=?, nif=?, email=?, telefono=? WHERE id=?");
             ps.setString(1, tCliente.getNombre());
             ps.setString(2, tCliente.getApellidos());
             ps.setString(3, tCliente.getNIF());
             ps.setString(4, tCliente.getEmail());
             ps.setString(5, tCliente.getTelefono());
-            ps.setBoolean(6, tCliente.getActivo());
-            ps.setInt(7, tCliente.getId());
+            ps.setInt(6, tCliente.getId());
             if (ps.executeUpdate() == 1) id = tCliente.getId();
             ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -87,7 +85,7 @@ public class DAOClienteImp implements DAOCliente {
     public int delete(int id) {
         int result = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
-            PreparedStatement ps = conn.prepareStatement("UPDATE Cliente SET activo=0 WHERE id=?");
+            PreparedStatement ps = conn.prepareStatement("DELETE FROM Cliente WHERE id=?");
             ps.setInt(1, id);
             if (ps.executeUpdate() == 1) result = id;
             ps.close();
@@ -104,7 +102,7 @@ public class DAOClienteImp implements DAOCliente {
             ResultSet rs = ps.executeQuery();
             if (rs.next()) {
                 tCliente = new TCliente(rs.getInt("id"), rs.getString("nombre"), rs.getString("apellidos"),
-                    rs.getString("nif"), rs.getString("email"), rs.getString("telefono"), rs.getBoolean("activo"));
+                    rs.getString("nif"), rs.getString("email"), rs.getString("telefono"));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }

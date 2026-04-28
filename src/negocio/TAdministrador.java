@@ -7,8 +7,8 @@ public class TAdministrador extends TTrabajador {
     private double salario;
     private String idsEmpleados; // comma-separated ids
 
-    public TAdministrador(int id, String nombre, String apellidos, String NIF, String jornada, boolean activo, double salario, String idsEmpleados) {
-        super(id, nombre, apellidos, NIF, jornada, true, activo);
+    public TAdministrador(int id, String nombre, String apellidos, String NIF, String jornada, double salario, String idsEmpleados) {
+        super(id, nombre, apellidos, NIF, jornada, true);
         this.salario = salario;
         this.idsEmpleados = idsEmpleados;
     }

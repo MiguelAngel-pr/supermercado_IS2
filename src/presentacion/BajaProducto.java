@@ -25,7 +25,7 @@ public class BajaProducto extends JFrame implements IGUI {
         btnAceptar.addActionListener(e -> {
             try {
                 int id = Integer.parseInt(idField.getText().trim());
-                TProducto tProducto = new TProducto(id, "", 0, "", 0, 0, true);
+                TProducto tProducto = new TProducto(id, "", 0, "", 0, 0);
                 Controller.getInstance().handleAction(Events.BAJA_PRODUCTO, tProducto);
                 dispose();
             } catch (NumberFormatException ex) {

@@ -12,16 +12,14 @@ public class TProducto implements Serializable {
     private String fechaCaducidad;
     private int cantidad;
     private int idMarca;
-    private boolean activo;
 
-    public TProducto(int id, String nombre, double precio, String fechaCaducidad, int cantidad, int idMarca, boolean activo) {
+    public TProducto(int id, String nombre, double precio, String fechaCaducidad, int cantidad, int idMarca) {
         this.id = id;
         this.nombre = nombre;
         this.precio = precio;
         this.fechaCaducidad = fechaCaducidad;
         this.cantidad = cantidad;
         this.idMarca = idMarca;
-        this.activo = activo;
     }
 
     public int getId() { return id; }
@@ -31,13 +29,11 @@ public class TProducto implements Serializable {
     public String getFechaCaducidad() { return fechaCaducidad; }
     public int getCantidad() { return cantidad; }
     public int getIdMarca() { return idMarca; }
-    public boolean getActivo() { return activo; }
-    public void setActivo(boolean activo) { this.activo = activo; }
 
     @Override
     public String toString() {
         return "Id: " + id + ", Nombre: " + nombre + ", Precio: " + precio +
                ", FechaCaducidad: " + fechaCaducidad + ", Cantidad: " + cantidad +
-               ", IdMarca: " + idMarca + ", Activo: " + activo + "\n";
+               ", IdMarca: " + idMarca + "\n";
     }
 }

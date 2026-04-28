@@ -40,11 +40,11 @@ public class ActualizarEmpleado extends JFrame implements IGUI {
                 if (tipoCombo.getSelectedIndex() == 1) {
                     trabajador = new TAdministrador(id, nombreField.getText().trim(),
                         apellidosField.getText().trim(), nifField.getText().trim(),
-                        jornadaField.getText().trim(), true, salario, "");
+                        jornadaField.getText().trim(), salario, "");
                 } else {
                     trabajador = new TEmpleado(id, nombreField.getText().trim(),
                         apellidosField.getText().trim(), nifField.getText().trim(),
-                        jornadaField.getText().trim(), true, salario, idAdmin);
+                        jornadaField.getText().trim(), salario, idAdmin);
                 }
                 Controller.getInstance().handleAction(Events.ACTUALIZAR_EMPLEADO, trabajador);
                 dispose();

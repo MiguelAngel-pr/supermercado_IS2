@@ -7,8 +7,8 @@ public class TEmpleado extends TTrabajador {
     private double salario;
     private int idAdmin;
 
-    public TEmpleado(int id, String nombre, String apellidos, String NIF, String jornada, boolean activo, double salario, int idAdmin) {
-        super(id, nombre, apellidos, NIF, jornada, false, activo);
+    public TEmpleado(int id, String nombre, String apellidos, String NIF, String jornada, double salario, int idAdmin) {
+        super(id, nombre, apellidos, NIF, jornada, false);
         this.salario = salario;
         this.idAdmin = idAdmin;
     }

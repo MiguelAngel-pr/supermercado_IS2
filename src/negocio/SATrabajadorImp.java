@@ -16,10 +16,6 @@ public class SATrabajadorImp implements SATrabajador {
 
         if (existing == null) {
             id = daoTrabajador.create(tTrabajador);
-        } else if (!existing.getActivo()) {
-            tTrabajador.setId(existing.getId());
-            tTrabajador.setActivo(true);
-            id = daoTrabajador.update(tTrabajador);
         }
         return id;
     }
@@ -58,7 +54,7 @@ public class SATrabajadorImp implements SATrabajador {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOTrabajador daoTrabajador = daoFactory.createTrabajador();
         TTrabajador tTrabajador = daoTrabajador.read(id);
-        if (tTrabajador != null && tTrabajador.getActivo()) {
+        if (tTrabajador != null) {
             result = daoTrabajador.delete(id);
         }
         return result;

@@ -27,7 +27,7 @@ public class SAVentaImp implements SAVenta {
 
         String fecha = LocalDate.now().toString();
         double importe = tCarrito.calcularImporte(null);
-        TVenta tVenta = new TVenta(-1, fecha, importe, tCarrito.getIdCliente(), tCarrito.getIdEmpleado(), true);
+        TVenta tVenta = new TVenta(-1, fecha, importe, tCarrito.getIdCliente(), tCarrito.getIdEmpleado());
 
         int idVenta = daoVenta.create(tVenta, tCarrito);
         if (idVenta > 0) {
@@ -98,7 +98,7 @@ public class SAVentaImp implements SAVenta {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOVenta daoVenta = daoFactory.createVenta();
         TVenta existing = daoVenta.read(tVenta.getId());
-        if (existing != null && existing.getActivo()) {
+        if (existing != null) {
             result = daoVenta.delete(tVenta.getId());
         }
         return result;

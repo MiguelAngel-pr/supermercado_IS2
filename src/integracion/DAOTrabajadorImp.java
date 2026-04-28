@@ -19,14 +19,13 @@ public class DAOTrabajadorImp implements DAOTrabajador {
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             conn.setAutoCommit(false);
             PreparedStatement ps = conn.prepareStatement(
-                "INSERT INTO Trabajador (nombre, apellidos, nif, jornada, isAdministrador, activo) VALUES (?, ?, ?, ?, ?, ?)",
+                "INSERT INTO Trabajador (nombre, apellidos, nif, jornada, isAdministrador) VALUES (?, ?, ?, ?, ?)",
                 Statement.RETURN_GENERATED_KEYS);
             ps.setString(1, tTrabajador.getNombre());
             ps.setString(2, tTrabajador.getApellidos());
             ps.setString(3, tTrabajador.getNIF());
             ps.setString(4, tTrabajador.getJornada());
             ps.setBoolean(5, tTrabajador.getIsAdministrador());
-            ps.setBoolean(6, true);
             ps.executeUpdate();
             ResultSet rs = ps.getGeneratedKeys();
             if (rs.next()) id = rs.getInt(1);
@@ -93,7 +92,6 @@ public class DAOTrabajadorImp implements DAOTrabajador {
         String nif = rs.getString("nif");
         String jornada = rs.getString("jornada");
         boolean isAdmin = rs.getBoolean("isAdministrador");
-        boolean activo = rs.getBoolean("activo");
 
         if (isAdmin) {
             PreparedStatement ps2 = conn.prepareStatement("SELECT * FROM Administrador WHERE id = ?");
@@ -102,7 +100,7 @@ public class DAOTrabajadorImp implements DAOTrabajador {
             double salario = 0; String idsEmpleados = "";
             if (rs2.next()) { salario = rs2.getDouble("salario"); idsEmpleados = rs2.getString("idsEmpleados"); }
             rs2.close(); ps2.close();
-            return new TAdministrador(id, nombre, apellidos, nif, jornada, activo, salario, idsEmpleados);
+            return new TAdministrador(id, nombre, apellidos, nif, jornada, salario, idsEmpleados);
         } else {
             PreparedStatement ps2 = conn.prepareStatement("SELECT * FROM Empleado WHERE id = ?");
             ps2.setInt(1, id);
@@ -110,7 +108,7 @@ public class DAOTrabajadorImp implements DAOTrabajador {
             double salario = 0; int idAdmin = -1;
             if (rs2.next()) { salario = rs2.getDouble("salario"); idAdmin = rs2.getInt("idAdmin"); }
             rs2.close(); ps2.close();
-            return new TEmpleado(id, nombre, apellidos, nif, jornada, activo, salario, idAdmin);
+            return new TEmpleado(id, nombre, apellidos, nif, jornada, salario, idAdmin);
         }
     }
 
@@ -134,13 +132,12 @@ public class DAOTrabajadorImp implements DAOTrabajador {
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
             conn.setAutoCommit(false);
             PreparedStatement ps = conn.prepareStatement(
-                "UPDATE Trabajador SET nombre=?, apellidos=?, nif=?, jornada=?, activo=? WHERE id=?");
+                "UPDATE Trabajador SET nombre=?, apellidos=?, nif=?, jornada=? WHERE id=?");
             ps.setString(1, tTrabajador.getNombre());
             ps.setString(2, tTrabajador.getApellidos());
             ps.setString(3, tTrabajador.getNIF());
             ps.setString(4, tTrabajador.getJornada());
-            ps.setBoolean(5, tTrabajador.getActivo());
-            ps.setInt(6, tTrabajador.getId());
+            ps.setInt(5, tTrabajador.getId());
             if (ps.executeUpdate() == 1) id = tTrabajador.getId();
             ps.close();
 
@@ -172,10 +169,16 @@ public class DAOTrabajadorImp implements DAOTrabajador {
     public int delete(int id) {
         int result = 0;
         try (Connection conn = DriverManager.getConnection(DB_URL)) {
-            PreparedStatement ps = conn.prepareStatement("UPDATE Trabajador SET activo=0 WHERE id=?");
-            ps.setInt(1, id);
-            if (ps.executeUpdate() == 1) result = id;
-            ps.close();
+            conn.setAutoCommit(false);
+            PreparedStatement ps1 = conn.prepareStatement("DELETE FROM Administrador WHERE id=?");
+            ps1.setInt(1, id); ps1.executeUpdate(); ps1.close();
+            PreparedStatement ps2 = conn.prepareStatement("DELETE FROM Empleado WHERE id=?");
+            ps2.setInt(1, id); ps2.executeUpdate(); ps2.close();
+            PreparedStatement ps3 = conn.prepareStatement("DELETE FROM Trabajador WHERE id=?");
+            ps3.setInt(1, id);
+            if (ps3.executeUpdate() == 1) result = id;
+            ps3.close();
+            conn.commit();
         } catch (SQLException e) { e.printStackTrace(System.err); }
         return result;
     }

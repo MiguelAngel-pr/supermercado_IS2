@@ -55,7 +55,7 @@ public class SAProductoImp implements SAProducto {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOProducto daoProducto = daoFactory.createProducto();
         TProducto tProducto = daoProducto.read(id);
-        if (tProducto != null && tProducto.getActivo()) {
+        if (tProducto != null) {
             result = daoProducto.delete(id);
         }
         return result;

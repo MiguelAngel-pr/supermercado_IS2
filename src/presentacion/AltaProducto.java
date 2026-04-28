@@ -33,7 +33,7 @@ public class AltaProducto extends JFrame implements IGUI {
                 int cantidad = Integer.parseInt(cantidadField.getText().trim());
                 int idMarca = Integer.parseInt(idMarcaField.getText().trim());
                 if (!nombre.isEmpty()) {
-                    TProducto tProducto = new TProducto(-1, nombre, precio, fecha, cantidad, idMarca, true);
+                    TProducto tProducto = new TProducto(-1, nombre, precio, fecha, cantidad, idMarca);
                     Controller.getInstance().handleAction(Events.ALTA_PRODUCTO, tProducto);
                     dispose();
                 }

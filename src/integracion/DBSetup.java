@@ -16,8 +16,7 @@ public class DBSetup {
             stmt.executeUpdate(
                 "CREATE TABLE IF NOT EXISTS Marca (" +
                 "id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                "nombre TEXT NOT NULL UNIQUE, " +
-                "activo BOOLEAN NOT NULL DEFAULT 1)");
+                "nombre TEXT NOT NULL UNIQUE)");
 
             stmt.executeUpdate(
                 "CREATE TABLE IF NOT EXISTS Cliente (" +
@@ -26,8 +25,7 @@ public class DBSetup {
                 "apellidos TEXT NOT NULL, " +
                 "nif TEXT UNIQUE NOT NULL, " +
                 "email TEXT, " +
-                "telefono TEXT, " +
-                "activo BOOLEAN NOT NULL DEFAULT 1)");
+                "telefono TEXT)");
 
             stmt.executeUpdate(
                 "CREATE TABLE IF NOT EXISTS Trabajador (" +
@@ -36,8 +34,7 @@ public class DBSetup {
                 "apellidos TEXT NOT NULL, " +
                 "nif TEXT UNIQUE NOT NULL, " +
                 "jornada TEXT, " +
-                "isAdministrador BOOLEAN NOT NULL DEFAULT 0, " +
-                "activo BOOLEAN NOT NULL DEFAULT 1)");
+                "isAdministrador BOOLEAN NOT NULL DEFAULT 0)");
 
             stmt.executeUpdate(
                 "CREATE TABLE IF NOT EXISTS Administrador (" +
@@ -62,7 +59,6 @@ public class DBSetup {
                 "fechaCaducidad TEXT, " +
                 "cantidad INTEGER NOT NULL DEFAULT 0, " +
                 "idMarca INTEGER NOT NULL, " +
-                "activo BOOLEAN NOT NULL DEFAULT 1, " +
                 "FOREIGN KEY (idMarca) REFERENCES Marca(id))");
 
             stmt.executeUpdate(
@@ -72,7 +68,6 @@ public class DBSetup {
                 "idCliente INTEGER NOT NULL, " +
                 "fecha TEXT NOT NULL, " +
                 "importe REAL NOT NULL, " +
-                "activo BOOLEAN NOT NULL DEFAULT 1, " +
                 "FOREIGN KEY (idEmpleado) REFERENCES Trabajador(id), " +
                 "FOREIGN KEY (idCliente) REFERENCES Cliente(id))");
 

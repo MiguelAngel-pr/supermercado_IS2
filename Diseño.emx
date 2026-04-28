@@ -1107,17 +1107,17 @@
           <message xmi:id="_k3q-mDdNEfG8hMpDeSlBJA" name="readByName(nif)" receiveEvent="_k3q-QzdNEfG8hMpDeSlBJA" sendEvent="_k3q-QjdNEfG8hMpDeSlBJA" connector="_k3q-LDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-mTdNEfG8hMpDeSlBJA" name="tCliente" messageSort="reply" receiveEvent="_k3q-ljdNEfG8hMpDeSlBJA" sendEvent="_k3q-lTdNEfG8hMpDeSlBJA" connector="_k3q-LDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-mjdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3q-RjdNEfG8hMpDeSlBJA" sendEvent="_k3q-RTdNEfG8hMpDeSlBJA" connector="_k3q-LzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-mzdNEfG8hMpDeSlBJA" name="getConnection" messageSort="reply" receiveEvent="_k3q-STdNEfG8hMpDeSlBJA" sendEvent="_k3q-SDdNEfG8hMpDeSlBJA" connector="_k3q-LzdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-mzdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3q-STdNEfG8hMpDeSlBJA" sendEvent="_k3q-SDdNEfG8hMpDeSlBJA" connector="_k3q-LzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-nDdNEfG8hMpDeSlBJA" name="prepareStatement = prepareStatement(&quot;SELECT * from cliente WHERE NIF = ?&quot;)" receiveEvent="_k3q-TzdNEfG8hMpDeSlBJA" sendEvent="_k3q-TjdNEfG8hMpDeSlBJA" connector="_k3q-MjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-nTdNEfG8hMpDeSlBJA" name="prepareStatement" messageSort="reply" receiveEvent="_k3q-UjdNEfG8hMpDeSlBJA" sendEvent="_k3q-UTdNEfG8hMpDeSlBJA" connector="_k3q-MjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-njdNEfG8hMpDeSlBJA" name="setString(1,nif)" receiveEvent="_k3q-VDdNEfG8hMpDeSlBJA" sendEvent="_k3q-UzdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-nzdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3q-VzdNEfG8hMpDeSlBJA" sendEvent="_k3q-VjdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-nzdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3q-VzdNEfG8hMpDeSlBJA" sendEvent="_k3q-VjdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-oDdNEfG8hMpDeSlBJA" name="resultSet = executeQuery()" receiveEvent="_k3q-WTdNEfG8hMpDeSlBJA" sendEvent="_k3q-WDdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-oTdNEfG8hMpDeSlBJA" name="executeQuery" messageSort="reply" receiveEvent="_k3q-XDdNEfG8hMpDeSlBJA" sendEvent="_k3q-WzdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-oTdNEfG8hMpDeSlBJA" name="resultset" messageSort="reply" receiveEvent="_k3q-XDdNEfG8hMpDeSlBJA" sendEvent="_k3q-WzdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-ojdNEfG8hMpDeSlBJA" name="result = next()" receiveEvent="_k3q-XjdNEfG8hMpDeSlBJA" sendEvent="_k3q-XTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-ozdNEfG8hMpDeSlBJA" name="next" messageSort="reply" receiveEvent="_k3q-YTdNEfG8hMpDeSlBJA" sendEvent="_k3q-YDdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-ozdNEfG8hMpDeSlBJA" name="resultset" messageSort="reply" receiveEvent="_k3q-YTdNEfG8hMpDeSlBJA" sendEvent="_k3q-YDdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-pDdNEfG8hMpDeSlBJA" name="id = getInt(&quot;id&quot;)" receiveEvent="_k3q-ZzdNEfG8hMpDeSlBJA" sendEvent="_k3q-ZjdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-pTdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3q-ajdNEfG8hMpDeSlBJA" sendEvent="_k3q-aTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-pTdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3q-ajdNEfG8hMpDeSlBJA" sendEvent="_k3q-aTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-pjdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3q-hzdNEfG8hMpDeSlBJA" sendEvent="_k3q-hjdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-pzdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3q-ijdNEfG8hMpDeSlBJA" sendEvent="_k3q-iTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-qDdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3q-jDdNEfG8hMpDeSlBJA" sendEvent="_k3q-izdNEfG8hMpDeSlBJA" connector="_k3q-NTdNEfG8hMpDeSlBJA"/>
@@ -1125,15 +1125,15 @@
           <message xmi:id="_k3q-qjdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3q-kTdNEfG8hMpDeSlBJA" sendEvent="_k3q-kDdNEfG8hMpDeSlBJA" connector="_k3q-MjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-qzdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3q-lDdNEfG8hMpDeSlBJA" sendEvent="_k3q-kzdNEfG8hMpDeSlBJA" connector="_k3q-MjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-rDdNEfG8hMpDeSlBJA" name="nombre = getString(&quot;nombre&quot;)" receiveEvent="_k3q-bDdNEfG8hMpDeSlBJA" sendEvent="_k3q-azdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-rTdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3q-bzdNEfG8hMpDeSlBJA" sendEvent="_k3q-bjdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-rTdNEfG8hMpDeSlBJA" name="nombre" messageSort="reply" receiveEvent="_k3q-bzdNEfG8hMpDeSlBJA" sendEvent="_k3q-bjdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-rjdNEfG8hMpDeSlBJA" name="apellidos = getString(&quot;apellidos&quot;)" receiveEvent="_k3q-cTdNEfG8hMpDeSlBJA" sendEvent="_k3q-cDdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-rzdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3q-dDdNEfG8hMpDeSlBJA" sendEvent="_k3q-czdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-rzdNEfG8hMpDeSlBJA" name="apellidos" messageSort="reply" receiveEvent="_k3q-dDdNEfG8hMpDeSlBJA" sendEvent="_k3q-czdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-sDdNEfG8hMpDeSlBJA" name="email = getString(&quot;email&quot;)" receiveEvent="_k3q-ezdNEfG8hMpDeSlBJA" sendEvent="_k3q-ejdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-sTdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3q-fjdNEfG8hMpDeSlBJA" sendEvent="_k3q-fTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-sTdNEfG8hMpDeSlBJA" name="email" messageSort="reply" receiveEvent="_k3q-fjdNEfG8hMpDeSlBJA" sendEvent="_k3q-fTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-sjdNEfG8hMpDeSlBJA" name="NIF = getString(&quot;NIF&quot;)" receiveEvent="_k3q-djdNEfG8hMpDeSlBJA" sendEvent="_k3q-dTdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-szdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3q-eTdNEfG8hMpDeSlBJA" sendEvent="_k3q-eDdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-szdNEfG8hMpDeSlBJA" name="NIF" messageSort="reply" receiveEvent="_k3q-eTdNEfG8hMpDeSlBJA" sendEvent="_k3q-eDdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-tDdNEfG8hMpDeSlBJA" name="telefono = getInt(&quot;telefono&quot;)" receiveEvent="_k3q-gDdNEfG8hMpDeSlBJA" sendEvent="_k3q-fzdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-tTdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3q-gzdNEfG8hMpDeSlBJA" sendEvent="_k3q-gjdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-tTdNEfG8hMpDeSlBJA" name="telefono" messageSort="reply" receiveEvent="_k3q-gzdNEfG8hMpDeSlBJA" sendEvent="_k3q-gjdNEfG8hMpDeSlBJA" connector="_k3q-ODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-tjdNEfG8hMpDeSlBJA" name="tCliente = TCliente(id, nombre, apellidos, NIF, email, telefono)" messageSort="createMessage" receiveEvent="_k3q-hTdNEfG8hMpDeSlBJA" sendEvent="_k3q-hDdNEfG8hMpDeSlBJA"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_k3q-tzdNEfG8hMpDeSlBJA" name="InteractionCreate">
@@ -1747,11 +1747,11 @@
           <message xmi:id="_k3rAPzdNEfG8hMpDeSlBJA" name="AltaCliente.create(tCliente)" receiveEvent="_k3q_7TdNEfG8hMpDeSlBJA" sendEvent="_k3q_7DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAQDdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rAPjdNEfG8hMpDeSlBJA" sendEvent="_k3rAPTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAQTdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3q_8DdNEfG8hMpDeSlBJA" sendEvent="_k3q_7zdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAQjdNEfG8hMpDeSlBJA" name="getConnection" messageSort="reply" receiveEvent="_k3q_8zdNEfG8hMpDeSlBJA" sendEvent="_k3q_8jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAQjdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3q_8zdNEfG8hMpDeSlBJA" sendEvent="_k3q_8jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAQzdNEfG8hMpDeSlBJA" name="prepareStatement = prepareStatement(&quot;INSERT INTO cliente (nombre, apellidos, NIF, email, telefono) VALUES (?,?,?,?,?)&quot;, Statement.RETURN_GENERATED_KEYS" receiveEvent="_k3q_-TdNEfG8hMpDeSlBJA" sendEvent="_k3q_-DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rARDdNEfG8hMpDeSlBJA" name="prepareStatement" messageSort="reply" receiveEvent="_k3q__DdNEfG8hMpDeSlBJA" sendEvent="_k3q_-zdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rARTdNEfG8hMpDeSlBJA" name="id = getInt(1)" receiveEvent="_k3rAKjdNEfG8hMpDeSlBJA" sendEvent="_k3rAKTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rARjdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3rALTdNEfG8hMpDeSlBJA" sendEvent="_k3rALDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rARjdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rALTdNEfG8hMpDeSlBJA" sendEvent="_k3rALDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rARzdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rALzdNEfG8hMpDeSlBJA" sendEvent="_k3rALjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rASDdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rAMjdNEfG8hMpDeSlBJA" sendEvent="_k3rAMTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rASTdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rANDdNEfG8hMpDeSlBJA" sendEvent="_k3rAMzdNEfG8hMpDeSlBJA"/>
@@ -1759,21 +1759,21 @@
           <message xmi:id="_k3rASzdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rAOTdNEfG8hMpDeSlBJA" sendEvent="_k3rAODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rATDdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rAPDdNEfG8hMpDeSlBJA" sendEvent="_k3rAOzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rATTdNEfG8hMpDeSlBJA" name="setString(1, cliente.getNombre())" receiveEvent="_k3q__jdNEfG8hMpDeSlBJA" sendEvent="_k3q__TdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rATjdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rAATdNEfG8hMpDeSlBJA" sendEvent="_k3rAADdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rATjdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rAATdNEfG8hMpDeSlBJA" sendEvent="_k3rAADdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rATzdNEfG8hMpDeSlBJA" name="setString(2, cliente.getApellidos())" receiveEvent="_k3rAAzdNEfG8hMpDeSlBJA" sendEvent="_k3rAAjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAUDdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rABjdNEfG8hMpDeSlBJA" sendEvent="_k3rABTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAUDdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rABjdNEfG8hMpDeSlBJA" sendEvent="_k3rABTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAUTdNEfG8hMpDeSlBJA" name="setString(4, cliente.getEmail())" receiveEvent="_k3rADTdNEfG8hMpDeSlBJA" sendEvent="_k3rADDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAUjdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rAEDdNEfG8hMpDeSlBJA" sendEvent="_k3rADzdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAUjdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rAEDdNEfG8hMpDeSlBJA" sendEvent="_k3rADzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAUzdNEfG8hMpDeSlBJA" name="setString(3, cliente.getNIF())" receiveEvent="_k3rACDdNEfG8hMpDeSlBJA" sendEvent="_k3rABzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAVDdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rACzdNEfG8hMpDeSlBJA" sendEvent="_k3rACjdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAVDdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rACzdNEfG8hMpDeSlBJA" sendEvent="_k3rACjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAVTdNEfG8hMpDeSlBJA" name="setInt(5, cliente.getTelefono())" receiveEvent="_k3rAEjdNEfG8hMpDeSlBJA" sendEvent="_k3rAETdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAVjdNEfG8hMpDeSlBJA" name="setInt" messageSort="reply" receiveEvent="_k3rAFTdNEfG8hMpDeSlBJA" sendEvent="_k3rAFDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAVjdNEfG8hMpDeSlBJA" name="setInt (void)" messageSort="reply" receiveEvent="_k3rAFTdNEfG8hMpDeSlBJA" sendEvent="_k3rAFDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAVzdNEfG8hMpDeSlBJA" name="executeUpdate()" receiveEvent="_k3rAFzdNEfG8hMpDeSlBJA" sendEvent="_k3rAFjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAWDdNEfG8hMpDeSlBJA" name="executeUpdate" messageSort="reply" receiveEvent="_k3rAGjdNEfG8hMpDeSlBJA" sendEvent="_k3rAGTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAWTdNEfG8hMpDeSlBJA" name="resultSet = getGeneratedKeys()" receiveEvent="_k3rAHDdNEfG8hMpDeSlBJA" sendEvent="_k3rAGzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAWjdNEfG8hMpDeSlBJA" name="getGeneratedKeys" messageSort="reply" receiveEvent="_k3rAHzdNEfG8hMpDeSlBJA" sendEvent="_k3rAHjdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAWjdNEfG8hMpDeSlBJA" name="resultset" messageSort="reply" receiveEvent="_k3rAHzdNEfG8hMpDeSlBJA" sendEvent="_k3rAHjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAWzdNEfG8hMpDeSlBJA" name="result = next()" receiveEvent="_k3rAITdNEfG8hMpDeSlBJA" sendEvent="_k3rAIDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rAXDdNEfG8hMpDeSlBJA" name="next" messageSort="reply" receiveEvent="_k3rAJDdNEfG8hMpDeSlBJA" sendEvent="_k3rAIzdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAXDdNEfG8hMpDeSlBJA" name="resultset (nuevo/siguiente)" messageSort="reply" receiveEvent="_k3rAJDdNEfG8hMpDeSlBJA" sendEvent="_k3rAIzdNEfG8hMpDeSlBJA"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_k3rAXTdNEfG8hMpDeSlBJA" name="InteractionUpdate">
           <eAnnotations xmi:id="_k3rAXjdNEfG8hMpDeSlBJA" source="uml2.diagrams">
@@ -2439,29 +2439,29 @@
           <message xmi:id="_k3rkpTdNEfG8hMpDeSlBJA" name="update(tCliente)" receiveEvent="_k3rkTjdNEfG8hMpDeSlBJA" sendEvent="_k3rkTTdNEfG8hMpDeSlBJA" connector="_k3rkODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkpjdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rkpDdNEfG8hMpDeSlBJA" sendEvent="_k3rkozdNEfG8hMpDeSlBJA" connector="_k3rkODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkpzdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rkUTdNEfG8hMpDeSlBJA" sendEvent="_k3rkUDdNEfG8hMpDeSlBJA" connector="_k3rkOzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rkqDdNEfG8hMpDeSlBJA" name="getConnection" messageSort="reply" receiveEvent="_k3rkVDdNEfG8hMpDeSlBJA" sendEvent="_k3rkUzdNEfG8hMpDeSlBJA" connector="_k3rkOzdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkqDdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3rkVDdNEfG8hMpDeSlBJA" sendEvent="_k3rkUzdNEfG8hMpDeSlBJA" connector="_k3rkOzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkqTdNEfG8hMpDeSlBJA" name="prepareStatement(&quot;UPDATE cliente SET nombre = ?, apellidos = ?, nif = ?, email = ?, telefono = ? WHERE id = ?&quot;)" receiveEvent="_k3rkWjdNEfG8hMpDeSlBJA" sendEvent="_k3rkWTdNEfG8hMpDeSlBJA" connector="_k3rkPjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkqjdNEfG8hMpDeSlBJA" name="prepareStatement" messageSort="reply" receiveEvent="_k3rkXTdNEfG8hMpDeSlBJA" sendEvent="_k3rkXDdNEfG8hMpDeSlBJA" connector="_k3rkPjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkqzdNEfG8hMpDeSlBJA" name="setString(2, tCliente.getNombre())" receiveEvent="_k3rkXzdNEfG8hMpDeSlBJA" sendEvent="_k3rkXjdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rkrDdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rkYjdNEfG8hMpDeSlBJA" sendEvent="_k3rkYTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkrDdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rkYjdNEfG8hMpDeSlBJA" sendEvent="_k3rkYTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkrTdNEfG8hMpDeSlBJA" name="setString(3, tCliente.getApellidos())" receiveEvent="_k3rkZDdNEfG8hMpDeSlBJA" sendEvent="_k3rkYzdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rkrjdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rkZzdNEfG8hMpDeSlBJA" sendEvent="_k3rkZjdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkrjdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rkZzdNEfG8hMpDeSlBJA" sendEvent="_k3rkZjdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkrzdNEfG8hMpDeSlBJA" name="setString(4, tCliente.getNIF())" receiveEvent="_k3rkaTdNEfG8hMpDeSlBJA" sendEvent="_k3rkaDdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rksDdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rkbDdNEfG8hMpDeSlBJA" sendEvent="_k3rkazdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rksDdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rkbDdNEfG8hMpDeSlBJA" sendEvent="_k3rkazdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rksTdNEfG8hMpDeSlBJA" name="setString(5, tCliente.getEmail())" receiveEvent="_k3rkbjdNEfG8hMpDeSlBJA" sendEvent="_k3rkbTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rksjdNEfG8hMpDeSlBJA" name="setString" messageSort="reply" receiveEvent="_k3rkcTdNEfG8hMpDeSlBJA" sendEvent="_k3rkcDdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rksjdNEfG8hMpDeSlBJA" name="setString (void)" messageSort="reply" receiveEvent="_k3rkcTdNEfG8hMpDeSlBJA" sendEvent="_k3rkcDdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkszdNEfG8hMpDeSlBJA" name="setInt(6, tCliente.getTelefono())" receiveEvent="_k3rkczdNEfG8hMpDeSlBJA" sendEvent="_k3rkcjdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rktDdNEfG8hMpDeSlBJA" name="setInt" messageSort="reply" receiveEvent="_k3rkdjdNEfG8hMpDeSlBJA" sendEvent="_k3rkdTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rktDdNEfG8hMpDeSlBJA" name="setInt (void)" messageSort="reply" receiveEvent="_k3rkdjdNEfG8hMpDeSlBJA" sendEvent="_k3rkdTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rktTdNEfG8hMpDeSlBJA" name="setInt(7, tCliente.getId())" receiveEvent="_k3rkeDdNEfG8hMpDeSlBJA" sendEvent="_k3rkdzdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rktjdNEfG8hMpDeSlBJA" name="setInt" messageSort="reply" receiveEvent="_k3rkezdNEfG8hMpDeSlBJA" sendEvent="_k3rkejdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rktjdNEfG8hMpDeSlBJA" name="setInt (void)" messageSort="reply" receiveEvent="_k3rkezdNEfG8hMpDeSlBJA" sendEvent="_k3rkejdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rktzdNEfG8hMpDeSlBJA" name="executeUpdate()" receiveEvent="_k3rkfTdNEfG8hMpDeSlBJA" sendEvent="_k3rkfDdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkuDdNEfG8hMpDeSlBJA" name="executeUpdate" messageSort="reply" receiveEvent="_k3rkgDdNEfG8hMpDeSlBJA" sendEvent="_k3rkfzdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkuTdNEfG8hMpDeSlBJA" name="resultSet = getGeneratedKeys()" receiveEvent="_k3rkgjdNEfG8hMpDeSlBJA" sendEvent="_k3rkgTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rkujdNEfG8hMpDeSlBJA" name="getGeneratedKeys" messageSort="reply" receiveEvent="_k3rkhTdNEfG8hMpDeSlBJA" sendEvent="_k3rkhDdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkujdNEfG8hMpDeSlBJA" name="resultset" messageSort="reply" receiveEvent="_k3rkhTdNEfG8hMpDeSlBJA" sendEvent="_k3rkhDdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkuzdNEfG8hMpDeSlBJA" name="result = next()" receiveEvent="_k3rkhzdNEfG8hMpDeSlBJA" sendEvent="_k3rkhjdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rkvDdNEfG8hMpDeSlBJA" name="next" messageSort="reply" receiveEvent="_k3rkijdNEfG8hMpDeSlBJA" sendEvent="_k3rkiTdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkvDdNEfG8hMpDeSlBJA" name="result" messageSort="reply" receiveEvent="_k3rkijdNEfG8hMpDeSlBJA" sendEvent="_k3rkiTdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkvTdNEfG8hMpDeSlBJA" name="id = getInt(1)" receiveEvent="_k3rkkDdNEfG8hMpDeSlBJA" sendEvent="_k3rkjzdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rkvjdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3rkkzdNEfG8hMpDeSlBJA" sendEvent="_k3rkkjdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkvjdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rkkzdNEfG8hMpDeSlBJA" sendEvent="_k3rkkjdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkvzdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rklTdNEfG8hMpDeSlBJA" sendEvent="_k3rklDdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkwDdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rkmDdNEfG8hMpDeSlBJA" sendEvent="_k3rklzdNEfG8hMpDeSlBJA" connector="_k3rkRDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkwTdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rkmjdNEfG8hMpDeSlBJA" sendEvent="_k3rkmTdNEfG8hMpDeSlBJA" connector="_k3rkQTdNEfG8hMpDeSlBJA"/>
@@ -2553,7 +2553,7 @@
                         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_k3rlBTdNEfG8hMpDeSlBJA" element="_k3rmRzdNEfG8hMpDeSlBJA">
                           <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rlBjdNEfG8hMpDeSlBJA" element="_k3rmSDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                             <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rlBzdNEfG8hMpDeSlBJA" type="guard"/>
-                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rlCDdNEfG8hMpDeSlBJA"/>
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rlCDdNEfG8hMpDeSlBJA" x="-11" y="-69" width="3428"/>
                           </children>
                         </children>
                         <children xmi:type="notation:DecorationNode" xmi:id="_k3rlCTdNEfG8hMpDeSlBJA" type="ImageCompartment">
@@ -2561,6 +2561,27 @@
                         </children>
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rlCzdNEfG8hMpDeSlBJA" type="Stereotype"/>
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rlDDdNEfG8hMpDeSlBJA" x="14" y="995" width="30606" height="16147"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLdPUELkEfGA5Mkct4qsYA" element="_k3rmNDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLdPUULkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLd2YELkEfGA5Mkct4qsYA" element="_k3rmOTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLd2YULkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLd2YkLkEfGA5Mkct4qsYA" element="_k3rmPjdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLd2Y0LkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLd2ZELkEfGA5Mkct4qsYA" element="_k3rmQzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLd2ZULkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLd2ZkLkEfGA5Mkct4qsYA" element="_k3rmbDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLd2Z0LkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLedcELkEfGA5Mkct4qsYA" element="_k3rmcTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLedcULkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_XLedckLkEfGA5Mkct4qsYA" element="_k3rmdjdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_XLedc0LkEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
                       </children>
                     </children>
                     <children xmi:type="notation:DecorationNode" xmi:id="_k3rlDTdNEfG8hMpDeSlBJA" type="ImageCompartment">
@@ -3001,7 +3022,7 @@
               </fragment>
               <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3rmRjdNEfG8hMpDeSlBJA" covered="_k3rmIDdNEfG8hMpDeSlBJA _k3rmJDdNEfG8hMpDeSlBJA _k3rmIzdNEfG8hMpDeSlBJA _k3rmIjdNEfG8hMpDeSlBJA _k3rmJTdNEfG8hMpDeSlBJA" interactionOperator="opt">
                 <operand xmi:id="_k3rmRzdNEfG8hMpDeSlBJA">
-                  <guard xmi:id="_k3rmSDdNEfG8hMpDeSlBJA">
+                  <guard xmi:id="_k3rmSDdNEfG8hMpDeSlBJA" name="if (result==true)">
                     <specification xmi:type="uml:OpaqueExpression" xmi:id="_k3rmSTdNEfG8hMpDeSlBJA">
                       <language></language>
                       <body>result == true</body>
@@ -3144,17 +3165,17 @@
           <message xmi:id="_k3rmfDdNEfG8hMpDeSlBJA" name="read(id)" receiveEvent="_k3rmJzdNEfG8hMpDeSlBJA" sendEvent="_k3rmJjdNEfG8hMpDeSlBJA" connector="_k3rmEDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmfTdNEfG8hMpDeSlBJA" name="tCliente" messageSort="reply" receiveEvent="_k3rmejdNEfG8hMpDeSlBJA" sendEvent="_k3rmeTdNEfG8hMpDeSlBJA" connector="_k3rmEDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmfjdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rmKjdNEfG8hMpDeSlBJA" sendEvent="_k3rmKTdNEfG8hMpDeSlBJA" connector="_k3rmEzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmfzdNEfG8hMpDeSlBJA" name="getConnection" messageSort="reply" receiveEvent="_k3rmLTdNEfG8hMpDeSlBJA" sendEvent="_k3rmLDdNEfG8hMpDeSlBJA" connector="_k3rmEzdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmfzdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3rmLTdNEfG8hMpDeSlBJA" sendEvent="_k3rmLDdNEfG8hMpDeSlBJA" connector="_k3rmEzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmgDdNEfG8hMpDeSlBJA" name="prepareStatement = prepareStatement(&quot;SELECT * from cliente WHERE id = ?&quot;)" receiveEvent="_k3rmMzdNEfG8hMpDeSlBJA" sendEvent="_k3rmMjdNEfG8hMpDeSlBJA" connector="_k3rmFjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmgTdNEfG8hMpDeSlBJA" name="prepareStatement" messageSort="reply" receiveEvent="_k3rmNjdNEfG8hMpDeSlBJA" sendEvent="_k3rmNTdNEfG8hMpDeSlBJA" connector="_k3rmFjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmgjdNEfG8hMpDeSlBJA" name="setInt(1, id)" receiveEvent="_k3rmODdNEfG8hMpDeSlBJA" sendEvent="_k3rmNzdNEfG8hMpDeSlBJA" connector="_k3rmGTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmgzdNEfG8hMpDeSlBJA" name="setInt" messageSort="reply" receiveEvent="_k3rmOzdNEfG8hMpDeSlBJA" sendEvent="_k3rmOjdNEfG8hMpDeSlBJA" connector="_k3rmGTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmhDdNEfG8hMpDeSlBJA" name="resultSet = executeQuery()" receiveEvent="_k3rmPTdNEfG8hMpDeSlBJA" sendEvent="_k3rmPDdNEfG8hMpDeSlBJA" connector="_k3rmGTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmhTdNEfG8hMpDeSlBJA" name="executeQuery" messageSort="reply" receiveEvent="_k3rmQDdNEfG8hMpDeSlBJA" sendEvent="_k3rmPzdNEfG8hMpDeSlBJA" connector="_k3rmGTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmhTdNEfG8hMpDeSlBJA" name="resultset" messageSort="reply" receiveEvent="_k3rmQDdNEfG8hMpDeSlBJA" sendEvent="_k3rmPzdNEfG8hMpDeSlBJA" connector="_k3rmGTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmhjdNEfG8hMpDeSlBJA" name="result = next()" receiveEvent="_k3rmQjdNEfG8hMpDeSlBJA" sendEvent="_k3rmQTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmhzdNEfG8hMpDeSlBJA" name="next" messageSort="reply" receiveEvent="_k3rmRTdNEfG8hMpDeSlBJA" sendEvent="_k3rmRDdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmhzdNEfG8hMpDeSlBJA" name="result" messageSort="reply" receiveEvent="_k3rmRTdNEfG8hMpDeSlBJA" sendEvent="_k3rmRDdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmiDdNEfG8hMpDeSlBJA" name="id = getInt(&quot;id&quot;)" receiveEvent="_k3rmSzdNEfG8hMpDeSlBJA" sendEvent="_k3rmSjdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmiTdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3rmTjdNEfG8hMpDeSlBJA" sendEvent="_k3rmTTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmiTdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rmTjdNEfG8hMpDeSlBJA" sendEvent="_k3rmTTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmijdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rmazdNEfG8hMpDeSlBJA" sendEvent="_k3rmajdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmizdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rmbjdNEfG8hMpDeSlBJA" sendEvent="_k3rmbTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmjDdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rmcDdNEfG8hMpDeSlBJA" sendEvent="_k3rmbzdNEfG8hMpDeSlBJA" connector="_k3rmGTdNEfG8hMpDeSlBJA"/>
@@ -3162,15 +3183,15 @@
           <message xmi:id="_k3rmjjdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rmdTdNEfG8hMpDeSlBJA" sendEvent="_k3rmdDdNEfG8hMpDeSlBJA" connector="_k3rmFjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmjzdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rmeDdNEfG8hMpDeSlBJA" sendEvent="_k3rmdzdNEfG8hMpDeSlBJA" connector="_k3rmFjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmkDdNEfG8hMpDeSlBJA" name="nombre = getString(&quot;nombre&quot;)" receiveEvent="_k3rmUDdNEfG8hMpDeSlBJA" sendEvent="_k3rmTzdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmkTdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3rmUzdNEfG8hMpDeSlBJA" sendEvent="_k3rmUjdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmkTdNEfG8hMpDeSlBJA" name="nombre" messageSort="reply" receiveEvent="_k3rmUzdNEfG8hMpDeSlBJA" sendEvent="_k3rmUjdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmkjdNEfG8hMpDeSlBJA" name="apellidos = getString(&quot;apellidos&quot;)" receiveEvent="_k3rmVTdNEfG8hMpDeSlBJA" sendEvent="_k3rmVDdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmkzdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3rmWDdNEfG8hMpDeSlBJA" sendEvent="_k3rmVzdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmkzdNEfG8hMpDeSlBJA" name="apellidos" messageSort="reply" receiveEvent="_k3rmWDdNEfG8hMpDeSlBJA" sendEvent="_k3rmVzdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmlDdNEfG8hMpDeSlBJA" name="email = getString(&quot;email&quot;)" receiveEvent="_k3rmXzdNEfG8hMpDeSlBJA" sendEvent="_k3rmXjdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmlTdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3rmYjdNEfG8hMpDeSlBJA" sendEvent="_k3rmYTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmlTdNEfG8hMpDeSlBJA" name="email" messageSort="reply" receiveEvent="_k3rmYjdNEfG8hMpDeSlBJA" sendEvent="_k3rmYTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmljdNEfG8hMpDeSlBJA" name="NIF = getString(&quot;NIF&quot;)" receiveEvent="_k3rmWjdNEfG8hMpDeSlBJA" sendEvent="_k3rmWTdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmlzdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3rmXTdNEfG8hMpDeSlBJA" sendEvent="_k3rmXDdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmlzdNEfG8hMpDeSlBJA" name="NIF" messageSort="reply" receiveEvent="_k3rmXTdNEfG8hMpDeSlBJA" sendEvent="_k3rmXDdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmmDdNEfG8hMpDeSlBJA" name="telefono = getInt(&quot;telefono&quot;)" receiveEvent="_k3rmZDdNEfG8hMpDeSlBJA" sendEvent="_k3rmYzdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmmTdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3rmZzdNEfG8hMpDeSlBJA" sendEvent="_k3rmZjdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmmTdNEfG8hMpDeSlBJA" name="telefono" messageSort="reply" receiveEvent="_k3rmZzdNEfG8hMpDeSlBJA" sendEvent="_k3rmZjdNEfG8hMpDeSlBJA" connector="_k3rmHDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmmjdNEfG8hMpDeSlBJA" name="tCliente = TCliente(id, nombre, apellidos, NIF, email, telefono)" messageSort="createMessage" receiveEvent="_k3rmaTdNEfG8hMpDeSlBJA" sendEvent="_k3rmaDdNEfG8hMpDeSlBJA"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_k3rmmzdNEfG8hMpDeSlBJA" name="InteractionReadAll">
@@ -3178,6 +3199,15 @@
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_k3rmnTdNEfG8hMpDeSlBJA" type="Sequence" element="_k3rmmzdNEfG8hMpDeSlBJA" name="ReadAll" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rmnjdNEfG8hMpDeSlBJA" element="_k3rmmzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_k3rmnzdNEfG8hMpDeSlBJA" type="interaction_compartment">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_eYJqEELlEfGA5Mkct4qsYA" element="_eYFYoELlEfGA5Mkct4qsYA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_eYJqEkLlEfGA5Mkct4qsYA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_eYJqE0LlEfGA5Mkct4qsYA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_eYJqFELlEfGA5Mkct4qsYA" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_eYKRIELlEfGA5Mkct4qsYA" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_eYKRIULlEfGA5Mkct4qsYA" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eYJqEULlEfGA5Mkct4qsYA" x="210" y="168" width="5757" height="34459"/>
+                  </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rmoDdNEfG8hMpDeSlBJA" element="_k3rn-jdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_k3rmoTdNEfG8hMpDeSlBJA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
                       <details xmi:id="_k3rmojdNEfG8hMpDeSlBJA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
@@ -3194,7 +3224,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rmqjdNEfG8hMpDeSlBJA" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rmqzdNEfG8hMpDeSlBJA" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rmrDdNEfG8hMpDeSlBJA" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rmrTdNEfG8hMpDeSlBJA" x="296" y="132" width="4740" height="37633"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rmrTdNEfG8hMpDeSlBJA" x="547" y="168" width="4740" height="37633"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rmrjdNEfG8hMpDeSlBJA" element="_k3rn-TdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_k3rmrzdNEfG8hMpDeSlBJA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -3277,6 +3307,24 @@
                             <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rm6TdNEfG8hMpDeSlBJA" type="guard"/>
                             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rm6jdNEfG8hMpDeSlBJA"/>
                           </children>
+                          <children xmi:type="umlnotation:UMLShape" xmi:id="_AfpwUELlEfGA5Mkct4qsYA" element="_k3roHjdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AfpwUULlEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                          </children>
+                          <children xmi:type="umlnotation:UMLShape" xmi:id="_AfpwUkLlEfGA5Mkct4qsYA" element="_k3roIzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AfpwU0LlEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                          </children>
+                          <children xmi:type="umlnotation:UMLShape" xmi:id="_AfpwVELlEfGA5Mkct4qsYA" element="_k3roKDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AfpwVULlEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                          </children>
+                          <children xmi:type="umlnotation:UMLShape" xmi:id="_AfpwVkLlEfGA5Mkct4qsYA" element="_k3roLTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AfpwV0LlEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                          </children>
+                          <children xmi:type="umlnotation:UMLShape" xmi:id="_AfqXYELlEfGA5Mkct4qsYA" element="_k3roMjdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AfqXYULlEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                          </children>
+                          <children xmi:type="umlnotation:UMLShape" xmi:id="_AfqXYkLlEfGA5Mkct4qsYA" element="_k3roNzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AfqXY0LlEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                          </children>
                         </children>
                         <children xmi:type="notation:DecorationNode" xmi:id="_k3rm6zdNEfG8hMpDeSlBJA" type="ImageCompartment">
                           <layoutConstraint xmi:type="notation:Size" xmi:id="_k3rm7DdNEfG8hMpDeSlBJA" width="1320" height="1320"/>
@@ -3289,7 +3337,7 @@
                       <layoutConstraint xmi:type="notation:Size" xmi:id="_k3rm8DdNEfG8hMpDeSlBJA" width="1320" height="1320"/>
                     </children>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rm8TdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rm8jdNEfG8hMpDeSlBJA" x="952" y="1048" width="32138" height="27280"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rm8jdNEfG8hMpDeSlBJA" x="1203" y="1111" width="43484" height="28297"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rm8zdNEfG8hMpDeSlBJA" type="Name"/>
@@ -3325,7 +3373,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rnCzdNEfG8hMpDeSlBJA" y="-254"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rnDDdNEfG8hMpDeSlBJA" points="[0, 0, -430, 0]$[430, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rnDTdNEfG8hMpDeSlBJA" id="6311:21"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rnDTdNEfG8hMpDeSlBJA" id="6311:846"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rnDjdNEfG8hMpDeSlBJA" id="6385:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rnDzdNEfG8hMpDeSlBJA" element="_k3roUTdNEfG8hMpDeSlBJA" source="_k3rmwzdNEfG8hMpDeSlBJA" target="_k3rmpzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -3588,6 +3636,36 @@
                 <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rn3TdNEfG8hMpDeSlBJA" id="3543:1206"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rn3jdNEfG8hMpDeSlBJA" id="3734:0"/>
               </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_x60tkELnEfGA5Mkct4qsYA" element="_x6VlYELnEfGA5Mkct4qsYA" source="_k3rmpzdNEfG8hMpDeSlBJA" target="_eYJqEELlEfGA5Mkct4qsYA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_x61UoELnEfGA5Mkct4qsYA" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_x61UokLnEfGA5Mkct4qsYA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_x617sELnEfGA5Mkct4qsYA" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x61UoULnEfGA5Mkct4qsYA" y="-254"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x60tkULnEfGA5Mkct4qsYA" points="[0, 0, -262, 0]$[262, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x63J0ELnEfGA5Mkct4qsYA" id="1617:233"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x63J0ULnEfGA5Mkct4qsYA" id="1670:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_x7Kr0ELnEfGA5Mkct4qsYA" element="_x6WMdELnEfGA5Mkct4qsYA" source="_eYJqEELlEfGA5Mkct4qsYA" target="_k3rmpzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_x7Kr0kLnEfGA5Mkct4qsYA" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_x7Kr1ELnEfGA5Mkct4qsYA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_x7Kr1ULnEfGA5Mkct4qsYA" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_x7Kr00LnEfGA5Mkct4qsYA" y="381"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_x7Kr0ULnEfGA5Mkct4qsYA" points="[0, 0, 262, 0]$[-262, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x7Kr1kLnEfGA5Mkct4qsYA" id="1673:1058"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_x7Kr10LnEfGA5Mkct4qsYA" id="1674:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_ILky0ELoEfGA5Mkct4qsYA" element="_ILFDkELoEfGA5Mkct4qsYA" source="_k3rmpzdNEfG8hMpDeSlBJA" target="_eYJqEELlEfGA5Mkct4qsYA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_ILky0kLoEfGA5Mkct4qsYA" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_ILky1ELoEfGA5Mkct4qsYA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_ILky1ULoEfGA5Mkct4qsYA" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ILky00LoEfGA5Mkct4qsYA" y="-254"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ILky0ULoEfGA5Mkct4qsYA" points="[0, 0, -262, 0]$[262, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ILmoAELoEfGA5Mkct4qsYA" id="2214:339"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ILmoAULoEfGA5Mkct4qsYA" id="3002:0"/>
+              </edges>
             </contents>
           </eAnnotations>
           <ownedConnector xmi:id="_k3rn3zdNEfG8hMpDeSlBJA">
@@ -3618,8 +3696,13 @@
             <end xmi:id="_k3rn8jdNEfG8hMpDeSlBJA" role="_k3rpsjdNEfG8hMpDeSlBJA"/>
             <end xmi:id="_k3rn8zdNEfG8hMpDeSlBJA" role="_k3rpszdNEfG8hMpDeSlBJA"/>
           </ownedConnector>
+          <ownedConnector xmi:id="_x6WzgELnEfGA5Mkct4qsYA">
+            <end xmi:id="_x6WzgULnEfGA5Mkct4qsYA" role="_eYFYoULlEfGA5Mkct4qsYA"/>
+            <end xmi:id="_x6WzgkLnEfGA5Mkct4qsYA" role="_k3rpsjdNEfG8hMpDeSlBJA"/>
+          </ownedConnector>
           <lifeline xmi:id="_k3rn9DdNEfG8hMpDeSlBJA" name="Property" represents="_k3rprTdNEfG8hMpDeSlBJA" coveredBy="_k3rn-zdNEfG8hMpDeSlBJA _k3roTDdNEfG8hMpDeSlBJA"/>
-          <lifeline xmi:id="_k3rn9TdNEfG8hMpDeSlBJA" name="dAOClienteImp" represents="_k3rpsjdNEfG8hMpDeSlBJA" coveredBy="_k3rn_DdNEfG8hMpDeSlBJA _k3rn_TdNEfG8hMpDeSlBJA _k3roSzdNEfG8hMpDeSlBJA _k3rn_jdNEfG8hMpDeSlBJA _k3roAjdNEfG8hMpDeSlBJA _k3roAzdNEfG8hMpDeSlBJA _k3roBzdNEfG8hMpDeSlBJA _k3roCzdNEfG8hMpDeSlBJA _k3roDDdNEfG8hMpDeSlBJA _k3roEDdNEfG8hMpDeSlBJA _k3roETdNEfG8hMpDeSlBJA _k3roFTdNEfG8hMpDeSlBJA _k3roPDdNEfG8hMpDeSlBJA _k3roQDdNEfG8hMpDeSlBJA _k3roQTdNEfG8hMpDeSlBJA _k3roRTdNEfG8hMpDeSlBJA _k3roRjdNEfG8hMpDeSlBJA _k3roSjdNEfG8hMpDeSlBJA _k3roFjdNEfG8hMpDeSlBJA _k3roHDdNEfG8hMpDeSlBJA _k3roIDdNEfG8hMpDeSlBJA _k3roJjdNEfG8hMpDeSlBJA _k3roKjdNEfG8hMpDeSlBJA _k3roKzdNEfG8hMpDeSlBJA _k3roLzdNEfG8hMpDeSlBJA _k3roMDdNEfG8hMpDeSlBJA _k3roNDdNEfG8hMpDeSlBJA _k3roITdNEfG8hMpDeSlBJA _k3roJTdNEfG8hMpDeSlBJA _k3roNTdNEfG8hMpDeSlBJA _k3roOTdNEfG8hMpDeSlBJA _k3roOjdNEfG8hMpDeSlBJA"/>
+          <lifeline xmi:id="_k3rn9TdNEfG8hMpDeSlBJA" name="dAOClienteImp" represents="_k3rpsjdNEfG8hMpDeSlBJA" coveredBy="_k3rn_DdNEfG8hMpDeSlBJA _k3rn_TdNEfG8hMpDeSlBJA _k3roSzdNEfG8hMpDeSlBJA _k3rn_jdNEfG8hMpDeSlBJA _k3roAjdNEfG8hMpDeSlBJA _k3roAzdNEfG8hMpDeSlBJA _k3roBzdNEfG8hMpDeSlBJA _k3roCzdNEfG8hMpDeSlBJA _k3roDDdNEfG8hMpDeSlBJA _k3roEDdNEfG8hMpDeSlBJA _k3roETdNEfG8hMpDeSlBJA _k3roFTdNEfG8hMpDeSlBJA _k3roPDdNEfG8hMpDeSlBJA _k3roQDdNEfG8hMpDeSlBJA _k3roQTdNEfG8hMpDeSlBJA _k3roRTdNEfG8hMpDeSlBJA _k3roRjdNEfG8hMpDeSlBJA _k3roSjdNEfG8hMpDeSlBJA _k3roFjdNEfG8hMpDeSlBJA _k3roHDdNEfG8hMpDeSlBJA _k3roIDdNEfG8hMpDeSlBJA _k3roJjdNEfG8hMpDeSlBJA _k3roKjdNEfG8hMpDeSlBJA _k3roKzdNEfG8hMpDeSlBJA _k3roLzdNEfG8hMpDeSlBJA _k3roMDdNEfG8hMpDeSlBJA _k3roNDdNEfG8hMpDeSlBJA _k3roITdNEfG8hMpDeSlBJA _k3roJTdNEfG8hMpDeSlBJA _k3roNTdNEfG8hMpDeSlBJA _k3roOTdNEfG8hMpDeSlBJA _k3roOjdNEfG8hMpDeSlBJA _x6WMcELnEfGA5Mkct4qsYA _x6WMdULnEfGA5Mkct4qsYA _ILFqoELoEfGA5Mkct4qsYA _ILGRsELoEfGA5Mkct4qsYA"/>
+          <lifeline xmi:id="_eYFYoELlEfGA5Mkct4qsYA" name="Diseño::integracion::cliente::Secuencia::InteractionReadAll::TreeSet" represents="_eYFYoULlEfGA5Mkct4qsYA" coveredBy="_x6WMcULnEfGA5Mkct4qsYA _x6WMckLnEfGA5Mkct4qsYA _x6WMc0LnEfGA5Mkct4qsYA _k3roAzdNEfG8hMpDeSlBJA _k3roFjdNEfG8hMpDeSlBJA _ILFqoULoEfGA5Mkct4qsYA _ILFqokLoEfGA5Mkct4qsYA _ILFqo0LoEfGA5Mkct4qsYA"/>
           <lifeline xmi:id="_k3rn9jdNEfG8hMpDeSlBJA" name="driverManager" represents="_k3rprjdNEfG8hMpDeSlBJA" coveredBy="_k3rn_zdNEfG8hMpDeSlBJA _k3roADdNEfG8hMpDeSlBJA _k3roATdNEfG8hMpDeSlBJA"/>
           <lifeline xmi:id="_k3rn9zdNEfG8hMpDeSlBJA" name="connection" represents="_k3rprzdNEfG8hMpDeSlBJA" coveredBy="_k3roAzdNEfG8hMpDeSlBJA _k3roCDdNEfG8hMpDeSlBJA _k3roCTdNEfG8hMpDeSlBJA _k3roCjdNEfG8hMpDeSlBJA _k3roRzdNEfG8hMpDeSlBJA _k3roSDdNEfG8hMpDeSlBJA _k3roSTdNEfG8hMpDeSlBJA _k3roFjdNEfG8hMpDeSlBJA"/>
           <lifeline xmi:id="_k3rn-DdNEfG8hMpDeSlBJA" name="preparedStatement" represents="_k3rpsDdNEfG8hMpDeSlBJA" coveredBy="_k3roAzdNEfG8hMpDeSlBJA _k3roDTdNEfG8hMpDeSlBJA _k3roDjdNEfG8hMpDeSlBJA _k3roDzdNEfG8hMpDeSlBJA _k3roQjdNEfG8hMpDeSlBJA _k3roQzdNEfG8hMpDeSlBJA _k3roRDdNEfG8hMpDeSlBJA _k3roFjdNEfG8hMpDeSlBJA"/>
@@ -3632,6 +3715,11 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFPx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent24?"/>
           </fragment>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_k3rn_TdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA" start="_k3rn_DdNEfG8hMpDeSlBJA" finish="_k3roSzdNEfG8hMpDeSlBJA"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x6WMcELnEfGA5Mkct4qsYA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_x6VlYELnEfGA5Mkct4qsYA"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x6WMcULnEfGA5Mkct4qsYA" covered="_eYFYoELlEfGA5Mkct4qsYA" message="_x6VlYELnEfGA5Mkct4qsYA"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_x6WMckLnEfGA5Mkct4qsYA" covered="_eYFYoELlEfGA5Mkct4qsYA" start="_x6WMcULnEfGA5Mkct4qsYA" finish="_x6WMc0LnEfGA5Mkct4qsYA"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x6WMc0LnEfGA5Mkct4qsYA" covered="_eYFYoELlEfGA5Mkct4qsYA" message="_x6WMdELnEfGA5Mkct4qsYA"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_x6WMdULnEfGA5Mkct4qsYA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_x6WMdELnEfGA5Mkct4qsYA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rn_jdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_k3roUDdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFDh1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent1?"/>
           </fragment>
@@ -3645,7 +3733,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3roAjdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_k3roUTdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFDx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent1?"/>
           </fragment>
-          <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3roAzdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA _k3rn-DdNEfG8hMpDeSlBJA _k3rn9zdNEfG8hMpDeSlBJA _k3rn-TdNEfG8hMpDeSlBJA _k3rn-jdNEfG8hMpDeSlBJA" interactionOperator="opt">
+          <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3roAzdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA _k3rn-DdNEfG8hMpDeSlBJA _k3rn9zdNEfG8hMpDeSlBJA _k3rn-TdNEfG8hMpDeSlBJA _k3rn-jdNEfG8hMpDeSlBJA _eYFYoELlEfGA5Mkct4qsYA" interactionOperator="opt">
             <operand xmi:id="_k3roBDdNEfG8hMpDeSlBJA">
               <guard xmi:id="_k3roBTdNEfG8hMpDeSlBJA">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_k3roBjdNEfG8hMpDeSlBJA">
@@ -3692,7 +3780,7 @@
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3roFTdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_k3roVzdNEfG8hMpDeSlBJA">
                 <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFFx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent5?"/>
               </fragment>
-              <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3roFjdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA _k3rn9zdNEfG8hMpDeSlBJA _k3rn-DdNEfG8hMpDeSlBJA _k3rn-TdNEfG8hMpDeSlBJA _k3rn-jdNEfG8hMpDeSlBJA" interactionOperator="loop">
+              <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3roFjdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA _k3rn9zdNEfG8hMpDeSlBJA _k3rn-DdNEfG8hMpDeSlBJA _k3rn-TdNEfG8hMpDeSlBJA _k3rn-jdNEfG8hMpDeSlBJA _eYFYoELlEfGA5Mkct4qsYA" interactionOperator="loop">
                 <operand xmi:id="_k3roFzdNEfG8hMpDeSlBJA">
                   <guard xmi:id="_k3roGDdNEfG8hMpDeSlBJA">
                     <specification xmi:type="uml:OpaqueExpression" xmi:id="_k3roGTdNEfG8hMpDeSlBJA">
@@ -3786,6 +3874,11 @@
                   <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3roOzdNEfG8hMpDeSlBJA" covered="_k3rn-jdNEfG8hMpDeSlBJA" message="_k3roajdNEfG8hMpDeSlBJA">
                     <event xmi:type="uml:CreationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFNB1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/CreationEvent1?"/>
                   </fragment>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ILFqoELoEfGA5Mkct4qsYA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_ILFDkELoEfGA5Mkct4qsYA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ILFqoULoEfGA5Mkct4qsYA" covered="_eYFYoELlEfGA5Mkct4qsYA" message="_ILFDkELoEfGA5Mkct4qsYA"/>
+                  <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_ILFqokLoEfGA5Mkct4qsYA" covered="_eYFYoELlEfGA5Mkct4qsYA" start="_ILFqoULoEfGA5Mkct4qsYA" finish="_ILFqo0LoEfGA5Mkct4qsYA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ILFqo0LoEfGA5Mkct4qsYA" covered="_eYFYoELlEfGA5Mkct4qsYA" message="_ILFqpELoEfGA5Mkct4qsYA"/>
+                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ILGRsELoEfGA5Mkct4qsYA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_ILFqpELoEfGA5Mkct4qsYA"/>
                 </operand>
               </fragment>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3roPDdNEfG8hMpDeSlBJA" covered="_k3rn9TdNEfG8hMpDeSlBJA" message="_k3roWDdNEfG8hMpDeSlBJA">
@@ -3837,15 +3930,15 @@
           </fragment>
           <formalGate xmi:id="_k3roTTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roTjdNEfG8hMpDeSlBJA" name="readAll()" receiveEvent="_k3rn_DdNEfG8hMpDeSlBJA" sendEvent="_k3rn-zdNEfG8hMpDeSlBJA" connector="_k3rn4jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roTzdNEfG8hMpDeSlBJA" name="tCliente[]" messageSort="reply" receiveEvent="_k3roTDdNEfG8hMpDeSlBJA" sendEvent="_k3roSzdNEfG8hMpDeSlBJA" connector="_k3rn4jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roTzdNEfG8hMpDeSlBJA" name="set" messageSort="reply" receiveEvent="_k3roTDdNEfG8hMpDeSlBJA" sendEvent="_k3roSzdNEfG8hMpDeSlBJA" connector="_k3rn4jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roUDdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rn_zdNEfG8hMpDeSlBJA" sendEvent="_k3rn_jdNEfG8hMpDeSlBJA" connector="_k3rn5TdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roUTdNEfG8hMpDeSlBJA" name="getConnection" messageSort="reply" receiveEvent="_k3roAjdNEfG8hMpDeSlBJA" sendEvent="_k3roATdNEfG8hMpDeSlBJA" connector="_k3rn5TdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roUTdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3roAjdNEfG8hMpDeSlBJA" sendEvent="_k3roATdNEfG8hMpDeSlBJA" connector="_k3rn5TdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roUjdNEfG8hMpDeSlBJA" name="prepareStatement = prepareStatement(&quot;SELECT * from cliente&quot;)" receiveEvent="_k3roCDdNEfG8hMpDeSlBJA" sendEvent="_k3roBzdNEfG8hMpDeSlBJA" connector="_k3rn6DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roUzdNEfG8hMpDeSlBJA" name="prepareStatement" messageSort="reply" receiveEvent="_k3roCzdNEfG8hMpDeSlBJA" sendEvent="_k3roCjdNEfG8hMpDeSlBJA" connector="_k3rn6DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roVDdNEfG8hMpDeSlBJA" name="resultSet = executeQuery()" receiveEvent="_k3roDTdNEfG8hMpDeSlBJA" sendEvent="_k3roDDdNEfG8hMpDeSlBJA" connector="_k3rn6zdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roVTdNEfG8hMpDeSlBJA" name="executeQuery" messageSort="reply" receiveEvent="_k3roEDdNEfG8hMpDeSlBJA" sendEvent="_k3roDzdNEfG8hMpDeSlBJA" connector="_k3rn6zdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roVTdNEfG8hMpDeSlBJA" name="resultset" messageSort="reply" receiveEvent="_k3roEDdNEfG8hMpDeSlBJA" sendEvent="_k3roDzdNEfG8hMpDeSlBJA" connector="_k3rn6zdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roVjdNEfG8hMpDeSlBJA" name="result = next()" receiveEvent="_k3roEjdNEfG8hMpDeSlBJA" sendEvent="_k3roETdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roVzdNEfG8hMpDeSlBJA" name="next" messageSort="reply" receiveEvent="_k3roFTdNEfG8hMpDeSlBJA" sendEvent="_k3roFDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roVzdNEfG8hMpDeSlBJA" name="result" messageSort="reply" receiveEvent="_k3roFTdNEfG8hMpDeSlBJA" sendEvent="_k3roFDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roWDdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3roPTdNEfG8hMpDeSlBJA" sendEvent="_k3roPDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roWTdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3roQDdNEfG8hMpDeSlBJA" sendEvent="_k3roPzdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roWjdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3roQjdNEfG8hMpDeSlBJA" sendEvent="_k3roQTdNEfG8hMpDeSlBJA" connector="_k3rn6zdNEfG8hMpDeSlBJA"/>
@@ -3853,33 +3946,30 @@
           <message xmi:id="_k3roXDdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3roRzdNEfG8hMpDeSlBJA" sendEvent="_k3roRjdNEfG8hMpDeSlBJA" connector="_k3rn6DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roXTdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3roSjdNEfG8hMpDeSlBJA" sendEvent="_k3roSTdNEfG8hMpDeSlBJA" connector="_k3rn6DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roXjdNEfG8hMpDeSlBJA" name="id = getInt(&quot;id&quot;)" receiveEvent="_k3roHTdNEfG8hMpDeSlBJA" sendEvent="_k3roHDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roXzdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3roIDdNEfG8hMpDeSlBJA" sendEvent="_k3roHzdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roXzdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3roIDdNEfG8hMpDeSlBJA" sendEvent="_k3roHzdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roYDdNEfG8hMpDeSlBJA" name="apellidos = getString(&quot;apellidos&quot;)" receiveEvent="_k3roJzdNEfG8hMpDeSlBJA" sendEvent="_k3roJjdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roYTdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3roKjdNEfG8hMpDeSlBJA" sendEvent="_k3roKTdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roYTdNEfG8hMpDeSlBJA" name="apellidos" messageSort="reply" receiveEvent="_k3roKjdNEfG8hMpDeSlBJA" sendEvent="_k3roKTdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roYjdNEfG8hMpDeSlBJA" name="NIF = getString(&quot;NIF&quot;)" receiveEvent="_k3roLDdNEfG8hMpDeSlBJA" sendEvent="_k3roKzdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roYzdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3roLzdNEfG8hMpDeSlBJA" sendEvent="_k3roLjdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roYzdNEfG8hMpDeSlBJA" name="NIF" messageSort="reply" receiveEvent="_k3roLzdNEfG8hMpDeSlBJA" sendEvent="_k3roLjdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roZDdNEfG8hMpDeSlBJA" name="email = getString(&quot;email&quot;)" receiveEvent="_k3roMTdNEfG8hMpDeSlBJA" sendEvent="_k3roMDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roZTdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3roNDdNEfG8hMpDeSlBJA" sendEvent="_k3roMzdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roZTdNEfG8hMpDeSlBJA" name="email" messageSort="reply" receiveEvent="_k3roNDdNEfG8hMpDeSlBJA" sendEvent="_k3roMzdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roZjdNEfG8hMpDeSlBJA" name="nombre = getString(&quot;nombre&quot;)" receiveEvent="_k3roIjdNEfG8hMpDeSlBJA" sendEvent="_k3roITdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roZzdNEfG8hMpDeSlBJA" name="getString" messageSort="reply" receiveEvent="_k3roJTdNEfG8hMpDeSlBJA" sendEvent="_k3roJDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roZzdNEfG8hMpDeSlBJA" name="nombre" messageSort="reply" receiveEvent="_k3roJTdNEfG8hMpDeSlBJA" sendEvent="_k3roJDdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roaDdNEfG8hMpDeSlBJA" name="telefono = getInt(&quot;telefono&quot;)" receiveEvent="_k3roNjdNEfG8hMpDeSlBJA" sendEvent="_k3roNTdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roaTdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3roOTdNEfG8hMpDeSlBJA" sendEvent="_k3roODdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roajdNEfG8hMpDeSlBJA" name="tCliente[] = TCliente(id, nombre, apellidos, NIF, email, telefono)" messageSort="createMessage" receiveEvent="_k3roOzdNEfG8hMpDeSlBJA" sendEvent="_k3roOjdNEfG8hMpDeSlBJA" connector="_k3rn8TdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roaTdNEfG8hMpDeSlBJA" name="telefono" messageSort="reply" receiveEvent="_k3roOTdNEfG8hMpDeSlBJA" sendEvent="_k3roODdNEfG8hMpDeSlBJA" connector="_k3rn7jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roajdNEfG8hMpDeSlBJA" name="cliete = TCliente(id, nombre, apellidos, NIF, email, telefono)" messageSort="createMessage" receiveEvent="_k3roOzdNEfG8hMpDeSlBJA" sendEvent="_k3roOjdNEfG8hMpDeSlBJA" connector="_k3rn8TdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_x6VlYELnEfGA5Mkct4qsYA" name="set = new TreeSet&lt;>(Comparator.comparingInt(TCliente::getId));" receiveEvent="_x6WMcULnEfGA5Mkct4qsYA" sendEvent="_x6WMcELnEfGA5Mkct4qsYA" connector="_x6WzgELnEfGA5Mkct4qsYA"/>
+          <message xmi:id="_x6WMdELnEfGA5Mkct4qsYA" name="set&lt;Tcliente>" messageSort="reply" receiveEvent="_x6WMdULnEfGA5Mkct4qsYA" sendEvent="_x6WMc0LnEfGA5Mkct4qsYA" connector="_x6WzgELnEfGA5Mkct4qsYA"/>
+          <message xmi:id="_ILFDkELoEfGA5Mkct4qsYA" name="set.add(cliente);" receiveEvent="_ILFqoULoEfGA5Mkct4qsYA" sendEvent="_ILFqoELoEfGA5Mkct4qsYA" connector="_x6WzgELnEfGA5Mkct4qsYA"/>
+          <message xmi:id="_ILFqpELoEfGA5Mkct4qsYA" name=" set.add(cliente);" messageSort="reply" receiveEvent="_ILGRsELoEfGA5Mkct4qsYA" sendEvent="_ILFqo0LoEfGA5Mkct4qsYA" connector="_x6WzgELnEfGA5Mkct4qsYA"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_k3roazdNEfG8hMpDeSlBJA" name="InteractionDelete">
           <eAnnotations xmi:id="_k3robDdNEfG8hMpDeSlBJA" source="uml2.diagrams">
             <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_k3robTdNEfG8hMpDeSlBJA" type="Sequence" element="_k3roazdNEfG8hMpDeSlBJA" name="Delete" measurementUnit="Himetric">
               <children xmi:type="umlnotation:UMLShape" xmi:id="_k3robjdNEfG8hMpDeSlBJA" element="_k3roazdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
                 <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_k3robzdNEfG8hMpDeSlBJA" type="interaction_compartment">
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rocDdNEfG8hMpDeSlBJA" element="_k3rpXjdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <eAnnotations xmi:id="_k3rocTdNEfG8hMpDeSlBJA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
-                      <details xmi:id="_k3rocjdNEfG8hMpDeSlBJA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
-                    </eAnnotations>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3roczdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rodDdNEfG8hMpDeSlBJA" type="Name"/>
-                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rodTdNEfG8hMpDeSlBJA" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rodjdNEfG8hMpDeSlBJA" x="296" y="132" width="5058" height="28457"/>
-                  </children>
+                  <eAnnotations xmi:id="_LBGnwELjEfGA5Mkct4qsYA" source="Himetric"/>
+                  <eAnnotations xmi:id="_Xd4RgELjEfGA5Mkct4qsYA" source="Himetric"/>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rodzdNEfG8hMpDeSlBJA" element="_k3rpXTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_k3roeDdNEfG8hMpDeSlBJA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
                       <details xmi:id="_k3roeTdNEfG8hMpDeSlBJA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
@@ -3914,7 +4004,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rojzdNEfG8hMpDeSlBJA" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rokDdNEfG8hMpDeSlBJA" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rokTdNEfG8hMpDeSlBJA" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rokjdNEfG8hMpDeSlBJA" x="296" y="132" width="4740" height="26317"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rokjdNEfG8hMpDeSlBJA" x="296" y="132" width="4740" height="23142"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_k3rokzdNEfG8hMpDeSlBJA" element="_k3rpWTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_k3rolDdNEfG8hMpDeSlBJA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -3937,25 +4027,42 @@
                         <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rooTdNEfG8hMpDeSlBJA" type="guard"/>
                         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3roojdNEfG8hMpDeSlBJA" x="14" y="-122"/>
                       </children>
-                      <children xmi:type="umlnotation:UMLShape" xmi:id="_k3roozdNEfG8hMpDeSlBJA" element="_k3rpfzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_k3ropDdNEfG8hMpDeSlBJA" element="_k3rpgDdNEfG8hMpDeSlBJA">
-                          <children xmi:type="umlnotation:UMLShape" xmi:id="_k3ropTdNEfG8hMpDeSlBJA" element="_k3rpgTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                            <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3ropjdNEfG8hMpDeSlBJA" type="guard"/>
-                            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3ropzdNEfG8hMpDeSlBJA" x="10" y="10" width="2158"/>
-                          </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_0-nA8ELiEfGA5Mkct4qsYA" element="_k3rpbTdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-nA8ULiEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_0-noAELiEfGA5Mkct4qsYA" element="_k3rpcjdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-noAULiEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_0-noAkLiEfGA5Mkct4qsYA" element="_k3rpdzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-noA0LiEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_0-o2IkLiEfGA5Mkct4qsYA" element="_k3rpjzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-o2I0LiEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_0-o2JELiEfGA5Mkct4qsYA" element="_k3rplDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-o2JULiEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="umlnotation:UMLShape" xmi:id="_AVy7oELjEfGA5Mkct4qsYA" element="_AVbvQkLjEfGA5Mkct4qsYA" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AVy7oULjEfGA5Mkct4qsYA" x="-1" y="1237" height="1237"/>
+                      </children>
+                      <children xmi:type="notation:Shape" xmi:id="_BdP2cELkEfGA5Mkct4qsYA" type="Note" fontName="Segoe UI" fontHeight="8" description="&lt;p>if (ps.executeUpdate() == 1) result = id;&lt;/p>" fillColor="13956346" transparency="0" lineColor="12632258" lineWidth="1">
+                        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BdQdgELkEfGA5Mkct4qsYA" type="DiagramName">
+                          <element xsi:nil="true"/>
                         </children>
-                        <children xmi:type="notation:DecorationNode" xmi:id="_k3roqDdNEfG8hMpDeSlBJA" type="ImageCompartment">
-                          <layoutConstraint xmi:type="notation:Size" xmi:id="_k3roqTdNEfG8hMpDeSlBJA" width="1320" height="1320"/>
+                        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BdQdgULkEfGA5Mkct4qsYA" type="Description">
+                          <element xsi:nil="true"/>
                         </children>
-                        <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3roqjdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3roqzdNEfG8hMpDeSlBJA" y="1230" width="25696" height="3347"/>
+                        <styles xmi:type="notation:TextStyle" xmi:id="_BdP2cULkEfGA5Mkct4qsYA"/>
+                        <styles xmi:type="notation:LineTypeStyle" xmi:id="_BdP2ckLkEfGA5Mkct4qsYA"/>
+                        <element xsi:nil="true"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BdP2c0LkEfGA5Mkct4qsYA" x="1644" y="8052" width="17544" height="1036"/>
                       </children>
                     </children>
                     <children xmi:type="notation:DecorationNode" xmi:id="_k3rorDdNEfG8hMpDeSlBJA" type="ImageCompartment">
                       <layoutConstraint xmi:type="notation:Size" xmi:id="_k3rorTdNEfG8hMpDeSlBJA" width="1320" height="1320"/>
                     </children>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rorjdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rorzdNEfG8hMpDeSlBJA" x="952" y="972" width="26001" height="20443"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rorzdNEfG8hMpDeSlBJA" x="991" y="1080" width="26001" height="15999"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rosDdNEfG8hMpDeSlBJA" type="Name"/>
@@ -4028,7 +4135,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3ro5jdNEfG8hMpDeSlBJA" y="-254"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3ro5zdNEfG8hMpDeSlBJA" points="[0, 0, -733, 0]$[733, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3ro6DdNEfG8hMpDeSlBJA" id="5073:783"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3ro6DdNEfG8hMpDeSlBJA" id="5073:825"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3ro6TdNEfG8hMpDeSlBJA" id="5327:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3ro6jdNEfG8hMpDeSlBJA" element="_k3rpoDdNEfG8hMpDeSlBJA" source="_k3rodzdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -4048,7 +4155,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3ro9jdNEfG8hMpDeSlBJA" y="-254"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3ro9zdNEfG8hMpDeSlBJA" points="[0, 0, -733, 0]$[733, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3ro-DdNEfG8hMpDeSlBJA" id="5330:741"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3ro-DdNEfG8hMpDeSlBJA" id="5330:1397"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3ro-TdNEfG8hMpDeSlBJA" id="5461:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3ro-jdNEfG8hMpDeSlBJA" element="_k3rpojdNEfG8hMpDeSlBJA" source="_k3rodzdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -4061,66 +4168,6 @@
                 <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpADdNEfG8hMpDeSlBJA" id="5462:1058"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpATdNEfG8hMpDeSlBJA" id="5463:0"/>
               </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpAjdNEfG8hMpDeSlBJA" element="_k3rpozdNEfG8hMpDeSlBJA" source="_k3rojDdNEfG8hMpDeSlBJA" target="_k3rocDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_k3rpAzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpBDdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpBTdNEfG8hMpDeSlBJA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpBjdNEfG8hMpDeSlBJA" y="-254"/>
-                </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpBzdNEfG8hMpDeSlBJA" points="[0, 0, -723, 0]$[723, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpCDdNEfG8hMpDeSlBJA" id="5464:705"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpCTdNEfG8hMpDeSlBJA" id="5649:0"/>
-              </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpCjdNEfG8hMpDeSlBJA" element="_k3rppDdNEfG8hMpDeSlBJA" source="_k3rocDdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_k3rpCzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpDDdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpDTdNEfG8hMpDeSlBJA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpDjdNEfG8hMpDeSlBJA" y="381"/>
-                </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpDzdNEfG8hMpDeSlBJA" points="[0, 0, 723, 0]$[-723, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpEDdNEfG8hMpDeSlBJA" id="5650:1058"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpETdNEfG8hMpDeSlBJA" id="5651:0"/>
-              </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpEjdNEfG8hMpDeSlBJA" element="_k3rppTdNEfG8hMpDeSlBJA" source="_k3rojDdNEfG8hMpDeSlBJA" target="_k3rocDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_k3rpEzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpFDdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpFTdNEfG8hMpDeSlBJA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpFjdNEfG8hMpDeSlBJA" y="-254"/>
-                </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpFzdNEfG8hMpDeSlBJA" points="[0, 0, -723, 0]$[723, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpGDdNEfG8hMpDeSlBJA" id="5652:571"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpGTdNEfG8hMpDeSlBJA" id="5912:0"/>
-              </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpGjdNEfG8hMpDeSlBJA" element="_k3rppjdNEfG8hMpDeSlBJA" source="_k3rocDdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_k3rpGzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpHDdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpHTdNEfG8hMpDeSlBJA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpHjdNEfG8hMpDeSlBJA" y="381"/>
-                </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpHzdNEfG8hMpDeSlBJA" points="[0, 0, 723, 0]$[-723, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpIDdNEfG8hMpDeSlBJA" id="5913:1058"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpITdNEfG8hMpDeSlBJA" id="5914:0"/>
-              </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpIjdNEfG8hMpDeSlBJA" element="_k3rppzdNEfG8hMpDeSlBJA" source="_k3rojDdNEfG8hMpDeSlBJA" target="_k3rocDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_k3rpIzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpJDdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpJTdNEfG8hMpDeSlBJA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpJjdNEfG8hMpDeSlBJA" y="-254"/>
-                </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpJzdNEfG8hMpDeSlBJA" points="[0, 0, -723, 0]$[723, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpKDdNEfG8hMpDeSlBJA" id="5917:889"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpKTdNEfG8hMpDeSlBJA" id="6063:0"/>
-              </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpKjdNEfG8hMpDeSlBJA" element="_k3rpqDdNEfG8hMpDeSlBJA" source="_k3rocDdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_k3rpKzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpLDdNEfG8hMpDeSlBJA" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpLTdNEfG8hMpDeSlBJA" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpLjdNEfG8hMpDeSlBJA" y="381"/>
-                </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpLzdNEfG8hMpDeSlBJA" points="[0, 0, 723, 0]$[-723, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpMDdNEfG8hMpDeSlBJA" id="6064:1058"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpMTdNEfG8hMpDeSlBJA" id="6065:0"/>
-              </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpMjdNEfG8hMpDeSlBJA" element="_k3rpqTdNEfG8hMpDeSlBJA" source="_k3rojDdNEfG8hMpDeSlBJA" target="_k3rodzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
                 <children xmi:type="notation:DecorationNode" xmi:id="_k3rpMzdNEfG8hMpDeSlBJA" type="MessageNameLabel">
                   <children xmi:type="notation:BasicDecorationNode" xmi:id="_k3rpNDdNEfG8hMpDeSlBJA" type="Stereotype"/>
@@ -4128,7 +4175,7 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k3rpNjdNEfG8hMpDeSlBJA" y="-254"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpNzdNEfG8hMpDeSlBJA" points="[0, 0, -550, 0]$[550, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpODdNEfG8hMpDeSlBJA" id="6066:762"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpODdNEfG8hMpDeSlBJA" id="6066:3111"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpOTdNEfG8hMpDeSlBJA" id="6137:0"/>
               </edges>
               <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k3rpOjdNEfG8hMpDeSlBJA" element="_k3rpqjdNEfG8hMpDeSlBJA" source="_k3rodzdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -4150,6 +4197,36 @@
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_k3rpRzdNEfG8hMpDeSlBJA" points="[0, 0, -417, 0]$[417, 0, 0, 0]"/>
                 <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpSDdNEfG8hMpDeSlBJA" id="6140:847"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_k3rpSTdNEfG8hMpDeSlBJA" id="6292:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_0-uVsELiEfGA5Mkct4qsYA" element="_k3rprDdNEfG8hMpDeSlBJA" source="_k3rofjdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_0-uVskLiEfGA5Mkct4qsYA" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_0-uVtELiEfGA5Mkct4qsYA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_0-uVtULiEfGA5Mkct4qsYA" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0-uVs0LiEfGA5Mkct4qsYA" y="381"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0-uVsULiEfGA5Mkct4qsYA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0-uVtkLiEfGA5Mkct4qsYA" id="218:1058"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_0-uVt0LiEfGA5Mkct4qsYA" id="219:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_AWe4IELjEfGA5Mkct4qsYA" element="_AVYE4ELjEfGA5Mkct4qsYA" source="_k3rojDdNEfG8hMpDeSlBJA" target="_k3rodzdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_AWe4IkLjEfGA5Mkct4qsYA" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_AWe4JELjEfGA5Mkct4qsYA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_AWffMELjEfGA5Mkct4qsYA" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AWe4I0LjEfGA5Mkct4qsYA" y="-254"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AWe4IULjEfGA5Mkct4qsYA" points="[0, 0, -733, 0]$[733, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AWjJkELjEfGA5Mkct4qsYA" id="220:508"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AWjJkULjEfGA5Mkct4qsYA" id="1026:0"/>
+              </edges>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_AW2EgELjEfGA5Mkct4qsYA" element="_AVcWUULjEfGA5Mkct4qsYA" source="_k3rodzdNEfG8hMpDeSlBJA" target="_k3rojDdNEfG8hMpDeSlBJA" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_AW2EgkLjEfGA5Mkct4qsYA" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_AW2EhELjEfGA5Mkct4qsYA" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_AW2EhULjEfGA5Mkct4qsYA" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AW2Eg0LjEfGA5Mkct4qsYA" y="381"/>
+                </children>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_AW2EgULjEfGA5Mkct4qsYA" points="[0, 0, 733, 0]$[-733, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AW2EhkLjEfGA5Mkct4qsYA" id="1029:1058"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AW2Eh0LjEfGA5Mkct4qsYA" id="1030:0"/>
               </edges>
             </contents>
           </eAnnotations>
@@ -4173,12 +4250,23 @@
             <end xmi:id="_k3rpVzdNEfG8hMpDeSlBJA" role="_k3rpsTdNEfG8hMpDeSlBJA"/>
             <end xmi:id="_k3rpWDdNEfG8hMpDeSlBJA" role="_k3rpsjdNEfG8hMpDeSlBJA"/>
           </ownedConnector>
+          <ownedConnector xmi:id="_LBVRQULjEfGA5Mkct4qsYA">
+            <end xmi:id="_LBV4UELjEfGA5Mkct4qsYA" role="_LBQYwELjEfGA5Mkct4qsYA"/>
+            <end xmi:id="_LBV4UULjEfGA5Mkct4qsYA" role="_k3rpsjdNEfG8hMpDeSlBJA"/>
+          </ownedConnector>
+          <ownedConnector xmi:id="_LBV4UkLjEfGA5Mkct4qsYA">
+            <end xmi:id="_LBV4U0LjEfGA5Mkct4qsYA" role="_LBQYwULjEfGA5Mkct4qsYA"/>
+            <end xmi:id="_LBV4VELjEfGA5Mkct4qsYA" role="_k3rpsjdNEfG8hMpDeSlBJA"/>
+          </ownedConnector>
+          <ownedConnector xmi:id="_LBV4VULjEfGA5Mkct4qsYA">
+            <end xmi:id="_LBWfYELjEfGA5Mkct4qsYA" role="_k3rpsjdNEfG8hMpDeSlBJA"/>
+            <end xmi:id="_LBWfYULjEfGA5Mkct4qsYA" role="_LBPxsELjEfGA5Mkct4qsYA"/>
+          </ownedConnector>
           <lifeline xmi:id="_k3rpWTdNEfG8hMpDeSlBJA" name="Property" represents="_k3rptTdNEfG8hMpDeSlBJA" coveredBy="_k3rpXzdNEfG8hMpDeSlBJA _k3rpmDdNEfG8hMpDeSlBJA"/>
-          <lifeline xmi:id="_k3rpWjdNEfG8hMpDeSlBJA" name="dAOClienteImp" represents="_k3rpsjdNEfG8hMpDeSlBJA" coveredBy="_k3rpYDdNEfG8hMpDeSlBJA _k3rpYTdNEfG8hMpDeSlBJA _k3rplzdNEfG8hMpDeSlBJA _k3rpYjdNEfG8hMpDeSlBJA _k3rpZjdNEfG8hMpDeSlBJA _k3rpZzdNEfG8hMpDeSlBJA _k3rpfzdNEfG8hMpDeSlBJA _k3rpazdNEfG8hMpDeSlBJA _k3rpbzdNEfG8hMpDeSlBJA _k3rpcDdNEfG8hMpDeSlBJA _k3rpdDdNEfG8hMpDeSlBJA _k3rpdTdNEfG8hMpDeSlBJA _k3rpeTdNEfG8hMpDeSlBJA _k3rpejdNEfG8hMpDeSlBJA _k3rpfjdNEfG8hMpDeSlBJA _k3rpgzdNEfG8hMpDeSlBJA _k3rphzdNEfG8hMpDeSlBJA _k3rpiDdNEfG8hMpDeSlBJA _k3rpjDdNEfG8hMpDeSlBJA _k3rpjTdNEfG8hMpDeSlBJA _k3rpkTdNEfG8hMpDeSlBJA _k3rpkjdNEfG8hMpDeSlBJA _k3rpljdNEfG8hMpDeSlBJA"/>
+          <lifeline xmi:id="_k3rpWjdNEfG8hMpDeSlBJA" name="dAOClienteImp" represents="_k3rpsjdNEfG8hMpDeSlBJA" coveredBy="_k3rpYDdNEfG8hMpDeSlBJA _k3rpYTdNEfG8hMpDeSlBJA _k3rplzdNEfG8hMpDeSlBJA _k3rpYjdNEfG8hMpDeSlBJA _k3rpZjdNEfG8hMpDeSlBJA _k3rpZzdNEfG8hMpDeSlBJA _k3rpazdNEfG8hMpDeSlBJA _k3rpbzdNEfG8hMpDeSlBJA _k3rpcDdNEfG8hMpDeSlBJA _k3rpdDdNEfG8hMpDeSlBJA _k3rpdTdNEfG8hMpDeSlBJA _k3rpeTdNEfG8hMpDeSlBJA _k3rpjTdNEfG8hMpDeSlBJA _k3rpkTdNEfG8hMpDeSlBJA _k3rpkjdNEfG8hMpDeSlBJA _k3rpljdNEfG8hMpDeSlBJA _AVbvQELjEfGA5Mkct4qsYA _AVcWUkLjEfGA5Mkct4qsYA"/>
           <lifeline xmi:id="_k3rpWzdNEfG8hMpDeSlBJA" name="driverManager" represents="_k3rprjdNEfG8hMpDeSlBJA" coveredBy="_k3rpYzdNEfG8hMpDeSlBJA _k3rpZDdNEfG8hMpDeSlBJA _k3rpZTdNEfG8hMpDeSlBJA"/>
-          <lifeline xmi:id="_k3rpXDdNEfG8hMpDeSlBJA" name="connection" represents="_k3rprzdNEfG8hMpDeSlBJA" coveredBy="_k3rpZzdNEfG8hMpDeSlBJA _k3rpfzdNEfG8hMpDeSlBJA _k3rpbDdNEfG8hMpDeSlBJA _k3rpbTdNEfG8hMpDeSlBJA _k3rpbjdNEfG8hMpDeSlBJA _k3rpkzdNEfG8hMpDeSlBJA _k3rplDdNEfG8hMpDeSlBJA _k3rplTdNEfG8hMpDeSlBJA"/>
-          <lifeline xmi:id="_k3rpXTdNEfG8hMpDeSlBJA" name="preparedStatement" represents="_k3rpsDdNEfG8hMpDeSlBJA" coveredBy="_k3rpZzdNEfG8hMpDeSlBJA _k3rpfzdNEfG8hMpDeSlBJA _k3rpcTdNEfG8hMpDeSlBJA _k3rpcjdNEfG8hMpDeSlBJA _k3rpczdNEfG8hMpDeSlBJA _k3rpdjdNEfG8hMpDeSlBJA _k3rpdzdNEfG8hMpDeSlBJA _k3rpeDdNEfG8hMpDeSlBJA _k3rpjjdNEfG8hMpDeSlBJA _k3rpjzdNEfG8hMpDeSlBJA _k3rpkDdNEfG8hMpDeSlBJA"/>
-          <lifeline xmi:id="_k3rpXjdNEfG8hMpDeSlBJA" name="resultSet" represents="_k3rpsTdNEfG8hMpDeSlBJA" coveredBy="_k3rpZzdNEfG8hMpDeSlBJA _k3rpfzdNEfG8hMpDeSlBJA _k3rpezdNEfG8hMpDeSlBJA _k3rpfDdNEfG8hMpDeSlBJA _k3rpfTdNEfG8hMpDeSlBJA _k3rphDdNEfG8hMpDeSlBJA _k3rphTdNEfG8hMpDeSlBJA _k3rphjdNEfG8hMpDeSlBJA _k3rpiTdNEfG8hMpDeSlBJA _k3rpijdNEfG8hMpDeSlBJA _k3rpizdNEfG8hMpDeSlBJA"/>
+          <lifeline xmi:id="_k3rpXDdNEfG8hMpDeSlBJA" name="connection" represents="_k3rprzdNEfG8hMpDeSlBJA" coveredBy="_k3rpZzdNEfG8hMpDeSlBJA _k3rpbDdNEfG8hMpDeSlBJA _k3rpbTdNEfG8hMpDeSlBJA _k3rpbjdNEfG8hMpDeSlBJA _k3rpkzdNEfG8hMpDeSlBJA _k3rplDdNEfG8hMpDeSlBJA _k3rplTdNEfG8hMpDeSlBJA"/>
+          <lifeline xmi:id="_k3rpXTdNEfG8hMpDeSlBJA" name="preparedStatement" represents="_k3rpsDdNEfG8hMpDeSlBJA" coveredBy="_k3rpZzdNEfG8hMpDeSlBJA _k3rpcTdNEfG8hMpDeSlBJA _k3rpcjdNEfG8hMpDeSlBJA _k3rpczdNEfG8hMpDeSlBJA _k3rpdjdNEfG8hMpDeSlBJA _k3rpdzdNEfG8hMpDeSlBJA _k3rpeDdNEfG8hMpDeSlBJA _k3rpjjdNEfG8hMpDeSlBJA _k3rpjzdNEfG8hMpDeSlBJA _k3rpkDdNEfG8hMpDeSlBJA _AVbvQULjEfGA5Mkct4qsYA _AVbvQkLjEfGA5Mkct4qsYA _AVcWUELjEfGA5Mkct4qsYA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpXzdNEfG8hMpDeSlBJA" covered="_k3rpWTdNEfG8hMpDeSlBJA" message="_k3rpmTdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFPB1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent24?"/>
           </fragment>
@@ -4199,7 +4287,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpZjdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpnDdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFDx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent1?"/>
           </fragment>
-          <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3rpZzdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA _k3rpXTdNEfG8hMpDeSlBJA _k3rpXDdNEfG8hMpDeSlBJA _k3rpXjdNEfG8hMpDeSlBJA" interactionOperator="opt">
+          <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3rpZzdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA _k3rpXTdNEfG8hMpDeSlBJA _k3rpXDdNEfG8hMpDeSlBJA" interactionOperator="opt">
             <operand xmi:id="_k3rpaDdNEfG8hMpDeSlBJA">
               <guard xmi:id="_k3rpaTdNEfG8hMpDeSlBJA">
                 <specification xmi:type="uml:OpaqueExpression" xmi:id="_k3rpajdNEfG8hMpDeSlBJA">
@@ -4220,6 +4308,11 @@
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpbzdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpnjdNEfG8hMpDeSlBJA">
                 <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFJR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent12?"/>
               </fragment>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AVbvQELjEfGA5Mkct4qsYA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_AVYE4ELjEfGA5Mkct4qsYA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AVbvQULjEfGA5Mkct4qsYA" covered="_k3rpXTdNEfG8hMpDeSlBJA" message="_AVYE4ELjEfGA5Mkct4qsYA"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_AVbvQkLjEfGA5Mkct4qsYA" covered="_k3rpXTdNEfG8hMpDeSlBJA" start="_AVbvQULjEfGA5Mkct4qsYA" finish="_AVcWUELjEfGA5Mkct4qsYA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AVcWUELjEfGA5Mkct4qsYA" covered="_k3rpXTdNEfG8hMpDeSlBJA" message="_AVcWUULjEfGA5Mkct4qsYA"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AVcWUkLjEfGA5Mkct4qsYA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_AVcWUULjEfGA5Mkct4qsYA"/>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpcDdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpnzdNEfG8hMpDeSlBJA">
                 <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFLh1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent17?"/>
               </fragment>
@@ -4245,55 +4338,6 @@
               </fragment>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpeTdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpojdNEfG8hMpDeSlBJA">
                 <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFMR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent18?"/>
-              </fragment>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpejdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpozdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFFh1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent5?"/>
-              </fragment>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpezdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" message="_k3rpozdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFFx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent5?"/>
-              </fragment>
-              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_k3rpfDdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" start="_k3rpezdNEfG8hMpDeSlBJA" finish="_k3rpfTdNEfG8hMpDeSlBJA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpfTdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" message="_k3rppDdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFFh1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent5?"/>
-              </fragment>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpfjdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rppDdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFFx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent5?"/>
-              </fragment>
-              <fragment xmi:type="uml:CombinedFragment" xmi:id="_k3rpfzdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA _k3rpXTdNEfG8hMpDeSlBJA _k3rpXDdNEfG8hMpDeSlBJA _k3rpXjdNEfG8hMpDeSlBJA" interactionOperator="opt">
-                <operand xmi:id="_k3rpgDdNEfG8hMpDeSlBJA">
-                  <guard xmi:id="_k3rpgTdNEfG8hMpDeSlBJA">
-                    <specification xmi:type="uml:OpaqueExpression" xmi:id="_k3rpgjdNEfG8hMpDeSlBJA">
-                      <language></language>
-                      <body>result ==true</body>
-                    </specification>
-                  </guard>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpgzdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rppTdNEfG8hMpDeSlBJA">
-                    <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFKB1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent14?"/>
-                  </fragment>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rphDdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" message="_k3rppTdNEfG8hMpDeSlBJA">
-                    <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFKR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent14?"/>
-                  </fragment>
-                  <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_k3rphTdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" start="_k3rphDdNEfG8hMpDeSlBJA" finish="_k3rphjdNEfG8hMpDeSlBJA"/>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rphjdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" message="_k3rppjdNEfG8hMpDeSlBJA">
-                    <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFKB1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent14?"/>
-                  </fragment>
-                  <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rphzdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rppjdNEfG8hMpDeSlBJA">
-                    <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFKR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent14?"/>
-                  </fragment>
-                </operand>
-              </fragment>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpiDdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rppzdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFHB1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent8?"/>
-              </fragment>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpiTdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" message="_k3rppzdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFHR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent8?"/>
-              </fragment>
-              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_k3rpijdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" start="_k3rpiTdNEfG8hMpDeSlBJA" finish="_k3rpizdNEfG8hMpDeSlBJA"/>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpizdNEfG8hMpDeSlBJA" covered="_k3rpXjdNEfG8hMpDeSlBJA" message="_k3rpqDdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFHB1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent8?"/>
-              </fragment>
-              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpjDdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpqDdNEfG8hMpDeSlBJA">
-                <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFHR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent8?"/>
               </fragment>
               <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpjTdNEfG8hMpDeSlBJA" covered="_k3rpWjdNEfG8hMpDeSlBJA" message="_k3rpqTdNEfG8hMpDeSlBJA">
                 <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFHh1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/SendOperationEvent9?"/>
@@ -4330,25 +4374,21 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFPR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent23?"/>
           </fragment>
           <message xmi:id="_k3rpmTdNEfG8hMpDeSlBJA" name="delete(id)" receiveEvent="_k3rpYDdNEfG8hMpDeSlBJA" sendEvent="_k3rpXzdNEfG8hMpDeSlBJA" connector="_k3rpSjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rpmjdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rpmDdNEfG8hMpDeSlBJA" sendEvent="_k3rplzdNEfG8hMpDeSlBJA" connector="_k3rpSjdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rpmjdNEfG8hMpDeSlBJA" name="result" messageSort="reply" receiveEvent="_k3rpmDdNEfG8hMpDeSlBJA" sendEvent="_k3rplzdNEfG8hMpDeSlBJA" connector="_k3rpSjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpmzdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rpYzdNEfG8hMpDeSlBJA" sendEvent="_k3rpYjdNEfG8hMpDeSlBJA" connector="_k3rpTTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rpnDdNEfG8hMpDeSlBJA" name="getConnection" messageSort="reply" receiveEvent="_k3rpZjdNEfG8hMpDeSlBJA" sendEvent="_k3rpZTdNEfG8hMpDeSlBJA" connector="_k3rpTTdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rpnDdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3rpZjdNEfG8hMpDeSlBJA" sendEvent="_k3rpZTdNEfG8hMpDeSlBJA" connector="_k3rpTTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpnTdNEfG8hMpDeSlBJA" name="prepareStatement(&quot;DELETE cliente WHERE id = ?&quot;)" receiveEvent="_k3rpbDdNEfG8hMpDeSlBJA" sendEvent="_k3rpazdNEfG8hMpDeSlBJA" connector="_k3rpUDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpnjdNEfG8hMpDeSlBJA" name="prepareStatement" messageSort="reply" receiveEvent="_k3rpbzdNEfG8hMpDeSlBJA" sendEvent="_k3rpbjdNEfG8hMpDeSlBJA" connector="_k3rpUDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpnzdNEfG8hMpDeSlBJA" name="executeUpdate()" receiveEvent="_k3rpcTdNEfG8hMpDeSlBJA" sendEvent="_k3rpcDdNEfG8hMpDeSlBJA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpoDdNEfG8hMpDeSlBJA" name="executeUpdate" messageSort="reply" receiveEvent="_k3rpdDdNEfG8hMpDeSlBJA" sendEvent="_k3rpczdNEfG8hMpDeSlBJA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpoTdNEfG8hMpDeSlBJA" name="resultSet = getGeneratedKeys()" receiveEvent="_k3rpdjdNEfG8hMpDeSlBJA" sendEvent="_k3rpdTdNEfG8hMpDeSlBJA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpojdNEfG8hMpDeSlBJA" name="getGeneratedKeys" messageSort="reply" receiveEvent="_k3rpeTdNEfG8hMpDeSlBJA" sendEvent="_k3rpeDdNEfG8hMpDeSlBJA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rpozdNEfG8hMpDeSlBJA" name="result = next()" receiveEvent="_k3rpezdNEfG8hMpDeSlBJA" sendEvent="_k3rpejdNEfG8hMpDeSlBJA" connector="_k3rpVjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rppDdNEfG8hMpDeSlBJA" name="next" messageSort="reply" receiveEvent="_k3rpfjdNEfG8hMpDeSlBJA" sendEvent="_k3rpfTdNEfG8hMpDeSlBJA" connector="_k3rpVjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rppTdNEfG8hMpDeSlBJA" name="id = getInt(1)" receiveEvent="_k3rphDdNEfG8hMpDeSlBJA" sendEvent="_k3rpgzdNEfG8hMpDeSlBJA" connector="_k3rpVjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rppjdNEfG8hMpDeSlBJA" name="getInt" messageSort="reply" receiveEvent="_k3rphzdNEfG8hMpDeSlBJA" sendEvent="_k3rphjdNEfG8hMpDeSlBJA" connector="_k3rpVjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rppzdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rpiTdNEfG8hMpDeSlBJA" sendEvent="_k3rpiDdNEfG8hMpDeSlBJA" connector="_k3rpVjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rpqDdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rpjDdNEfG8hMpDeSlBJA" sendEvent="_k3rpizdNEfG8hMpDeSlBJA" connector="_k3rpVjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpqTdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rpjjdNEfG8hMpDeSlBJA" sendEvent="_k3rpjTdNEfG8hMpDeSlBJA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpqjdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rpkTdNEfG8hMpDeSlBJA" sendEvent="_k3rpkDdNEfG8hMpDeSlBJA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpqzdNEfG8hMpDeSlBJA" name="close()" receiveEvent="_k3rpkzdNEfG8hMpDeSlBJA" sendEvent="_k3rpkjdNEfG8hMpDeSlBJA" connector="_k3rpUDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rprDdNEfG8hMpDeSlBJA" name="close" messageSort="reply" receiveEvent="_k3rpljdNEfG8hMpDeSlBJA" sendEvent="_k3rplTdNEfG8hMpDeSlBJA" connector="_k3rpUDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_AVYE4ELjEfGA5Mkct4qsYA" name="setInt()" receiveEvent="_AVbvQULjEfGA5Mkct4qsYA" sendEvent="_AVbvQELjEfGA5Mkct4qsYA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_AVcWUULjEfGA5Mkct4qsYA" name="setInt (void)" messageSort="reply" receiveEvent="_AVcWUkLjEfGA5Mkct4qsYA" sendEvent="_AVcWUELjEfGA5Mkct4qsYA" connector="_k3rpUzdNEfG8hMpDeSlBJA"/>
         </ownedBehavior>
         <ownedAttribute xmi:id="_k3rprTdNEfG8hMpDeSlBJA" name=""/>
         <ownedAttribute xmi:id="_k3rprjdNEfG8hMpDeSlBJA" name="driverManager">
@@ -4367,7 +4407,42 @@
         <ownedAttribute xmi:id="_k3rpszdNEfG8hMpDeSlBJA" name="tCliente" type="_QYzYECFsEfG_gMtX22Tujg"/>
         <ownedAttribute xmi:id="_k3rptDdNEfG8hMpDeSlBJA" name=""/>
         <ownedAttribute xmi:id="_k3rptTdNEfG8hMpDeSlBJA" name=""/>
+        <ownedAttribute xmi:id="_LBPxsELjEfGA5Mkct4qsYA" name="Copiar_1_connection">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Connection%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_LBQYwELjEfGA5Mkct4qsYA" name="Copiar_1_preparedStatement">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.PreparedStatement%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_LBQYwULjEfGA5Mkct4qsYA" name="Copiar_1_resultSet">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.ResultSet%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Xd6GtULjEfGA5Mkct4qsYA" name="Copiar_2_connection">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.Connection%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Xd6twELjEfGA5Mkct4qsYA" name="Copiar_2_preparedStatement">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.PreparedStatement%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_Xd6twULjEfGA5Mkct4qsYA" name="Copiar_2_resultSet">
+          <type xmi:type="uml:Interface" href="mmi:///#jbintype%5Ename=java.sql.ResultSet%5Bproject%5Eid=concesionario_is2%5D$uml.Interface"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:id="_eYFYoULlEfGA5Mkct4qsYA" name="Property"/>
       </packagedElement>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBQYwkLjEfGA5Mkct4qsYA" name="ReceiveOperationEvent1"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBQ_0ELjEfGA5Mkct4qsYA" name="ReceiveOperationEvent2"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBRm4ELjEfGA5Mkct4qsYA" name="ReceiveOperationEvent3"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBSN8ELjEfGA5Mkct4qsYA" name="ReceiveOperationEvent4"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBSN8ULjEfGA5Mkct4qsYA" name="SendOperationEvent1"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBSN8kLjEfGA5Mkct4qsYA" name="SendOperationEvent2"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBS1AELjEfGA5Mkct4qsYA" name="SendOperationEvent3"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBS1AULjEfGA5Mkct4qsYA" name="SendOperationEvent4"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBTcEELjEfGA5Mkct4qsYA" name="SendOperationEvent5"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBTcEULjEfGA5Mkct4qsYA" name="ReceiveOperationEvent5"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBUDIELjEfGA5Mkct4qsYA" name="ReceiveOperationEvent6"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBUDIULjEfGA5Mkct4qsYA" name="ReceiveOperationEvent7"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBUDIkLjEfGA5Mkct4qsYA" name="SendOperationEvent6"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBUqMELjEfGA5Mkct4qsYA" name="SendOperationEvent7"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LBUqMULjEfGA5Mkct4qsYA" name="ReceiveOperationEvent8"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LBVRQELjEfGA5Mkct4qsYA" name="SendOperationEvent8"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_ZZlcIBvGEfG4q7NLRPuP7A" name="trabajador">
       <eAnnotations xmi:id="_ZZlcIRvGEfG4q7NLRPuP7A" source="uml2.diagrams">

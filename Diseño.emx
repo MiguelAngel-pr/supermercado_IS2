@@ -11825,7 +11825,7 @@
                     <styles xmi:type="notation:RoundedCornersStyle" xmi:id="_518iV0OxEfGi1fGAEwjaiw"/>
                     <styles xmi:type="notation:TextStyle" xmi:id="_518iWEOxEfGi1fGAEwjaiw" textAlignment="Center"/>
                     <element xsi:nil="true"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_518iWUOxEfGi1fGAEwjaiw" x="4039" y="2454" width="20956" height="12942"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_518iWUOxEfGi1fGAEwjaiw" x="3023" y="2200" width="20448" height="10543"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_6N1CSDdNEfG8hMpDeSlBJA" type="Name"/>

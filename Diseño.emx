@@ -15373,7 +15373,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_TDXPlD5lEfGyWuJ-zFaMFQ" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_TDXPlT5lEfGyWuJ-zFaMFQ" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_TDX2oD5lEfGyWuJ-zFaMFQ" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TDXPkT5lEfGyWuJ-zFaMFQ" x="483" y="132" width="687" height="36617"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TDXPkT5lEfGyWuJ-zFaMFQ" x="737" y="168" width="687" height="36617"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_xOztgEPWEfGcGf_ZQ2QUUQ" element="_xOqjkUPWEfGcGf_ZQ2QUUQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_xOztgUPWEfGcGf_ZQ2QUUQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -15382,7 +15382,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_xO0UkEPWEfGcGf_ZQ2QUUQ" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_xO0UkUPWEfGcGf_ZQ2QUUQ" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_xO0UkkPWEfGcGf_ZQ2QUUQ" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xO0Uk0PWEfGcGf_ZQ2QUUQ" x="444" y="132" width="4042" height="35347"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xO0Uk0PWEfGcGf_ZQ2QUUQ" x="444" y="132" width="4042" height="33941"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_1xAGUUPWEfGcGf_ZQ2QUUQ" element="_1xAGUEPWEfGcGf_ZQ2QUUQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_1xJ3UEPWEfGcGf_ZQ2QUUQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -15394,7 +15394,7 @@
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1xAGUkPWEfGcGf_ZQ2QUUQ" x="211" y="132" width="3957" height="36357"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_8DbtsEPWEfGcGf_ZQ2QUUQ" element="_8DA280PWEfGcGf_ZQ2QUUQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8DbtsUPWEfGcGf_ZQ2QUUQ" x="-1" y="1237" height="14541"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8DbtsUPWEfGcGf_ZQ2QUUQ" x="-1" y="1237" height="1587"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_iFvnMEPXEfGcGf_ZQ2QUUQ" element="_iFbeI0PXEfGcGf_ZQ2QUUQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iFvnMUPXEfGcGf_ZQ2QUUQ" x="-1" y="1237" height="1237"/>
@@ -15475,7 +15475,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_MLlLFEPZEfGcGf_ZQ2QUUQ" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_MLlLFUPZEfGcGf_ZQ2QUUQ" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_MLlLFkPZEfGcGf_ZQ2QUUQ" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLlLEUPZEfGcGf_ZQ2QUUQ" x="211" y="132" width="3513" height="49332"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLlLEUPZEfGcGf_ZQ2QUUQ" x="3225" y="168" width="3513" height="49332"/>
                   </children>
                   <children xmi:type="umlnotation:UMLShape" xmi:id="_YWBusUPZEfGcGf_ZQ2QUUQ" element="_YV7oEEPZEfGcGf_ZQ2QUUQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                     <eAnnotations xmi:id="_YWBus0PZEfGcGf_ZQ2QUUQ" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
@@ -15484,7 +15484,7 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_YWButUPZEfGcGf_ZQ2QUUQ" type="Stereotype"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_YWButkPZEfGcGf_ZQ2QUUQ" type="Name"/>
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_YWBut0PZEfGcGf_ZQ2QUUQ" type="Parent"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWBuskPZEfGcGf_ZQ2QUUQ" x="211" y="132" width="5883" height="49445"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YWBuskPZEfGcGf_ZQ2QUUQ" x="1914" y="41" width="5883" height="49445"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_isyxxDzUEfGc6KPTa0Bk5Q" type="Name"/>

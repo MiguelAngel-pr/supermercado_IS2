@@ -28,10 +28,18 @@ public class ActualizarCliente extends JFrame implements IGUI {
 
         btnAceptar.addActionListener(e -> {
             try {
-                int id = Integer.parseInt(idField.getText().trim());
+            	int id = Integer.parseInt(idField.getText().trim());
+                String telefono = telefonoField.getText().trim();
+
+                if (!telefono.isEmpty() && !telefono.matches("\\d+")) {
+                    JOptionPane.showMessageDialog(this, "El teléfono solo puede contener números.", "Error de validación", JOptionPane.ERROR_MESSAGE);
+                    return;
+                }
+
                 TCliente tCliente = new TCliente(id, nombreField.getText().trim(),
                     apellidosField.getText().trim(), nifField.getText().trim(),
-                    emailField.getText().trim(), telefonoField.getText().trim());
+                    emailField.getText().trim(), telefono);
+
                 Controller.getInstance().handleAction(Events.ACTUALIZAR_CLIENTE, tCliente);
                 dispose();
             } catch (NumberFormatException ex) {

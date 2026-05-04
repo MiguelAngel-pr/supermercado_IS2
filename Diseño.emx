@@ -16125,6 +16125,7 @@
         </ownedOperation>
         <ownedOperation xmi:id="_S8Xs0EfTEfGRcLG88lKKmg" name="TCarrito abrir() "/>
         <ownedOperation xmi:id="_amjKQEfTEfGRcLG88lKKmg" name=" TCarrito abrir() "/>
+        <ownedOperation xmi:id="_5PtE4EfTEfGRcLG88lKKmg" name="TCarrito abrir()"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_8pjtcDmtEfGxE5Y0ruwW4A" name="TOAVenta" clientDependency="_8pk7lTmtEfGxE5Y0ruwW4A _YU0eIDmvEfGxE5Y0ruwW4A">
         <ownedAttribute xmi:id="_8pjtcTmtEfGxE5Y0ruwW4A" name="tVenta" visibility="private" type="_8pifUDmtEfGxE5Y0ruwW4A"/>
@@ -16250,10 +16251,10 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiacICd1EfCznsmOw00Dag?Diseño/negocio/venta/ReceiveOperationEvent1?"/>
           </fragment>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_fsep00MTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" start="_fsep0kMTEfGUTdQ6obaTGQ" finish="_fsep1EMTEfGUTdQ6obaTGQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aL2yUEfTEfGRcLG88lKKmg" covered="_cG2m8UMTEfGUTdQ6obaTGQ" event="_amjKQUfTEfGRcLG88lKKmg" message="_aL1kMEfTEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aL2yUUfTEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_amjKQkfTEfGRcLG88lKKmg" message="_aL1kMEfTEfGRcLG88lKKmg"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aL2yUEfTEfGRcLG88lKKmg" covered="_cG2m8UMTEfGUTdQ6obaTGQ" event="_5PtE4UfTEfGRcLG88lKKmg" message="_aL1kMEfTEfGRcLG88lKKmg"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aL2yUUfTEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_5Ptr8EfTEfGRcLG88lKKmg" message="_aL1kMEfTEfGRcLG88lKKmg"/>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_aL3ZYEfTEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" start="_aL2yUUfTEfGRcLG88lKKmg" finish="_aL3ZYUfTEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aL3ZYUfTEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_amjKQUfTEfGRcLG88lKKmg"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_aL3ZYUfTEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_5PtE4UfTEfGRcLG88lKKmg"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsep1EMTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_fsep1UMTEfGUTdQ6obaTGQ">
             <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiZ1ECd1EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent1?"/>
           </fragment>
@@ -16262,7 +16263,7 @@
           </fragment>
           <message xmi:id="_fsep0EMTEfGUTdQ6obaTGQ" name="abrir" receiveEvent="_fsep0kMTEfGUTdQ6obaTGQ" sendEvent="_fsep0UMTEfGUTdQ6obaTGQ" connector="_fsfQ4UMTEfGUTdQ6obaTGQ"/>
           <message xmi:id="_fsep1UMTEfGUTdQ6obaTGQ" name="tCarrito" messageSort="reply" receiveEvent="_fsfQ4EMTEfGUTdQ6obaTGQ" sendEvent="_fsep1EMTEfGUTdQ6obaTGQ" connector="_fsfQ4UMTEfGUTdQ6obaTGQ"/>
-          <message xmi:id="_aL1kMEfTEfGRcLG88lKKmg" name=" TCarrito abrir() " receiveEvent="_aL2yUUfTEfGRcLG88lKKmg" sendEvent="_aL2yUEfTEfGRcLG88lKKmg" connector="_aL3ZZEfTEfGRcLG88lKKmg"/>
+          <message xmi:id="_aL1kMEfTEfGRcLG88lKKmg" name="TCarrito abrir()" receiveEvent="_aL2yUUfTEfGRcLG88lKKmg" sendEvent="_aL2yUEfTEfGRcLG88lKKmg" connector="_aL3ZZEfTEfGRcLG88lKKmg"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_equf8DzTEfGc6KPTa0Bk5Q" name="InteractionRead">
           <eAnnotations xmi:id="_eqvHADzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
@@ -17870,6 +17871,8 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AbvucUfMEfG_u4r_oQFZlA" name="ReceiveOperationEvent15" operation="_8pjtdTmtEfGxE5Y0ruwW4A"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_amjKQUfTEfGRcLG88lKKmg" name="SendOperationEvent14" operation="_amjKQEfTEfGRcLG88lKKmg"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_amjKQkfTEfGRcLG88lKKmg" name="ReceiveOperationEvent16" operation="_amjKQEfTEfGRcLG88lKKmg"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_5PtE4UfTEfGRcLG88lKKmg" name="SendOperationEvent15" operation="_5PtE4EfTEfGRcLG88lKKmg"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_5Ptr8EfTEfGRcLG88lKKmg" name="ReceiveOperationEvent17" operation="_5PtE4EfTEfGRcLG88lKKmg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Hh6agBvHEfG4q7NLRPuP7A" name="ventaProducto">
       <eAnnotations xmi:id="_Hh6agRvHEfG4q7NLRPuP7A" source="uml2.diagrams">

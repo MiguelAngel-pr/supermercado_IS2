@@ -16123,6 +16123,9 @@
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
           </ownedParameter>
         </ownedOperation>
+        <ownedOperation xmi:id="_S8Xs0EfTEfGRcLG88lKKmg" name="TCarrito abrir() "/>
+        <ownedOperation xmi:id="_amjKQEfTEfGRcLG88lKKmg" name=" TCarrito abrir() "/>
+        <ownedOperation xmi:id="_5PtE4EfTEfGRcLG88lKKmg" name="TCarrito abrir()"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_8pjtcDmtEfGxE5Y0ruwW4A" name="TOAVenta" clientDependency="_8pk7lTmtEfGxE5Y0ruwW4A _YU0eIDmvEfGxE5Y0ruwW4A">
         <ownedAttribute xmi:id="_8pjtcTmtEfGxE5Y0ruwW4A" name="tVenta" visibility="private" type="_8pifUDmtEfGxE5Y0ruwW4A"/>
@@ -16208,18 +16211,18 @@
                   <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fsqQA0MTEfGUTdQ6obaTGQ" y="476"/>
                 </children>
                 <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fsqQAUMTEfGUTdQ6obaTGQ" points="[0, 0, 112, 0]$[-112, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsqQBkMTEfGUTdQ6obaTGQ" id="447:2354"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsqQBkMTEfGUTdQ6obaTGQ" id="447:687"/>
                 <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsq3EEMTEfGUTdQ6obaTGQ" id="448:0"/>
               </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_qrJW0EMTEfGUTdQ6obaTGQ" element="_qrEeUEMTEfGUTdQ6obaTGQ" source="_cG2m80MTEfGUTdQ6obaTGQ" target="_k0pdgEMTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_qrKk8EMTEfGUTdQ6obaTGQ" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_qrKk8kMTEfGUTdQ6obaTGQ" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_qrKk80MTEfGUTdQ6obaTGQ" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qrKk8UMTEfGUTdQ6obaTGQ" y="-317"/>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_utzW8EfUEfGRcLG88lKKmg" element="_utvFgEfUEfGRcLG88lKKmg" source="_cG2m80MTEfGUTdQ6obaTGQ" target="_k0pdgEMTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_utzW8kfUEfGRcLG88lKKmg" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_utzW9EfUEfGRcLG88lKKmg" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_utzW9UfUEfGRcLG88lKKmg" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_utzW80fUEfGRcLG88lKKmg" y="-317"/>
                 </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_qrJW0UMTEfGUTdQ6obaTGQ" points="[0, 0, -211, 0]$[211, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qrLMAEMTEfGUTdQ6obaTGQ" id="484:1032"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qrLzEEMTEfGUTdQ6obaTGQ" id="528:0"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_utzW8UfUEfGRcLG88lKKmg" points="[0, 0, -214, 0]$[214, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ut0lEEfUEfGRcLG88lKKmg" id="420:317"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ut0lEUfUEfGRcLG88lKKmg" id="464:0"/>
               </edges>
             </contents>
           </eAnnotations>
@@ -16231,9 +16234,13 @@
             <end xmi:id="_qrFsc0MTEfGUTdQ6obaTGQ" role="_DlbFcT5mEfGyWuJ-zFaMFQ"/>
             <end xmi:id="_qrFsdEMTEfGUTdQ6obaTGQ" role="_hkKKET5mEfGyWuJ-zFaMFQ"/>
           </ownedConnector>
+          <ownedConnector xmi:id="_aL3ZZEfTEfGRcLG88lKKmg">
+            <end xmi:id="_aL3ZZUfTEfGRcLG88lKKmg" role="_5h_SqEJTEfGzOttdgUSLfw"/>
+            <end xmi:id="_aL3ZZkfTEfGRcLG88lKKmg" role="_eiI2QkMWEfGUTdQ6obaTGQ"/>
+          </ownedConnector>
           <lifeline xmi:id="_astkMEMTEfGUTdQ6obaTGQ" name="Property" represents="_asvZYEMTEfGUTdQ6obaTGQ" coveredBy="_fsep0UMTEfGUTdQ6obaTGQ _fsfQ4EMTEfGUTdQ6obaTGQ"/>
-          <lifeline xmi:id="_cG2m8UMTEfGUTdQ6obaTGQ" name="sAVentaImp" represents="_eiI2QkMWEfGUTdQ6obaTGQ" coveredBy="_fsep0kMTEfGUTdQ6obaTGQ _fsep00MTEfGUTdQ6obaTGQ _fsep1EMTEfGUTdQ6obaTGQ _qrEeUUMTEfGUTdQ6obaTGQ"/>
-          <lifeline xmi:id="_k0o2cUMTEfGUTdQ6obaTGQ" name="tCarrito" represents="_5h_SqEJTEfGzOttdgUSLfw" coveredBy="_qrFFYEMTEfGUTdQ6obaTGQ _qrFFYUMTEfGUTdQ6obaTGQ _qrFscUMTEfGUTdQ6obaTGQ"/>
+          <lifeline xmi:id="_cG2m8UMTEfGUTdQ6obaTGQ" name="sAVentaImp" represents="_eiI2QkMWEfGUTdQ6obaTGQ" coveredBy="_fsep0kMTEfGUTdQ6obaTGQ _fsep00MTEfGUTdQ6obaTGQ _fsep1EMTEfGUTdQ6obaTGQ _utvFgUfUEfGRcLG88lKKmg"/>
+          <lifeline xmi:id="_k0o2cUMTEfGUTdQ6obaTGQ" name="tCarrito" represents="_5h_SqEJTEfGzOttdgUSLfw" coveredBy="_utvFgkfUEfGRcLG88lKKmg _utvFg0fUEfGRcLG88lKKmg _utvFhEfUEfGRcLG88lKKmg"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsep0UMTEfGUTdQ6obaTGQ" covered="_astkMEMTEfGUTdQ6obaTGQ" message="_fsep0EMTEfGUTdQ6obaTGQ">
             <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiZ1ECd1EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent1?"/>
           </fragment>
@@ -16241,12 +16248,10 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiacICd1EfCznsmOw00Dag?Diseño/negocio/venta/ReceiveOperationEvent1?"/>
           </fragment>
           <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_fsep00MTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" start="_fsep0kMTEfGUTdQ6obaTGQ" finish="_fsep1EMTEfGUTdQ6obaTGQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qrEeUUMTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_qrEeUEMTEfGUTdQ6obaTGQ">
-            <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_akGn8Cd1EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent2?"/>
-          </fragment>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_qrFFYEMTEfGUTdQ6obaTGQ" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_NI-VkEMXEfGUTdQ6obaTGQ" message="_qrEeUEMTEfGUTdQ6obaTGQ"/>
-          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_qrFFYUMTEfGUTdQ6obaTGQ" covered="_k0o2cUMTEfGUTdQ6obaTGQ" start="_qrFFYEMTEfGUTdQ6obaTGQ" finish="_qrFscUMTEfGUTdQ6obaTGQ"/>
-          <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_qrFscUMTEfGUTdQ6obaTGQ" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_qrFscEMTEfGUTdQ6obaTGQ" execution="_qrFFYUMTEfGUTdQ6obaTGQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_utvFgUfUEfGRcLG88lKKmg" covered="_cG2m8UMTEfGUTdQ6obaTGQ" event="_amjKQUfTEfGRcLG88lKKmg" message="_utvFgEfUEfGRcLG88lKKmg"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_utvFgkfUEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_amjKQkfTEfGRcLG88lKKmg" message="_utvFgEfUEfGRcLG88lKKmg"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_utvFg0fUEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" start="_utvFgkfUEfGRcLG88lKKmg" finish="_utvFhEfUEfGRcLG88lKKmg"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_utvFhEfUEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_amjKQUfTEfGRcLG88lKKmg"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsep1EMTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_fsep1UMTEfGUTdQ6obaTGQ">
             <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiZ1ECd1EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent1?"/>
           </fragment>
@@ -16255,7 +16260,7 @@
           </fragment>
           <message xmi:id="_fsep0EMTEfGUTdQ6obaTGQ" name="abrir" receiveEvent="_fsep0kMTEfGUTdQ6obaTGQ" sendEvent="_fsep0UMTEfGUTdQ6obaTGQ" connector="_fsfQ4UMTEfGUTdQ6obaTGQ"/>
           <message xmi:id="_fsep1UMTEfGUTdQ6obaTGQ" name="tCarrito" messageSort="reply" receiveEvent="_fsfQ4EMTEfGUTdQ6obaTGQ" sendEvent="_fsep1EMTEfGUTdQ6obaTGQ" connector="_fsfQ4UMTEfGUTdQ6obaTGQ"/>
-          <message xmi:id="_qrEeUEMTEfGUTdQ6obaTGQ" name="tCarrito = TCarrito()" messageSort="asynchCall" receiveEvent="_qrFFYEMTEfGUTdQ6obaTGQ" sendEvent="_qrEeUUMTEfGUTdQ6obaTGQ" connector="_qrFsckMTEfGUTdQ6obaTGQ"/>
+          <message xmi:id="_utvFgEfUEfGRcLG88lKKmg" name=" TCarrito abrir() " receiveEvent="_utvFgkfUEfGRcLG88lKKmg" sendEvent="_utvFgUfUEfGRcLG88lKKmg" connector="_aL3ZZEfTEfGRcLG88lKKmg"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_equf8DzTEfGc6KPTa0Bk5Q" name="InteractionRead">
           <eAnnotations xmi:id="_eqvHADzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
@@ -17861,6 +17866,8 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2KN0QEfLEfG_u4r_oQFZlA" name="ReceiveOperationEvent14" operation="_xcv26DmtEfGxE5Y0ruwW4A"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_AbvucEfMEfG_u4r_oQFZlA" name="SendOperationEvent13" operation="_8pjtdTmtEfGxE5Y0ruwW4A"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AbvucUfMEfG_u4r_oQFZlA" name="ReceiveOperationEvent15" operation="_8pjtdTmtEfGxE5Y0ruwW4A"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_amjKQUfTEfGRcLG88lKKmg" name="SendOperationEvent14" operation="_amjKQEfTEfGRcLG88lKKmg"/>
+      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_amjKQkfTEfGRcLG88lKKmg" name="ReceiveOperationEvent16" operation="_amjKQEfTEfGRcLG88lKKmg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Hh6agBvHEfG4q7NLRPuP7A" name="ventaProducto">
       <eAnnotations xmi:id="_Hh6agRvHEfG4q7NLRPuP7A" source="uml2.diagrams">
@@ -23560,7 +23567,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvlUkTmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvlUkjmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JLabel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvlUkzmuEfGxE5Y0ruwW4A" points="[57, 20, -237, -88]$[294, 89, 0, -19]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvlUlDmuEfGxE5Y0ruwW4A" source="_mvlUFDmuEfGxE5Y0ruwW4A" target="_mvlUVDmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -23569,7 +23576,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvlUlzmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvlUmDmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JButton)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvlUmTmuEfGxE5Y0ruwW4A" points="[26, 20, -224, -160]$[206, 187, -44, 7]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvlUmjmuEfGxE5Y0ruwW4A" source="_mvlUFDmuEfGxE5Y0ruwW4A" target="_mvlUXjmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -23578,7 +23585,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvlUnTmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvlUnjmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d26CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d26CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JTextField)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvlUnzmuEfGxE5Y0ruwW4A" points="[859, 754, -4268, -3739]$[859, 3454, -4268, -1039]$[4389, 3454, -738, -1039]$[4389, 3847, -738, -646]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvlUoDmuEfGxE5Y0ruwW4A" source="_mvlUFDmuEfGxE5Y0ruwW4A" target="_mvlUHzmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -23632,7 +23639,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvlUwTmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvlUwjmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_IkdvUCqmEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_IkdvUCqmEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JPanel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvlUwzmuEfGxE5Y0ruwW4A" points="[-60, -19, 420, 126]$[-478, -145, 2, 0]"/>
           </edges>
         </contents>
@@ -23843,7 +23850,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmivjmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmivzmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JLabel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmiwDmuEfGxE5Y0ruwW4A" points="[988, 754, -12086, -2021]$[988, 1585, -12086, -1190]$[13113, 1585, 39, -1190]$[13113, 2129, 39, -646]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvmiwTmuEfGxE5Y0ruwW4A" source="_mvmidTmuEfGxE5Y0ruwW4A" target="_mvmiVjmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -23852,7 +23859,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmixDmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmixTmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JButton)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmixjmuEfGxE5Y0ruwW4A" points="[1681, 572, -12095, -4834]$[5369, 572, -8407, -4834]$[5369, 5293, -8407, -113]$[12653, 5293, -1123, -113]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mvmixzmuEfGxE5Y0ruwW4A" id="(0.48719392063045314,0.15591915303176132)"/>
           </edges>
@@ -23862,7 +23869,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmiyzmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmizDmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25yqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25yqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-ActionListener)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmizTmuEfGxE5Y0ruwW4A" points="[-1759, 971, 5175, -3209]$[-1759, 4448, 5175, 268]$[-5388, 4448, 1546, 268]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mvmizjmuEfGxE5Y0ruwW4A" id="(0.773149451168027,0.35611164581328203)"/>
           </edges>
@@ -23872,7 +23879,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmi0jmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmi0zmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d26CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d26CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JTextField)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmi1DmuEfGxE5Y0ruwW4A" points="[1423, -1406, -12863, 432]$[1423, -2111, -12863, -273]$[13071, -2111, -1215, -273]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mvmi1TmuEfGxE5Y0ruwW4A" id="(0.07796228539262595,0.933589990375361)"/>
           </edges>
@@ -23912,7 +23919,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmi7jmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmi7zmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d28CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d28CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JPanel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmi8DmuEfGxE5Y0ruwW4A" points="[517, 754, -13217, -8489]$[517, 8945, -13217, -298]$[12611, 8945, -1123, -298]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvmi8TmuEfGxE5Y0ruwW4A" source="_mvmidTmuEfGxE5Y0ruwW4A" target="_mvmiijmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -23939,7 +23946,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmjADmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmjATmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_ZJYLwCqpEfCHy55h-plfIw?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_ZJYLwCqpEfCHy55h-plfIw?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JSpinner)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmjAjmuEfGxE5Y0ruwW4A" points="[1508, 754, -12252, -6113]$[1508, 6347, -12252, -520]$[12611, 6347, -1149, -520]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvmjAzmuEfGxE5Y0ruwW4A" source="_mvmidTmuEfGxE5Y0ruwW4A" target="_mvmiqjmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -23948,7 +23955,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvmjBjmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvmjBzmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_qEHOkCqpEfCHy55h-plfIw?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_qEHOkCqpEfCHy55h-plfIw?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JCheckBox)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvmjCDmuEfGxE5Y0ruwW4A" points="[961, -658, -4822, 3231]$[961, -3843, -4822, 46]$[4607, -3843, -1176, 46]"/>
           </edges>
         </contents>
@@ -24160,7 +24167,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvnJzDmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvnJzTmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2-SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2-SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JTextField)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvnJzjmuEfGxE5Y0ruwW4A" points="[-10, 21, 96, -257]$[-155, 276, -49, -2]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvnJzzmuEfGxE5Y0ruwW4A" source="_mvnJhTmuEfGxE5Y0ruwW4A" target="_mvnJcDmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24169,7 +24176,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvnJ0jmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvnJ0zmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2-iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2-iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-ActionListener)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvnJ1DmuEfGxE5Y0ruwW4A" points="[-502, 542, 7765, -8337]$[-502, 9000, 7765, 121]$[-6721, 9000, 1546, 121]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvnJ1TmuEfGxE5Y0ruwW4A" source="_mvnJhTmuEfGxE5Y0ruwW4A" target="_mvnJXDmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24178,7 +24185,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvnJ2DmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvnJ2TmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2-yqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2-yqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JLabel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvnJ2jmuEfGxE5Y0ruwW4A" points="[56, 21, -245, -88]$[257, 103, -44, -6]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvnJ2zmuEfGxE5Y0ruwW4A" source="_mvnJhTmuEfGxE5Y0ruwW4A" target="_mvnJZjmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24187,7 +24194,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvnJ3jmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvnJ3zmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2_CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d2_CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JButton)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvnJ4DmuEfGxE5Y0ruwW4A" points="[28, 21, -229, -160]$[213, 180, -44, -1]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvnJ4TmuEfGxE5Y0ruwW4A" source="_mvnJhTmuEfGxE5Y0ruwW4A" target="_mvnJmzmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24384,7 +24391,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvoXzjmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoXzzmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25SqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JLabel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvoX0DmuEfGxE5Y0ruwW4A" points="[57, 20, -237, -88]$[294, 89, 0, -19]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvoX0TmuEfGxE5Y0ruwW4A" source="_mvoXrzmuEfGxE5Y0ruwW4A" target="_mvoXhjmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24393,7 +24400,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvoX1DmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoX1TmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25iqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JButton)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvoX1jmuEfGxE5Y0ruwW4A" points="[26, 20, -224, -160]$[206, 187, -44, 7]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mvoX1zmuEfGxE5Y0ruwW4A" id="(0.5304637769020916,0.20211742059672763)"/>
           </edges>
@@ -24403,7 +24410,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvoX2zmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoX3DmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25yqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d25yqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-ActionListener)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvoX3TmuEfGxE5Y0ruwW4A" points="[10, 20, -108, -226]$[120, 226, 2, -20]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvoX3jmuEfGxE5Y0ruwW4A" source="_mvoXrzmuEfGxE5Y0ruwW4A" target="_mvoXmzmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24412,7 +24419,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvoX4TmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoX4jmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d26CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d26CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JTextField)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvoX4zmuEfGxE5Y0ruwW4A" points="[-4, 20, 49, -237]$[-53, 238, 0, -19]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mvoX5DmuEfGxE5Y0ruwW4A" id="(0.14549863595028797,0.3128007699711261)"/>
           </edges>
@@ -24452,7 +24459,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvoX_TmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoX_jmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d28CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d28CqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JPanel)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvoX_zmuEfGxE5Y0ruwW4A" points="[-75, 6, -44, -271]$[-30, 258, 1, -19]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvoYADmuEfGxE5Y0ruwW4A" source="_mvoXrzmuEfGxE5Y0ruwW4A" target="_mvoXujmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24461,7 +24468,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvoYAzmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvoYBDmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d3ASqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d3ASqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JRadioButton)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvoYBTmuEfGxE5Y0ruwW4A" points="[70, 7, -312, -17]$[323, 33, -59, 9]"/>
           </edges>
         </contents>
@@ -24564,7 +24571,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvo-qjmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvo-qzmuEfGxE5Y0ruwW4A" y="-149"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18qAUCqdEfCI2OeWKPXk1w?Diseño/presentacion/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18qAUCqdEfCI2OeWKPXk1w?Diseño/presentacion/%3CDependency%3E(Supplier-JOptionPane)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvo-rDmuEfGxE5Y0ruwW4A" points="[13, 12, -158, -161]$[165, 153, -6, -20]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvo-rTmuEfGxE5Y0ruwW4A" source="_mvo-YTmuEfGxE5Y0ruwW4A" target="_mvo-dzmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24593,7 +24600,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvo-vjmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvo-vzmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d3BCqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d3BCqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JButton)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvo-wDmuEfGxE5Y0ruwW4A" points="[441, 277, -3707, -2311]$[441, 2482, -3707, -106]$[356, 2482, -3792, -106]$[356, 2634, -3792, 46]$[3133, 2634, -1015, 46]"/>
           </edges>
         </contents>
@@ -24682,7 +24689,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvplrzmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvplsDmuEfGxE5Y0ruwW4A" y="-162"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d3CyqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18d3CyqdEfCI2OeWKPXk1w?Diseño/presentacion/venta/%3CDependency%3E(Supplier-JOptionPane)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvplsTmuEfGxE5Y0ruwW4A" points="[8, 12, -118, -182]$[134, 213, 8, 19]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvplsjmuEfGxE5Y0ruwW4A" source="_mvplmzmuEfGxE5Y0ruwW4A" target="_mvplfDmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -24802,7 +24809,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvpmBzmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvpmCDmuEfGxE5Y0ruwW4A" y="-149"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18rOcSqdEfCI2OeWKPXk1w?Diseño/presentacion/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18rOcSqdEfCI2OeWKPXk1w?Diseño/presentacion/%3CDependency%3E(Supplier-JOptionPane)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvpmCTmuEfGxE5Y0ruwW4A" points="[1790, 264, -2295, -3726]$[1790, 2658, -2295, -1332]$[3628, 2658, -457, -1332]$[3628, 3547, -457, -443]"/>
             <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mvpmCjmuEfGxE5Y0ruwW4A" id="(0.10405561993047509,0.2589147286821705)"/>
           </edges>
@@ -24812,7 +24819,7 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_mvpmDjmuEfGxE5Y0ruwW4A" type="Name"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mvpmDzmuEfGxE5Y0ruwW4A" y="-149"/>
             </children>
-            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18r1gCqdEfCI2OeWKPXk1w?Diseño/presentacion/%3CDependency%3E(Supplier-null)?"/>
+            <element xmi:type="uml:Dependency" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_18r1gCqdEfCI2OeWKPXk1w?Diseño/presentacion/%3CDependency%3E(Supplier-Integer)?"/>
             <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mvpmEDmuEfGxE5Y0ruwW4A" points="[6, 12, -24, -206]$[-17, 210, -47, -8]"/>
           </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mvpmETmuEfGxE5Y0ruwW4A" source="_mvpl8zmuEfGxE5Y0ruwW4A" target="_mvplyjmuEfGxE5Y0ruwW4A" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">

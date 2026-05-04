@@ -32,13 +32,31 @@ public class ActualizarProducto extends JFrame implements IGUI {
                 double precio = Double.parseDouble(precioField.getText().trim());
                 int cantidad = Integer.parseInt(cantidadField.getText().trim());
                 int idMarca = Integer.parseInt(idMarcaField.getText().trim());
+                String fecha = fechaField.getText().trim();
+                
+                if (precio <= 0)
+                	throw new IllegalArgumentException("El precio debe ser mayor que 0.");
+                if (cantidad <= 0)
+                	throw new IllegalArgumentException("La cantidad debe ser mayor que 0.");
+                if (idMarca <= 0)
+                	throw new IllegalArgumentException("El ID de marca debe ser un número positivo.");
+
+                try {
+                    java.time.LocalDate.parse(fecha); 
+                } catch (java.time.format.DateTimeParseException ex) {
+                    throw new IllegalArgumentException("La fecha debe tener el formato YYYY-MM-DD y ser válida.");
+                }
+                
                 TProducto tProducto = new TProducto(id, nombreField.getText().trim(), precio,
                     fechaField.getText().trim(), cantidad, idMarca);
                 Controller.getInstance().handleAction(Events.ACTUALIZAR_PRODUCTO, tProducto);
                 dispose();
             } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(null, "Datos invalidos");
+	            JOptionPane.showMessageDialog(this, "Precio, Cantidad e ID Marca deben ser valores numéricos.", "Error de formato", JOptionPane.ERROR_MESSAGE);
             }
+            catch (IllegalArgumentException ex) {
+	            JOptionPane.showMessageDialog(this, ex.getMessage(), "Error de validación", JOptionPane.WARNING_MESSAGE);
+	        }
         });
         btnCancelar.addActionListener(e -> dispose());
     }

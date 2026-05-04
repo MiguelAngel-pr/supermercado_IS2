@@ -38,6 +38,8 @@ public class SAClienteImp implements SACliente {
     public int update(TCliente tCliente) {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOCliente daoCliente = daoFactory.createCliente();
+        //aquí creo q falta comrpobar si está, y si no, crea uno nuevo con los datos proporcionados
+        
         return daoCliente.update(tCliente);
     }
 

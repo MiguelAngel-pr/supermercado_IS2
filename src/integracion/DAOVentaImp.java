@@ -1,13 +1,17 @@
 package integracion;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.util.Comparator;
 import java.util.Set;
 import java.util.TreeSet;
 
 import negocio.TCarrito;
 import negocio.TVenta;
-import negocio.TVentaProducto;
 
 public class DAOVentaImp implements DAOVenta {
 

@@ -17,7 +17,7 @@ public class AltaCliente extends JFrame implements IGUI {
         panel.add(new JLabel("Apellidos:")); JTextField apellidosField = new JTextField(20); panel.add(apellidosField);
         panel.add(new JLabel("NIF:")); JTextField nifField = new JTextField(10); panel.add(nifField);
         panel.add(new JLabel("Email:")); JTextField emailField = new JTextField(20); panel.add(emailField);
-        panel.add(new JLabel("Telefono:")); JTextField telefonoField = new JTextField(12); panel.add(telefonoField);
+        panel.add(new JLabel("Telefono:")); JTextField telefonoField = new JTextField(9); panel.add(telefonoField);
 
         JButton btnAceptar = new JButton("Aceptar");
         JButton btnCancelar = new JButton("Cancelar");
@@ -26,14 +26,33 @@ public class AltaCliente extends JFrame implements IGUI {
         add(panel); pack(); setLocationRelativeTo(null);
 
         btnAceptar.addActionListener(e -> {
-            if (!nifField.getText().trim().isEmpty() && !nombreField.getText().trim().isEmpty()
-                    && !apellidosField.getText().trim().isEmpty()) {
-                TCliente tCliente = new TCliente(-1, nombreField.getText().trim(),
-                    apellidosField.getText().trim(), nifField.getText().trim(),
-                    emailField.getText().trim(), telefonoField.getText().trim());
-                Controller.getInstance().handleAction(Events.ALTA_CLIENTE, tCliente);
-                dispose();
+//            if (!nifField.getText().trim().isEmpty() && !nombreField.getText().trim().isEmpty()
+//                    && !apellidosField.getText().trim().isEmpty()) {
+//                TCliente tCliente = new TCliente(-1, nombreField.getText().trim(),
+//                    apellidosField.getText().trim(), nifField.getText().trim(),
+//                    emailField.getText().trim(), telefonoField.getText().trim());
+//                Controller.getInstance().handleAction(Events.ALTA_CLIENTE, tCliente);
+//                dispose();
+//            }
+        	String nombre = nombreField.getText().trim();
+            String apellidos = apellidosField.getText().trim();
+            String nif = nifField.getText().trim();
+            String email = emailField.getText().trim();
+            String telefono = telefonoField.getText().trim();
+            
+            if (nif.isEmpty() || nombre.isEmpty() || apellidos.isEmpty()) {
+                JOptionPane.showMessageDialog(this, "Por favor, rellene los campos obligatorios (Nombre, Apellidos y NIF).", "Campos vacíos", JOptionPane.WARNING_MESSAGE);
+                return;
             }
+
+            if (!telefono.isEmpty() && !telefono.matches("\\d+")) {
+                JOptionPane.showMessageDialog(this, "El teléfono solo puede contener números.", "Error de validación", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+
+            TCliente tCliente = new TCliente(-1, nombre, apellidos, nif, email, telefono);
+            Controller.getInstance().handleAction(Events.ALTA_CLIENTE, tCliente);
+            dispose();
         });
         btnCancelar.addActionListener(e -> dispose());
     }

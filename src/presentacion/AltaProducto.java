@@ -27,19 +27,51 @@ public class AltaProducto extends JFrame implements IGUI {
 
         btnAceptar.addActionListener(e -> {
             try {
-                String nombre = nombreField.getText().trim();
-                double precio = Double.parseDouble(precioField.getText().trim());
+//                String nombre = nombreField.getText().trim();
+//                double precio = Double.parseDouble(precioField.getText().trim());
+//                String fecha = fechaField.getText().trim();
+//                int cantidad = Integer.parseInt(cantidadField.getText().trim());
+//                int idMarca = Integer.parseInt(idMarcaField.getText().trim());
+//                if (!nombre.isEmpty()) {
+//                    TProducto tProducto = new TProducto(-1, nombre, precio, fecha, cantidad, idMarca);
+//                    Controller.getInstance().handleAction(Events.ALTA_PRODUCTO, tProducto);
+//                    dispose();
+            	
+            	String nombre = nombreField.getText().trim();
+                String precioStr = precioField.getText().trim();
                 String fecha = fechaField.getText().trim();
-                int cantidad = Integer.parseInt(cantidadField.getText().trim());
-                int idMarca = Integer.parseInt(idMarcaField.getText().trim());
-                if (!nombre.isEmpty()) {
-                    TProducto tProducto = new TProducto(-1, nombre, precio, fecha, cantidad, idMarca);
-                    Controller.getInstance().handleAction(Events.ALTA_PRODUCTO, tProducto);
-                    dispose();
+                String cantidadStr = cantidadField.getText().trim();
+                String idMarcaStr = idMarcaField.getText().trim();
+                
+                if (nombre.isEmpty() || precioStr.isEmpty() || fecha.isEmpty() || cantidadStr.isEmpty() || idMarcaStr.isEmpty()) {
+                    throw new IllegalArgumentException("Todos los campos son obligatorios.");
                 }
-            } catch (NumberFormatException ex) {
-                JOptionPane.showMessageDialog(null, "Datos invalidos. Verifique precio, cantidad e ID de marca.");
-            }
+                
+                double precio = Double.parseDouble(precioStr);
+                int cantidad = Integer.parseInt(cantidadStr);
+                int idMarca = Integer.parseInt(idMarcaStr);
+
+                if (precio <= 0)
+                	throw new IllegalArgumentException("El precio debe ser mayor que 0.");
+                if (cantidad <= 0)
+                	throw new IllegalArgumentException("La cantidad debe ser mayor que 0.");
+                if (idMarca <= 0)
+                	throw new IllegalArgumentException("El ID de marca debe ser un número positivo.");
+
+                try {
+                    java.time.LocalDate.parse(fecha); 
+                } catch (java.time.format.DateTimeParseException ex) {
+                    throw new IllegalArgumentException("La fecha debe tener el formato YYYY-MM-DD y ser válida.");
+                }
+                
+                TProducto tProducto = new TProducto(-1, nombre, precio, fecha, cantidad, idMarca);
+                Controller.getInstance().handleAction(Events.ALTA_PRODUCTO, tProducto);
+                dispose();
+	        } catch (NumberFormatException ex) {
+	            JOptionPane.showMessageDialog(this, "Precio, Cantidad e ID Marca deben ser valores numéricos.", "Error de formato", JOptionPane.ERROR_MESSAGE);
+	        } catch (IllegalArgumentException ex) {
+	            JOptionPane.showMessageDialog(this, ex.getMessage(), "Error de validación", JOptionPane.WARNING_MESSAGE);
+	        }
         });
         btnCancelar.addActionListener(e -> dispose());
     }

@@ -9,14 +9,14 @@ public class TVenta implements Serializable {
     private int id;
     private String fecha;
     private double importe;
-    private int idCliente;
+    private TCliente cliente;
     private int idEmpleado;
 
-    public TVenta(int id, String fecha, double importe, int idCliente, int idEmpleado) {
+    public TVenta(int id, String fecha, double importe, TCliente cliente, int idEmpleado) {
         this.id = id;
         this.fecha = fecha;
         this.importe = importe;
-        this.idCliente = idCliente;
+        this.cliente = cliente;
         this.idEmpleado = idEmpleado;
     }
 
@@ -24,12 +24,12 @@ public class TVenta implements Serializable {
     public void setId(int id) { this.id = id; }
     public String getFecha() { return fecha; }
     public double getImporte() { return importe; }
-    public int getIdCliente() { return idCliente; }
+    public TCliente getCliente() { return cliente; }
     public int getIdEmpleado() { return idEmpleado; }
 
     @Override
     public String toString() {
         return "Id: " + id + ", Fecha: " + fecha + ", Importe: " + importe +
-               ", IdCliente: " + idCliente + ", IdEmpleado: " + idEmpleado + "\n";
+               ", ClienteID: " + (cliente != null ? cliente.getId() : "null") + ", IdEmpleado: " + idEmpleado + "\n";
     }
 }

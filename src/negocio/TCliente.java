@@ -22,7 +22,11 @@ public class TCliente implements Serializable {
         this.telefono = telefono;
     }
 
-    public int getId() { return id; }
+    public TCliente() {
+	
+	}
+
+	public int getId() { return id; }
     public void setId(int id) { this.id = id; }
     public String getNombre() { return nombre; }
     public String getApellidos() { return apellidos; }

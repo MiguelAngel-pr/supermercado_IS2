@@ -1,0 +1,5 @@
+bin/
+*.class
+*.db
+.settings/
+/.apt_generated/

@@ -17465,7 +17465,7 @@
                     <styles xmi:type="notation:RoundedCornersStyle" xmi:id="_hnfdVElbEfGvFNimybljbg"/>
                     <styles xmi:type="notation:TextStyle" xmi:id="_hnfdVUlbEfGvFNimybljbg"/>
                     <element xsi:nil="true"/>
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hnfdVklbEfGvFNimybljbg" x="2588" y="977" width="17544" height="7669"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hnfdVklbEfGvFNimybljbg" x="2588" y="977" width="18073" height="8065"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_isyxxDzUEfGc6KPTa0Bk5Q" type="Name"/>

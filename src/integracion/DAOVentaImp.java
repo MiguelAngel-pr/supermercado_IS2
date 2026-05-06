@@ -27,7 +27,7 @@ public class DAOVentaImp implements DAOVenta {
                 Statement.RETURN_GENERATED_KEYS);
             
             int idEmpleado = tCarrito.getIdEmpleado();
-            int idCliente = tCarrito.getCliente().getId();
+            int idCliente = tCarrito.getIdCliente();
             String fecha = tVenta.getFecha();
             double importe = tVenta.getImporte();
 
@@ -54,7 +54,7 @@ public class DAOVentaImp implements DAOVenta {
             if (rs.next()) {
                 TCliente c = new TCliente(); c.setId(rs.getInt("idCliente"));
                 tVenta = new TVenta(rs.getInt("id"), rs.getString("fecha"), rs.getDouble("importe"),
-                    c, rs.getInt("idEmpleado"));
+                		rs.getInt("idCliente"), rs.getInt("idEmpleado"));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -70,7 +70,7 @@ public class DAOVentaImp implements DAOVenta {
             while (rs.next()) {
                 TCliente c = new TCliente(); c.setId(rs.getInt("idCliente"));
                 set.add(new TVenta(rs.getInt("id"), rs.getString("fecha"), rs.getDouble("importe"),
-                    c, rs.getInt("idEmpleado")));
+                		rs.getInt("idCliente"), rs.getInt("idEmpleado")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -87,7 +87,7 @@ public class DAOVentaImp implements DAOVenta {
             while (rs.next()) {
                 TCliente c = new TCliente(); c.setId(rs.getInt("idCliente"));
                 set.add(new TVenta(rs.getInt("id"), rs.getString("fecha"), rs.getDouble("importe"),
-                    c, rs.getInt("idEmpleado")));
+                		rs.getInt("idCliente"), rs.getInt("idEmpleado")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -104,7 +104,7 @@ public class DAOVentaImp implements DAOVenta {
             while (rs.next()) {
                 TCliente c = new TCliente(); c.setId(rs.getInt("idCliente"));
                 set.add(new TVenta(rs.getInt("id"), rs.getString("fecha"), rs.getDouble("importe"),
-                    c, rs.getInt("idEmpleado")));
+                		rs.getInt("idCliente"), rs.getInt("idEmpleado")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -121,7 +121,7 @@ public class DAOVentaImp implements DAOVenta {
             while (rs.next()) {
                 TCliente c = new TCliente(); c.setId(rs.getInt("idCliente"));
                 set.add(new TVenta(rs.getInt("id"), rs.getString("fecha"), rs.getDouble("importe"),
-                    c, rs.getInt("idEmpleado")));
+                		rs.getInt("idCliente"), rs.getInt("idEmpleado")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -136,9 +136,8 @@ public class DAOVentaImp implements DAOVenta {
             ps.setInt(1, idEmpleado);
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
-                TCliente c = new TCliente(); c.setId(rs.getInt("idCliente"));
                 set.add(new TVenta(rs.getInt("id"), rs.getString("fecha"), rs.getDouble("importe"),
-                    c, rs.getInt("idEmpleado")));
+                	rs.getInt("idCliente"), rs.getInt("idEmpleado")));
             }
             rs.close(); ps.close();
         } catch (SQLException e) { e.printStackTrace(System.err); }
@@ -154,7 +153,7 @@ public class DAOVentaImp implements DAOVenta {
             
           
             int idEmpleado = tVenta.getIdEmpleado();
-            int idCliente = tVenta.getCliente().getId();
+            int idCliente = tVenta.getIdCliente();
             String fecha = tVenta.getFecha();
             double importe = tVenta.getImporte();
             int idVenta = tVenta.getId();

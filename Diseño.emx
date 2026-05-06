@@ -1104,7 +1104,7 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFER1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent2?"/>
           </fragment>
           <formalGate xmi:id="_k3q-lzdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3q-mDdNEfG8hMpDeSlBJA" name="readByName(nif)" receiveEvent="_k3q-QzdNEfG8hMpDeSlBJA" sendEvent="_k3q-QjdNEfG8hMpDeSlBJA" connector="_k3q-LDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3q-mDdNEfG8hMpDeSlBJA" name="DAOCliente.readByName(nif)" receiveEvent="_k3q-QzdNEfG8hMpDeSlBJA" sendEvent="_k3q-QjdNEfG8hMpDeSlBJA" connector="_k3q-LDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-mTdNEfG8hMpDeSlBJA" name="tCliente" messageSort="reply" receiveEvent="_k3q-ljdNEfG8hMpDeSlBJA" sendEvent="_k3q-lTdNEfG8hMpDeSlBJA" connector="_k3q-LDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-mjdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3q-RjdNEfG8hMpDeSlBJA" sendEvent="_k3q-RTdNEfG8hMpDeSlBJA" connector="_k3q-LzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3q-mzdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3q-STdNEfG8hMpDeSlBJA" sendEvent="_k3q-SDdNEfG8hMpDeSlBJA" connector="_k3q-LzdNEfG8hMpDeSlBJA"/>
@@ -1944,7 +1944,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rAPjdNEfG8hMpDeSlBJA" covered="_k3q_5jdNEfG8hMpDeSlBJA" message="_k3rAQDdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFIx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent11?"/>
           </fragment>
-          <message xmi:id="_k3rAPzdNEfG8hMpDeSlBJA" name="AltaCliente.create(tCliente)" receiveEvent="_k3q_7TdNEfG8hMpDeSlBJA" sendEvent="_k3q_7DdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rAPzdNEfG8hMpDeSlBJA" name="DAOCliente.create(tCliente)" receiveEvent="_k3q_7TdNEfG8hMpDeSlBJA" sendEvent="_k3q_7DdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAQDdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rAPjdNEfG8hMpDeSlBJA" sendEvent="_k3rAPTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAQTdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3q_8DdNEfG8hMpDeSlBJA" sendEvent="_k3q_7zdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rAQjdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3q_8zdNEfG8hMpDeSlBJA" sendEvent="_k3q_8jdNEfG8hMpDeSlBJA"/>
@@ -2646,7 +2646,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rkpDdNEfG8hMpDeSlBJA" covered="_k3rkRzdNEfG8hMpDeSlBJA" message="_k3rkpjdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFMx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent19?"/>
           </fragment>
-          <message xmi:id="_k3rkpTdNEfG8hMpDeSlBJA" name="update(tCliente)" receiveEvent="_k3rkTjdNEfG8hMpDeSlBJA" sendEvent="_k3rkTTdNEfG8hMpDeSlBJA" connector="_k3rkODdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rkpTdNEfG8hMpDeSlBJA" name="DAOCliente.update(tCliente)" receiveEvent="_k3rkTjdNEfG8hMpDeSlBJA" sendEvent="_k3rkTTdNEfG8hMpDeSlBJA" connector="_k3rkODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkpjdNEfG8hMpDeSlBJA" name="id" messageSort="reply" receiveEvent="_k3rkpDdNEfG8hMpDeSlBJA" sendEvent="_k3rkozdNEfG8hMpDeSlBJA" connector="_k3rkODdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkpzdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rkUTdNEfG8hMpDeSlBJA" sendEvent="_k3rkUDdNEfG8hMpDeSlBJA" connector="_k3rkOzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rkqDdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3rkVDdNEfG8hMpDeSlBJA" sendEvent="_k3rkUzdNEfG8hMpDeSlBJA" connector="_k3rkOzdNEfG8hMpDeSlBJA"/>
@@ -3372,7 +3372,7 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFQR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent25?"/>
           </fragment>
           <formalGate xmi:id="_k3rmezdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3rmfDdNEfG8hMpDeSlBJA" name="read(id)" receiveEvent="_k3rmJzdNEfG8hMpDeSlBJA" sendEvent="_k3rmJjdNEfG8hMpDeSlBJA" connector="_k3rmEDdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rmfDdNEfG8hMpDeSlBJA" name="DAOCliente.read(id)" receiveEvent="_k3rmJzdNEfG8hMpDeSlBJA" sendEvent="_k3rmJjdNEfG8hMpDeSlBJA" connector="_k3rmEDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmfTdNEfG8hMpDeSlBJA" name="tCliente" messageSort="reply" receiveEvent="_k3rmejdNEfG8hMpDeSlBJA" sendEvent="_k3rmeTdNEfG8hMpDeSlBJA" connector="_k3rmEDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmfjdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rmKjdNEfG8hMpDeSlBJA" sendEvent="_k3rmKTdNEfG8hMpDeSlBJA" connector="_k3rmEzdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rmfzdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3rmLTdNEfG8hMpDeSlBJA" sendEvent="_k3rmLDdNEfG8hMpDeSlBJA" connector="_k3rmEzdNEfG8hMpDeSlBJA"/>
@@ -4139,7 +4139,7 @@
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFPx1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent24?"/>
           </fragment>
           <formalGate xmi:id="_k3roTTdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_k3roTjdNEfG8hMpDeSlBJA" name="readAll()" receiveEvent="_k3rn_DdNEfG8hMpDeSlBJA" sendEvent="_k3rn-zdNEfG8hMpDeSlBJA" connector="_k3rn4jdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3roTjdNEfG8hMpDeSlBJA" name="DAOCliente.readAll()" receiveEvent="_k3rn_DdNEfG8hMpDeSlBJA" sendEvent="_k3rn-zdNEfG8hMpDeSlBJA" connector="_k3rn4jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roTzdNEfG8hMpDeSlBJA" name="set" messageSort="reply" receiveEvent="_k3roTDdNEfG8hMpDeSlBJA" sendEvent="_k3roSzdNEfG8hMpDeSlBJA" connector="_k3rn4jdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roUDdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rn_zdNEfG8hMpDeSlBJA" sendEvent="_k3rn_jdNEfG8hMpDeSlBJA" connector="_k3rn5TdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3roUTdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3roAjdNEfG8hMpDeSlBJA" sendEvent="_k3roATdNEfG8hMpDeSlBJA" connector="_k3rn5TdNEfG8hMpDeSlBJA"/>
@@ -4583,7 +4583,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_k3rpmDdNEfG8hMpDeSlBJA" covered="_k3rpWTdNEfG8hMpDeSlBJA" message="_k3rpmjdNEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_tRUFPR1SEfCBQfAyl-zPPw?Diseño/integracion/cliente/ReceiveOperationEvent23?"/>
           </fragment>
-          <message xmi:id="_k3rpmTdNEfG8hMpDeSlBJA" name="delete(id)" receiveEvent="_k3rpYDdNEfG8hMpDeSlBJA" sendEvent="_k3rpXzdNEfG8hMpDeSlBJA" connector="_k3rpSjdNEfG8hMpDeSlBJA"/>
+          <message xmi:id="_k3rpmTdNEfG8hMpDeSlBJA" name="DAOCliente.delete(id)" receiveEvent="_k3rpYDdNEfG8hMpDeSlBJA" sendEvent="_k3rpXzdNEfG8hMpDeSlBJA" connector="_k3rpSjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpmjdNEfG8hMpDeSlBJA" name="result" messageSort="reply" receiveEvent="_k3rpmDdNEfG8hMpDeSlBJA" sendEvent="_k3rplzdNEfG8hMpDeSlBJA" connector="_k3rpSjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpmzdNEfG8hMpDeSlBJA" name="connection = getConnection(jdbc:sqlite:database.db)" receiveEvent="_k3rpYzdNEfG8hMpDeSlBJA" sendEvent="_k3rpYjdNEfG8hMpDeSlBJA" connector="_k3rpTTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_k3rpnDdNEfG8hMpDeSlBJA" name="connection" messageSort="reply" receiveEvent="_k3rpZjdNEfG8hMpDeSlBJA" sendEvent="_k3rpZTdNEfG8hMpDeSlBJA" connector="_k3rpTTdNEfG8hMpDeSlBJA"/>
@@ -7464,7 +7464,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhlIwUToEfGeyJcmHJBMug" covered="_ZhlIbkToEfGeyJcmHJBMug" message="_ZhlIw0ToEfGeyJcmHJBMug">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_5rY3kSdKEfCznsmOw00Dag?Diseño/integracion/venta/ReceiveOperationEvent1?"/>
           </fragment>
-          <message xmi:id="_ZhlIwkToEfGeyJcmHJBMug" name="create(tVenta, tCarrito)" receiveEvent="_ZhlIdUToEfGeyJcmHJBMug" sendEvent="_ZhlIdEToEfGeyJcmHJBMug" connector="_ZhlIX0ToEfGeyJcmHJBMug"/>
+          <message xmi:id="_ZhlIwkToEfGeyJcmHJBMug" name="DAOVenta.create(tVenta, tCarrito)" receiveEvent="_ZhlIdUToEfGeyJcmHJBMug" sendEvent="_ZhlIdEToEfGeyJcmHJBMug" connector="_ZhlIX0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhlIw0ToEfGeyJcmHJBMug" name="id" messageSort="reply" receiveEvent="_ZhlIwUToEfGeyJcmHJBMug" sendEvent="_ZhlIwEToEfGeyJcmHJBMug" connector="_ZhlIX0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhlIxEToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_ZhlIeEToEfGeyJcmHJBMug" sendEvent="_ZhlId0ToEfGeyJcmHJBMug" connector="_ZhlIZUToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhlIxUToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhlIe0ToEfGeyJcmHJBMug" sendEvent="_ZhlIekToEfGeyJcmHJBMug" connector="_ZhlIZUToEfGeyJcmHJBMug"/>
@@ -8131,7 +8131,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zhlu-0ToEfGeyJcmHJBMug" covered="_ZhluqEToEfGeyJcmHJBMug" message="_Zhlu_UToEfGeyJcmHJBMug">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_Is0i5CdJEfCznsmOw00Dag?Diseño/integracion/venta/ReceiveOperationEvent19?"/>
           </fragment>
-          <message xmi:id="_Zhlu_EToEfGeyJcmHJBMug" name="readAll()" receiveEvent="_ZhlusEToEfGeyJcmHJBMug" sendEvent="_Zhlur0ToEfGeyJcmHJBMug" connector="_ZhlulkToEfGeyJcmHJBMug"/>
+          <message xmi:id="_Zhlu_EToEfGeyJcmHJBMug" name="DAOVenta.readAll()" receiveEvent="_ZhlusEToEfGeyJcmHJBMug" sendEvent="_Zhlur0ToEfGeyJcmHJBMug" connector="_ZhlulkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhlu_UToEfGeyJcmHJBMug" name="set" messageSort="reply" receiveEvent="_Zhlu-0ToEfGeyJcmHJBMug" sendEvent="_Zhlu-kToEfGeyJcmHJBMug" connector="_ZhlulkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhlu_kToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_Zhlus0ToEfGeyJcmHJBMug" sendEvent="_ZhluskToEfGeyJcmHJBMug" connector="_ZhlumUToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhlu_0ToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhlutkToEfGeyJcmHJBMug" sendEvent="_ZhlutUToEfGeyJcmHJBMug" connector="_ZhlumUToEfGeyJcmHJBMug"/>
@@ -8797,7 +8797,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhmVBUToEfGeyJcmHJBMug" covered="_ZhlwZUToEfGeyJcmHJBMug" message="_ZhmVB0ToEfGeyJcmHJBMug">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_Is0i6CdJEfCznsmOw00Dag?Diseño/integracion/venta/ReceiveOperationEvent21?"/>
           </fragment>
-          <message xmi:id="_ZhmVBkToEfGeyJcmHJBMug" name="read(id)" receiveEvent="_ZhlwbUToEfGeyJcmHJBMug" sendEvent="_ZhlwbEToEfGeyJcmHJBMug" connector="_ZhlwU0ToEfGeyJcmHJBMug"/>
+          <message xmi:id="_ZhmVBkToEfGeyJcmHJBMug" name="DAOVenta.read(id)" receiveEvent="_ZhlwbUToEfGeyJcmHJBMug" sendEvent="_ZhlwbEToEfGeyJcmHJBMug" connector="_ZhlwU0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhmVB0ToEfGeyJcmHJBMug" name="tVenta" messageSort="reply" receiveEvent="_ZhmVBUToEfGeyJcmHJBMug" sendEvent="_ZhmVBEToEfGeyJcmHJBMug" connector="_ZhlwU0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhmVCEToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_ZhlwcEToEfGeyJcmHJBMug" sendEvent="_Zhlwb0ToEfGeyJcmHJBMug" connector="_ZhlwVkToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhmVCUToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_Zhlwc0ToEfGeyJcmHJBMug" sendEvent="_ZhlwckToEfGeyJcmHJBMug" connector="_ZhlwVkToEfGeyJcmHJBMug"/>
@@ -9222,7 +9222,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhmWYkToEfGeyJcmHJBMug" covered="_ZhmWJUToEfGeyJcmHJBMug" message="_ZhmWfEToEfGeyJcmHJBMug"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhmWY0ToEfGeyJcmHJBMug" covered="_ZhmWJUToEfGeyJcmHJBMug" message="_ZhmWZkToEfGeyJcmHJBMug"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhmWZEToEfGeyJcmHJBMug" covered="_ZhmWJEToEfGeyJcmHJBMug" message="_ZhmWZkToEfGeyJcmHJBMug"/>
-          <message xmi:id="_ZhmWZUToEfGeyJcmHJBMug" name="delete(id)" receiveEvent="_ZhmWKkToEfGeyJcmHJBMug" sendEvent="_ZhmWKUToEfGeyJcmHJBMug" connector="_ZhmWFUToEfGeyJcmHJBMug"/>
+          <message xmi:id="_ZhmWZUToEfGeyJcmHJBMug" name="DAOVenta.delete(id)" receiveEvent="_ZhmWKkToEfGeyJcmHJBMug" sendEvent="_ZhmWKUToEfGeyJcmHJBMug" connector="_ZhmWFUToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhmWZkToEfGeyJcmHJBMug" name="id" messageSort="reply" receiveEvent="_ZhmWZEToEfGeyJcmHJBMug" sendEvent="_ZhmWY0ToEfGeyJcmHJBMug" connector="_ZhmWFUToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhmWZ0ToEfGeyJcmHJBMug" name="connection=getConnection(jdbc:sqlite:supermercado_bd.db)" receiveEvent="_ZhmWLUToEfGeyJcmHJBMug" sendEvent="_ZhmWLEToEfGeyJcmHJBMug" connector="_ZhmWGEToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhmWaEToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhmWMEToEfGeyJcmHJBMug" sendEvent="_ZhmWL0ToEfGeyJcmHJBMug" connector="_ZhmWGEToEfGeyJcmHJBMug"/>
@@ -9886,7 +9886,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zhm75EToEfGeyJcmHJBMug" covered="_ZhmXbUToEfGeyJcmHJBMug" message="_Zhm75kToEfGeyJcmHJBMug">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_H6C1ASdTEfCznsmOw00Dag?Diseño/integracion/venta/ReceiveOperationEvent27?"/>
           </fragment>
-          <message xmi:id="_Zhm75UToEfGeyJcmHJBMug" name="update(tVenta)" receiveEvent="_ZhmXc0ToEfGeyJcmHJBMug" sendEvent="_ZhmXckToEfGeyJcmHJBMug" connector="_ZhmXXkToEfGeyJcmHJBMug"/>
+          <message xmi:id="_Zhm75UToEfGeyJcmHJBMug" name="DAOVenta.update(tVenta)" receiveEvent="_ZhmXc0ToEfGeyJcmHJBMug" sendEvent="_ZhmXckToEfGeyJcmHJBMug" connector="_ZhmXXkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhm75kToEfGeyJcmHJBMug" name="id" messageSort="reply" receiveEvent="_Zhm75EToEfGeyJcmHJBMug" sendEvent="_Zhm740ToEfGeyJcmHJBMug" connector="_ZhmXXkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhm750ToEfGeyJcmHJBMug" name="connection=getConnection(jdbc:sqlite:supermercado_bd.db)" receiveEvent="_ZhmXdkToEfGeyJcmHJBMug" sendEvent="_ZhmXdUToEfGeyJcmHJBMug" connector="_ZhmXYUToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhm76EToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhmXeUToEfGeyJcmHJBMug" sendEvent="_ZhmXeEToEfGeyJcmHJBMug" connector="_ZhmXYUToEfGeyJcmHJBMug"/>
@@ -10579,7 +10579,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zhm9qUToEfGeyJcmHJBMug" covered="_Zhm9UUToEfGeyJcmHJBMug" message="_Zhm9q0ToEfGeyJcmHJBMug">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_FqeJoCdUEfCznsmOw00Dag?Diseño/integracion/venta/ReceiveOperationEvent14?"/>
           </fragment>
-          <message xmi:id="_Zhm9qkToEfGeyJcmHJBMug" name="readByIdCliente(idCliente)" receiveEvent="_Zhm9WUToEfGeyJcmHJBMug" sendEvent="_Zhm9WEToEfGeyJcmHJBMug" connector="_Zhm9P0ToEfGeyJcmHJBMug"/>
+          <message xmi:id="_Zhm9qkToEfGeyJcmHJBMug" name="DAOVenta.readByIdCliente(idCliente)" receiveEvent="_Zhm9WUToEfGeyJcmHJBMug" sendEvent="_Zhm9WEToEfGeyJcmHJBMug" connector="_Zhm9P0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhm9q0ToEfGeyJcmHJBMug" name="set" messageSort="reply" receiveEvent="_Zhm9qUToEfGeyJcmHJBMug" sendEvent="_Zhm9qEToEfGeyJcmHJBMug" connector="_Zhm9P0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhm9rEToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_Zhm9XEToEfGeyJcmHJBMug" sendEvent="_Zhm9W0ToEfGeyJcmHJBMug" connector="_Zhm9QkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhm9rUToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_Zhm9X0ToEfGeyJcmHJBMug" sendEvent="_Zhm9XkToEfGeyJcmHJBMug" connector="_Zhm9QkToEfGeyJcmHJBMug"/>
@@ -11267,7 +11267,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhnjxEToEfGeyJcmHJBMug" covered="_ZhnjbEToEfGeyJcmHJBMug" message="_ZhnjxkToEfGeyJcmHJBMug">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_M3qJECdUEfCznsmOw00Dag?Diseño/integracion/venta/ReceiveOperationEvent16?"/>
           </fragment>
-          <message xmi:id="_ZhnjxUToEfGeyJcmHJBMug" name="readByIdEmpleado(idEmpleado)" receiveEvent="_ZhnjdEToEfGeyJcmHJBMug" sendEvent="_Zhnjc0ToEfGeyJcmHJBMug" connector="_ZhnjWkToEfGeyJcmHJBMug"/>
+          <message xmi:id="_ZhnjxUToEfGeyJcmHJBMug" name="DAOVenta.readByIdEmpleado(idEmpleado)" receiveEvent="_ZhnjdEToEfGeyJcmHJBMug" sendEvent="_Zhnjc0ToEfGeyJcmHJBMug" connector="_ZhnjWkToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhnjxkToEfGeyJcmHJBMug" name="set" messageSort="reply" receiveEvent="_ZhnjxEToEfGeyJcmHJBMug" sendEvent="_Zhnjw0ToEfGeyJcmHJBMug" connector="_ZhnjWkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhnjx0ToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_Zhnjd0ToEfGeyJcmHJBMug" sendEvent="_ZhnjdkToEfGeyJcmHJBMug" connector="_ZhnjXUToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhnjyEToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhnjekToEfGeyJcmHJBMug" sendEvent="_ZhnjeUToEfGeyJcmHJBMug" connector="_ZhnjXUToEfGeyJcmHJBMug"/>
@@ -11853,7 +11853,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhnlnkToEfGeyJcmHJBMug" covered="_ZhnlS0ToEfGeyJcmHJBMug" message="_ZhnlqkToEfGeyJcmHJBMug"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zhnln0ToEfGeyJcmHJBMug" covered="_ZhnlS0ToEfGeyJcmHJBMug" message="_ZhnlokToEfGeyJcmHJBMug"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhnloEToEfGeyJcmHJBMug" covered="_ZhnlSkToEfGeyJcmHJBMug" message="_ZhnlokToEfGeyJcmHJBMug"/>
-          <message xmi:id="_ZhnloUToEfGeyJcmHJBMug" name="readByImporte(importe)" receiveEvent="_ZhnlUkToEfGeyJcmHJBMug" sendEvent="_ZhnlUUToEfGeyJcmHJBMug" connector="_ZhnlMkToEfGeyJcmHJBMug"/>
+          <message xmi:id="_ZhnloUToEfGeyJcmHJBMug" name="DAOVenta.readByImporte(importe)" receiveEvent="_ZhnlUkToEfGeyJcmHJBMug" sendEvent="_ZhnlUUToEfGeyJcmHJBMug" connector="_ZhnlMkToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhnlokToEfGeyJcmHJBMug" name="set" messageSort="reply" receiveEvent="_ZhnloEToEfGeyJcmHJBMug" sendEvent="_Zhnln0ToEfGeyJcmHJBMug" connector="_ZhnlMkToEfGeyJcmHJBMug"/>
           <message xmi:id="_Zhnlo0ToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_ZhnlVUToEfGeyJcmHJBMug" sendEvent="_ZhnlVEToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhnlpEToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhnlWEToEfGeyJcmHJBMug" sendEvent="_ZhnlV0ToEfGeyJcmHJBMug"/>
@@ -12442,7 +12442,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhoLnEToEfGeyJcmHJBMug" covered="_ZhoLSEToEfGeyJcmHJBMug" message="_ZhoLsEToEfGeyJcmHJBMug"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhoLnUToEfGeyJcmHJBMug" covered="_ZhoLSEToEfGeyJcmHJBMug" message="_ZhoLoEToEfGeyJcmHJBMug"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ZhoLnkToEfGeyJcmHJBMug" covered="_ZhoLR0ToEfGeyJcmHJBMug" message="_ZhoLoEToEfGeyJcmHJBMug"/>
-          <message xmi:id="_ZhoLn0ToEfGeyJcmHJBMug" name="readByFecha(fecha)" receiveEvent="_ZhoLUEToEfGeyJcmHJBMug" sendEvent="_ZhoLT0ToEfGeyJcmHJBMug" connector="_ZhoLLEToEfGeyJcmHJBMug"/>
+          <message xmi:id="_ZhoLn0ToEfGeyJcmHJBMug" name="DAOVenta.readByFecha(fecha)" receiveEvent="_ZhoLUEToEfGeyJcmHJBMug" sendEvent="_ZhoLT0ToEfGeyJcmHJBMug" connector="_ZhoLLEToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhoLoEToEfGeyJcmHJBMug" name="set" messageSort="reply" receiveEvent="_ZhoLnkToEfGeyJcmHJBMug" sendEvent="_ZhoLnUToEfGeyJcmHJBMug" connector="_ZhoLLEToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhoLoUToEfGeyJcmHJBMug" name="connection = getConnection(jdbc.sqlite:supermercado_bd.db)" receiveEvent="_ZhoLU0ToEfGeyJcmHJBMug" sendEvent="_ZhoLUkToEfGeyJcmHJBMug" connector="_ZhoLL0ToEfGeyJcmHJBMug"/>
           <message xmi:id="_ZhoLokToEfGeyJcmHJBMug" name="getConnection" messageSort="reply" receiveEvent="_ZhoLVkToEfGeyJcmHJBMug" sendEvent="_ZhoLVUToEfGeyJcmHJBMug" connector="_ZhoLL0ToEfGeyJcmHJBMug"/>
@@ -13443,7 +13443,7 @@
           <message xmi:id="_6N1CxTdNEfG8hMpDeSlBJA" name="getInstance()" messageSort="reply" receiveEvent="_6N1CrDdNEfG8hMpDeSlBJA" sendEvent="_6N1CqzdNEfG8hMpDeSlBJA" connector="_6N1ClTdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_6N1CxjdNEfG8hMpDeSlBJA" name="id = create(tCliente)" receiveEvent="_6N1CuDdNEfG8hMpDeSlBJA" sendEvent="_6N1CtzdNEfG8hMpDeSlBJA" connector="_6N1CmDdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_6N1CxzdNEfG8hMpDeSlBJA" name="create" messageSort="reply" receiveEvent="_6N1CuzdNEfG8hMpDeSlBJA" sendEvent="_6N1CujdNEfG8hMpDeSlBJA" connector="_6N1CmDdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_w3kvkEfDEfGXadmsg4xIcA" name="getInstance()" receiveEvent="_w3q2MUfDEfGXadmsg4xIcA" sendEvent="_w3q2MEfDEfGXadmsg4xIcA" connector="_D7Ph0UOzEfGi1fGAEwjaiw"/>
+          <message xmi:id="_w3kvkEfDEfGXadmsg4xIcA" name="SACliente.getInstance()" receiveEvent="_w3q2MUfDEfGXadmsg4xIcA" sendEvent="_w3q2MEfDEfGXadmsg4xIcA" connector="_D7Ph0UOzEfGi1fGAEwjaiw"/>
           <message xmi:id="_w3q2NEfDEfGXadmsg4xIcA" name="getInstance()" messageSort="reply" receiveEvent="_w3q2NUfDEfGXadmsg4xIcA" sendEvent="_w3q2M0fDEfGXadmsg4xIcA" connector="_D7Ph0UOzEfGi1fGAEwjaiw"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6N1CyDdNEfG8hMpDeSlBJA" name="InteractionUpdate">
@@ -13856,7 +13856,7 @@
           <message xmi:id="_64vq_EfJEfGXadmsg4xIcA" name="getInstance()" receiveEvent="_64vq40fJEfGXadmsg4xIcA" sendEvent="_64vq4kfJEfGXadmsg4xIcA" connector="_64vrDUfJEfGXadmsg4xIcA"/>
           <message xmi:id="_64vq_UfJEfGXadmsg4xIcA" name="update" receiveEvent="_64vq4EfJEfGXadmsg4xIcA" sendEvent="_64vq30fJEfGXadmsg4xIcA" connector="_64vrB0fJEfGXadmsg4xIcA"/>
           <message xmi:id="_64vq_kfJEfGXadmsg4xIcA" name="getInstance()" messageSort="reply" receiveEvent="_64vq3kfJEfGXadmsg4xIcA" sendEvent="_64vq3UfJEfGXadmsg4xIcA" connector="_64vrEEfJEfGXadmsg4xIcA"/>
-          <message xmi:id="_64vq_0fJEfGXadmsg4xIcA" name="getInstance()" receiveEvent="_64vq20fJEfGXadmsg4xIcA" sendEvent="_64vq2kfJEfGXadmsg4xIcA" connector="_64vrEEfJEfGXadmsg4xIcA"/>
+          <message xmi:id="_64vq_0fJEfGXadmsg4xIcA" name="SACliente.getInstance()" receiveEvent="_64vq20fJEfGXadmsg4xIcA" sendEvent="_64vq2kfJEfGXadmsg4xIcA" connector="_64vrEEfJEfGXadmsg4xIcA"/>
           <message xmi:id="_64vrAEfJEfGXadmsg4xIcA" name="getInstance()" messageSort="reply" receiveEvent="_64vq5kfJEfGXadmsg4xIcA" sendEvent="_64vq5UfJEfGXadmsg4xIcA" connector="_64vrDUfJEfGXadmsg4xIcA"/>
           <message xmi:id="_64vrAUfJEfGXadmsg4xIcA" name="id = create(tCliente)" receiveEvent="_64vq8kfJEfGXadmsg4xIcA" sendEvent="_64vq8UfJEfGXadmsg4xIcA" connector="_64vrCkfJEfGXadmsg4xIcA"/>
           <message xmi:id="_64vrAkfJEfGXadmsg4xIcA" name="_tCliente = readByNIF(tCliente.getNIF())" receiveEvent="_64vq7UfJEfGXadmsg4xIcA" sendEvent="_64vq7EfJEfGXadmsg4xIcA" connector="_64vrCkfJEfGXadmsg4xIcA"/>
@@ -14280,7 +14280,7 @@
           <message xmi:id="_pA3Kq0fGEfGXadmsg4xIcA" name="readByNIF" receiveEvent="_pA3KpkfGEfGXadmsg4xIcA" sendEvent="_pA3KpUfGEfGXadmsg4xIcA" connector="_6N1DwjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_rh4V6kfGEfGXadmsg4xIcA" name="read" messageSort="reply" receiveEvent="_rh4V6UfGEfGXadmsg4xIcA" sendEvent="_rh4V6EfGEfGXadmsg4xIcA" connector="_6N1DwjdNEfG8hMpDeSlBJA"/>
           <message xmi:id="_rh4V60fGEfGXadmsg4xIcA" name="tCliente = read(id)" receiveEvent="_rh4V5kfGEfGXadmsg4xIcA" sendEvent="_rh4V5UfGEfGXadmsg4xIcA" connector="_6N1DwjdNEfG8hMpDeSlBJA"/>
-          <message xmi:id="_qT4cQEfHEfGXadmsg4xIcA" name="getInstance()" receiveEvent="_qT4cQkfHEfGXadmsg4xIcA" sendEvent="_qT4cQUfHEfGXadmsg4xIcA" connector="_qT4cR0fHEfGXadmsg4xIcA"/>
+          <message xmi:id="_qT4cQEfHEfGXadmsg4xIcA" name="SACliente.getInstance()" receiveEvent="_qT4cQkfHEfGXadmsg4xIcA" sendEvent="_qT4cQUfHEfGXadmsg4xIcA" connector="_qT4cR0fHEfGXadmsg4xIcA"/>
           <message xmi:id="_qT4cRUfHEfGXadmsg4xIcA" name="getInstance()" messageSort="reply" receiveEvent="_qT4cRkfHEfGXadmsg4xIcA" sendEvent="_qT4cREfHEfGXadmsg4xIcA" connector="_qT4cR0fHEfGXadmsg4xIcA"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_6N1D7jdNEfG8hMpDeSlBJA" name="InteractionReadAll">
@@ -14698,7 +14698,7 @@
           </fragment>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_S9zRREfIEfGXadmsg4xIcA" covered="_S9tKk0fIEfGXadmsg4xIcA" event="_URGsIEfIEfGXadmsg4xIcA" message="_S9zRSEfIEfGXadmsg4xIcA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_S9zRRUfIEfGXadmsg4xIcA" covered="_S9tKkkfIEfGXadmsg4xIcA" event="_URGsIUfIEfGXadmsg4xIcA" message="_S9zRSEfIEfGXadmsg4xIcA"/>
-          <message xmi:id="_S9zRRkfIEfGXadmsg4xIcA" name="getInstance()" receiveEvent="_S9tKnEfIEfGXadmsg4xIcA" sendEvent="_S9tKm0fIEfGXadmsg4xIcA" connector="_S9zRUkfIEfGXadmsg4xIcA"/>
+          <message xmi:id="_S9zRRkfIEfGXadmsg4xIcA" name="SACliente.getInstance()" receiveEvent="_S9tKnEfIEfGXadmsg4xIcA" sendEvent="_S9tKm0fIEfGXadmsg4xIcA" connector="_S9zRUkfIEfGXadmsg4xIcA"/>
           <message xmi:id="_S9zRR0fIEfGXadmsg4xIcA" name="createCliente()" receiveEvent="_S9tKqUfIEfGXadmsg4xIcA" sendEvent="_S9tKqEfIEfGXadmsg4xIcA" connector="_S9zRVUfIEfGXadmsg4xIcA"/>
           <message xmi:id="_S9zRSEfIEfGXadmsg4xIcA" name="readAll" messageSort="reply" receiveEvent="_S9zRRUfIEfGXadmsg4xIcA" sendEvent="_S9zRREfIEfGXadmsg4xIcA" connector="_S9zRWEfIEfGXadmsg4xIcA"/>
           <message xmi:id="_S9zRSUfIEfGXadmsg4xIcA" name="readAll" receiveEvent="_S9tKoUfIEfGXadmsg4xIcA" sendEvent="_S9tKoEfIEfGXadmsg4xIcA" connector="_S9zRWEfIEfGXadmsg4xIcA"/>
@@ -15052,7 +15052,7 @@
           </fragment>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_S2a-NEfFEfGXadmsg4xIcA" covered="_6N1FGjdNEfG8hMpDeSlBJA" event="_TRo6kEfFEfGXadmsg4xIcA" message="_S2a-NUfFEfGXadmsg4xIcA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_S2a-NkfFEfGXadmsg4xIcA" covered="_FN7IMEfFEfGXadmsg4xIcA" event="_TRo6kUfFEfGXadmsg4xIcA" message="_S2a-NUfFEfGXadmsg4xIcA"/>
-          <message xmi:id="_N7mC8EfFEfGXadmsg4xIcA" name="getInstance" receiveEvent="_N7mC8kfFEfGXadmsg4xIcA" sendEvent="_N7mC8UfFEfGXadmsg4xIcA" connector="_N7mC90fFEfGXadmsg4xIcA"/>
+          <message xmi:id="_N7mC8EfFEfGXadmsg4xIcA" name="SACliente.getInstance" receiveEvent="_N7mC8kfFEfGXadmsg4xIcA" sendEvent="_N7mC8UfFEfGXadmsg4xIcA" connector="_N7mC90fFEfGXadmsg4xIcA"/>
           <message xmi:id="_N7mC9UfFEfGXadmsg4xIcA" name="getInstance" messageSort="reply" receiveEvent="_N7mC9kfFEfGXadmsg4xIcA" sendEvent="_N7mC9EfFEfGXadmsg4xIcA" connector="_N7mC90fFEfGXadmsg4xIcA"/>
           <message xmi:id="_S2a-MEfFEfGXadmsg4xIcA" name="delete" receiveEvent="_S2a-MkfFEfGXadmsg4xIcA" sendEvent="_S2a-MUfFEfGXadmsg4xIcA" connector="_JX081UfFEfGXadmsg4xIcA"/>
           <message xmi:id="_S2a-NUfFEfGXadmsg4xIcA" name="delete" messageSort="reply" receiveEvent="_S2a-NkfFEfGXadmsg4xIcA" sendEvent="_S2a-NEfFEfGXadmsg4xIcA" connector="_JX081UfFEfGXadmsg4xIcA"/>
@@ -15451,7 +15451,7 @@
           </fragment>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BJVxLkfIEfGXadmsg4xIcA" covered="_BJPqc0fIEfGXadmsg4xIcA" event="_osIGMkfFEfGXadmsg4xIcA" message="_BJVxMkfIEfGXadmsg4xIcA"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_BJVxL0fIEfGXadmsg4xIcA" covered="_BJPqckfIEfGXadmsg4xIcA" event="_osIGM0fFEfGXadmsg4xIcA" message="_BJVxMkfIEfGXadmsg4xIcA"/>
-          <message xmi:id="_BJVxMEfIEfGXadmsg4xIcA" name="getInstance()" receiveEvent="_BJPqfEfIEfGXadmsg4xIcA" sendEvent="_BJPqe0fIEfGXadmsg4xIcA" connector="_BJVxPEfIEfGXadmsg4xIcA"/>
+          <message xmi:id="_BJVxMEfIEfGXadmsg4xIcA" name="SACliente.getInstance()" receiveEvent="_BJPqfEfIEfGXadmsg4xIcA" sendEvent="_BJPqe0fIEfGXadmsg4xIcA" connector="_BJVxPEfIEfGXadmsg4xIcA"/>
           <message xmi:id="_BJVxMUfIEfGXadmsg4xIcA" name="createCliente()" receiveEvent="_BJVxGEfIEfGXadmsg4xIcA" sendEvent="_BJVxF0fIEfGXadmsg4xIcA" connector="_BJVxP0fIEfGXadmsg4xIcA"/>
           <message xmi:id="_BJVxMkfIEfGXadmsg4xIcA" name="daoCliente.read(id) " messageSort="reply" receiveEvent="_BJVxL0fIEfGXadmsg4xIcA" sendEvent="_BJVxLkfIEfGXadmsg4xIcA" connector="_BJVxQkfIEfGXadmsg4xIcA"/>
           <message xmi:id="_BJVxM0fIEfGXadmsg4xIcA" name="read(id)" receiveEvent="_BJVxEEfIEfGXadmsg4xIcA" sendEvent="_BJPqgEfIEfGXadmsg4xIcA" connector="_BJVxQkfIEfGXadmsg4xIcA"/>
@@ -16902,42 +16902,42 @@
                     <children xmi:type="notation:BasicDecorationNode" xmi:id="_k0pdhUMTEfGUTdQ6obaTGQ" type="Parent"/>
                     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_k0pdhkMTEfGUTdQ6obaTGQ" x="1153" y="4937" width="4554" height="7620"/>
                   </children>
-                  <children xmi:type="umlnotation:UMLShape" xmi:id="_fspo8EMTEfGUTdQ6obaTGQ" element="_fsep00MTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fspo8UMTEfGUTdQ6obaTGQ" x="-1" y="1453" height="3386"/>
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_4nm9QElLEfGpFLcU0_e0MQ" element="_4nfBc0lLEfGpFLcU0_e0MQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4nm9QUlLEfGpFLcU0_e0MQ" x="-1" y="1453" height="3915"/>
                   </children>
                 </children>
                 <children xmi:type="notation:BasicDecorationNode" xmi:id="_hvwhwzzUEfGc6KPTa0Bk5Q" type="Name"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hvwhxDzUEfGc6KPTa0Bk5Q" x="793" y="793"/>
               </children>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_fsl-kEMTEfGUTdQ6obaTGQ" element="_fsep0EMTEfGUTdQ6obaTGQ" source="_aswAcEMTEfGUTdQ6obaTGQ" target="_cG2m80MTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_fsmloEMTEfGUTdQ6obaTGQ" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_fsmlokMTEfGUTdQ6obaTGQ" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_fsmlo0MTEfGUTdQ6obaTGQ" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fsmloUMTEfGUTdQ6obaTGQ" y="-317"/>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4nkhAElLEfGpFLcU0_e0MQ" element="_4nfBcElLEfGpFLcU0_e0MQ" source="_aswAcEMTEfGUTdQ6obaTGQ" target="_cG2m80MTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_4nkhAklLEfGpFLcU0_e0MQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_4nlIEElLEfGpFLcU0_e0MQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_4nlIEUlLEfGpFLcU0_e0MQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4nkhA0lLEfGpFLcU0_e0MQ" y="-317"/>
                 </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fsl-kUMTEfGUTdQ6obaTGQ" points="[0, 0, -112, 0]$[112, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsoa0EMTEfGUTdQ6obaTGQ" id="402:2356"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsoa0UMTEfGUTdQ6obaTGQ" id="446:0"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4nkhAUlLEfGpFLcU0_e0MQ" points="[0, 0, -86, 0]$[86, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4nlvIElLEfGpFLcU0_e0MQ" id="1241:2277"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4nlvIUlLEfGpFLcU0_e0MQ" id="1273:0"/>
               </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_fsqQAEMTEfGUTdQ6obaTGQ" element="_fsep1UMTEfGUTdQ6obaTGQ" source="_cG2m80MTEfGUTdQ6obaTGQ" target="_aswAcEMTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_fsqQAkMTEfGUTdQ6obaTGQ" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_fsqQBEMTEfGUTdQ6obaTGQ" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_fsqQBUMTEfGUTdQ6obaTGQ" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fsqQA0MTEfGUTdQ6obaTGQ" y="476"/>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_4nnkUElLEfGpFLcU0_e0MQ" element="_4nfogUlLEfGpFLcU0_e0MQ" source="_cG2m80MTEfGUTdQ6obaTGQ" target="_aswAcEMTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="_4nnkUklLEfGpFLcU0_e0MQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_4nnkVElLEfGpFLcU0_e0MQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_4nnkVUlLEfGpFLcU0_e0MQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4nnkU0lLEfGpFLcU0_e0MQ" y="476"/>
                 </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_fsqQAUMTEfGUTdQ6obaTGQ" points="[0, 0, 112, 0]$[-112, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsqQBkMTEfGUTdQ6obaTGQ" id="447:687"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_fsq3EEMTEfGUTdQ6obaTGQ" id="448:0"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4nnkUUlLEfGpFLcU0_e0MQ" points="[0, 0, 86, 0]$[-86, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4nnkVklLEfGpFLcU0_e0MQ" id="1274:3333"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4nnkV0lLEfGpFLcU0_e0MQ" id="1275:0"/>
               </edges>
-              <edges xmi:type="umlnotation:UMLConnector" xmi:id="_utzW8EfUEfGRcLG88lKKmg" element="_utvFgEfUEfGRcLG88lKKmg" source="_cG2m80MTEfGUTdQ6obaTGQ" target="_k0pdgEMTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-                <children xmi:type="notation:DecorationNode" xmi:id="_utzW8kfUEfGRcLG88lKKmg" type="MessageNameLabel">
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_utzW9EfUEfGRcLG88lKKmg" type="Stereotype"/>
-                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_utzW9UfUEfGRcLG88lKKmg" type="Name"/>
-                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_utzW80fUEfGRcLG88lKKmg" y="-317"/>
+              <edges xmi:type="umlnotation:UMLConnector" xmi:id="__gxNcElLEfGpFLcU0_e0MQ" element="__gs8AElLEfGpFLcU0_e0MQ" source="_cG2m80MTEfGUTdQ6obaTGQ" target="_k0pdgEMTEfGUTdQ6obaTGQ" fontName="Segoe UI" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
+                <children xmi:type="notation:DecorationNode" xmi:id="__gxNcklLEfGpFLcU0_e0MQ" type="MessageNameLabel">
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="__gxNdElLEfGpFLcU0_e0MQ" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="__gxNdUlLEfGpFLcU0_e0MQ" type="Name"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="__gxNc0lLEfGpFLcU0_e0MQ" y="-317"/>
                 </children>
-                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_utzW8UfUEfGRcLG88lKKmg" points="[0, 0, -214, 0]$[214, 0, 0, 0]"/>
-                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ut0lEEfUEfGRcLG88lKKmg" id="420:317"/>
-                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ut0lEUfUEfGRcLG88lKKmg" id="464:0"/>
+                <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="__gxNcUlLEfGpFLcU0_e0MQ" points="[0, 0, -184, 0]$[184, 0, 0, 0]"/>
+                <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__gybkElLEfGpFLcU0_e0MQ" id="1277:582"/>
+                <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__gybkUlLEfGpFLcU0_e0MQ" id="1324:0"/>
               </edges>
             </contents>
           </eAnnotations>
@@ -16953,29 +16953,23 @@
             <end xmi:id="_aL3ZZUfTEfGRcLG88lKKmg" role="_5h_SqEJTEfGzOttdgUSLfw"/>
             <end xmi:id="_aL3ZZkfTEfGRcLG88lKKmg" role="_eiI2QkMWEfGUTdQ6obaTGQ"/>
           </ownedConnector>
-          <lifeline xmi:id="_astkMEMTEfGUTdQ6obaTGQ" name="Property" represents="_asvZYEMTEfGUTdQ6obaTGQ" coveredBy="_fsep0UMTEfGUTdQ6obaTGQ _fsfQ4EMTEfGUTdQ6obaTGQ"/>
-          <lifeline xmi:id="_cG2m8UMTEfGUTdQ6obaTGQ" name="sAVentaImp" represents="_eiI2QkMWEfGUTdQ6obaTGQ" coveredBy="_fsep0kMTEfGUTdQ6obaTGQ _fsep00MTEfGUTdQ6obaTGQ _fsep1EMTEfGUTdQ6obaTGQ _utvFgUfUEfGRcLG88lKKmg"/>
-          <lifeline xmi:id="_k0o2cUMTEfGUTdQ6obaTGQ" name="tCarrito" represents="_5h_SqEJTEfGzOttdgUSLfw" coveredBy="_utvFgkfUEfGRcLG88lKKmg _utvFg0fUEfGRcLG88lKKmg _utvFhEfUEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsep0UMTEfGUTdQ6obaTGQ" covered="_astkMEMTEfGUTdQ6obaTGQ" message="_fsep0EMTEfGUTdQ6obaTGQ">
-            <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiZ1ECd1EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent1?"/>
-          </fragment>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsep0kMTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_fsep0EMTEfGUTdQ6obaTGQ">
-            <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiacICd1EfCznsmOw00Dag?Diseño/negocio/venta/ReceiveOperationEvent1?"/>
-          </fragment>
-          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_fsep00MTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" start="_fsep0kMTEfGUTdQ6obaTGQ" finish="_fsep1EMTEfGUTdQ6obaTGQ"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_utvFgUfUEfGRcLG88lKKmg" covered="_cG2m8UMTEfGUTdQ6obaTGQ" event="_amjKQUfTEfGRcLG88lKKmg" message="_utvFgEfUEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_utvFgkfUEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_amjKQkfTEfGRcLG88lKKmg" message="_utvFgEfUEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_utvFg0fUEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" start="_utvFgkfUEfGRcLG88lKKmg" finish="_utvFhEfUEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_utvFhEfUEfGRcLG88lKKmg" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="_amjKQUfTEfGRcLG88lKKmg"/>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsep1EMTEfGUTdQ6obaTGQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_fsep1UMTEfGUTdQ6obaTGQ">
-            <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiZ1ECd1EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent1?"/>
-          </fragment>
-          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fsfQ4EMTEfGUTdQ6obaTGQ" covered="_astkMEMTEfGUTdQ6obaTGQ" message="_fsep1UMTEfGUTdQ6obaTGQ">
-            <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_PiacICd1EfCznsmOw00Dag?Diseño/negocio/venta/ReceiveOperationEvent1?"/>
-          </fragment>
-          <message xmi:id="_fsep0EMTEfGUTdQ6obaTGQ" name="abrir" receiveEvent="_fsep0kMTEfGUTdQ6obaTGQ" sendEvent="_fsep0UMTEfGUTdQ6obaTGQ" connector="_fsfQ4UMTEfGUTdQ6obaTGQ"/>
-          <message xmi:id="_fsep1UMTEfGUTdQ6obaTGQ" name="tCarrito" messageSort="reply" receiveEvent="_fsfQ4EMTEfGUTdQ6obaTGQ" sendEvent="_fsep1EMTEfGUTdQ6obaTGQ" connector="_fsfQ4UMTEfGUTdQ6obaTGQ"/>
-          <message xmi:id="_utvFgEfUEfGRcLG88lKKmg" name=" TCarrito abrir() " receiveEvent="_utvFgkfUEfGRcLG88lKKmg" sendEvent="_utvFgUfUEfGRcLG88lKKmg" connector="_aL3ZZEfTEfGRcLG88lKKmg"/>
+          <ownedConnector xmi:id="_4nfog0lLEfGpFLcU0_e0MQ">
+            <end xmi:id="_4nfohElLEfGpFLcU0_e0MQ" role="_eiI2QkMWEfGUTdQ6obaTGQ"/>
+            <end xmi:id="_4ngPkElLEfGpFLcU0_e0MQ" role="_asvZYEMTEfGUTdQ6obaTGQ"/>
+          </ownedConnector>
+          <lifeline xmi:id="_astkMEMTEfGUTdQ6obaTGQ" name="Property" represents="_asvZYEMTEfGUTdQ6obaTGQ" coveredBy="_4nfBcUlLEfGpFLcU0_e0MQ _4nfogklLEfGpFLcU0_e0MQ"/>
+          <lifeline xmi:id="_cG2m8UMTEfGUTdQ6obaTGQ" name="sAVentaImp" represents="_eiI2QkMWEfGUTdQ6obaTGQ" coveredBy="_4nfBcklLEfGpFLcU0_e0MQ _4nfBc0lLEfGpFLcU0_e0MQ _4nfogElLEfGpFLcU0_e0MQ __gtjEElLEfGpFLcU0_e0MQ"/>
+          <lifeline xmi:id="_k0o2cUMTEfGUTdQ6obaTGQ" name="tCarrito" represents="_5h_SqEJTEfGzOttdgUSLfw" coveredBy="__gtjEUlLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4nfBcUlLEfGpFLcU0_e0MQ" covered="_astkMEMTEfGUTdQ6obaTGQ" message="_4nfBcElLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4nfBcklLEfGpFLcU0_e0MQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_4nfBcElLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_4nfBc0lLEfGpFLcU0_e0MQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" start="_4nfBcklLEfGpFLcU0_e0MQ" finish="_4nfogElLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__gtjEElLEfGpFLcU0_e0MQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" event="_BecbEElMEfGpFLcU0_e0MQ" message="__gs8AElLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="__gtjEUlLEfGpFLcU0_e0MQ" covered="_k0o2cUMTEfGUTdQ6obaTGQ" event="__gtjEklLEfGpFLcU0_e0MQ" message="__gs8AElLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4nfogElLEfGpFLcU0_e0MQ" covered="_cG2m8UMTEfGUTdQ6obaTGQ" message="_4nfogUlLEfGpFLcU0_e0MQ"/>
+          <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_4nfogklLEfGpFLcU0_e0MQ" covered="_astkMEMTEfGUTdQ6obaTGQ" message="_4nfogUlLEfGpFLcU0_e0MQ"/>
+          <message xmi:id="_4nfBcElLEfGpFLcU0_e0MQ" name="SAVenta.abrir()" receiveEvent="_4nfBcklLEfGpFLcU0_e0MQ" sendEvent="_4nfBcUlLEfGpFLcU0_e0MQ" connector="_4nfog0lLEfGpFLcU0_e0MQ"/>
+          <message xmi:id="_4nfogUlLEfGpFLcU0_e0MQ" name="tCarrito" messageSort="reply" receiveEvent="_4nfogklLEfGpFLcU0_e0MQ" sendEvent="_4nfogElLEfGpFLcU0_e0MQ" connector="_4nfog0lLEfGpFLcU0_e0MQ"/>
+          <message xmi:id="__gs8AElLEfGpFLcU0_e0MQ" name=" TCarrito abrir() " messageSort="createMessage" receiveEvent="__gtjEUlLEfGpFLcU0_e0MQ" sendEvent="__gtjEElLEfGpFLcU0_e0MQ" connector="_aL3ZZEfTEfGRcLG88lKKmg"/>
         </ownedBehavior>
         <ownedBehavior xmi:type="uml:Interaction" xmi:id="_equf8DzTEfGc6KPTa0Bk5Q" name="InteractionRead">
           <eAnnotations xmi:id="_eqvHADzTEfGc6KPTa0Bk5Q" source="uml2.diagrams">
@@ -17269,7 +17263,7 @@
           <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_SXNxhEMWEfGUTdQ6obaTGQ" covered="_NvNEkUMWEfGUTdQ6obaTGQ" event="_qrFscEMTEfGUTdQ6obaTGQ" execution="_SXNxg0MWEfGUTdQ6obaTGQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CPqxEkMUEfGUTdQ6obaTGQ" covered="__McQoUMTEfGUTdQ6obaTGQ" message="_CPqxE0MUEfGUTdQ6obaTGQ"/>
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_CPqxFEMUEfGUTdQ6obaTGQ" covered="_8-cvEUMTEfGUTdQ6obaTGQ" message="_CPqxE0MUEfGUTdQ6obaTGQ"/>
-          <message xmi:id="_CPqKAEMUEfGUTdQ6obaTGQ" name="read(id)" receiveEvent="_CPqxEEMUEfGUTdQ6obaTGQ" sendEvent="_CPqKAUMUEfGUTdQ6obaTGQ" connector="_CPqxFUMUEfGUTdQ6obaTGQ"/>
+          <message xmi:id="_CPqKAEMUEfGUTdQ6obaTGQ" name="SAVenta.read(id)" receiveEvent="_CPqxEEMUEfGUTdQ6obaTGQ" sendEvent="_CPqKAUMUEfGUTdQ6obaTGQ" connector="_CPqxFUMUEfGUTdQ6obaTGQ"/>
           <message xmi:id="_CPqxE0MUEfGUTdQ6obaTGQ" name="\Sin especificar\" messageSort="reply" receiveEvent="_CPqxFEMUEfGUTdQ6obaTGQ" sendEvent="_CPqxEkMUEfGUTdQ6obaTGQ" connector="_CPqxFUMUEfGUTdQ6obaTGQ"/>
           <message xmi:id="_IJo1IEMUEfGUTdQ6obaTGQ" name="dAOFactory = getInstance()" receiveEvent="_IJo1IkMUEfGUTdQ6obaTGQ" sendEvent="_IJo1IUMUEfGUTdQ6obaTGQ" connector="_IJpcMUMUEfGUTdQ6obaTGQ"/>
           <message xmi:id="_IJo1JUMUEfGUTdQ6obaTGQ" name="getInstance" messageSort="reply" receiveEvent="_IJpcMEMUEfGUTdQ6obaTGQ" sendEvent="_IJo1JEMUEfGUTdQ6obaTGQ" connector="_IJpcMUMUEfGUTdQ6obaTGQ"/>
@@ -18034,7 +18028,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_EP29gUSQEfGnMbulBQV2RA" covered="_DcrNEESQEfGnMbulBQV2RA">
             <event xmi:type="uml:SendOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_T1RGgCd3EfCznsmOw00Dag?Diseño/negocio/venta/SendOperationEvent3?"/>
           </fragment>
-          <message xmi:id="_EPtMgESQEfGnMbulBQV2RA" name="cerrar(tCarrito)" receiveEvent="_EPtMgkSQEfGnMbulBQV2RA" sendEvent="_EPtMgUSQEfGnMbulBQV2RA" connector="_EP29hESQEfGnMbulBQV2RA"/>
+          <message xmi:id="_EPtMgESQEfGnMbulBQV2RA" name="SAVenta.cerrar(tCarrito)" receiveEvent="_EPtMgkSQEfGnMbulBQV2RA" sendEvent="_EPtMgUSQEfGnMbulBQV2RA" connector="_EP29hESQEfGnMbulBQV2RA"/>
           <message xmi:id="_NkYc4ESQEfGnMbulBQV2RA" name="getInstance" receiveEvent="_NkYc4kSQEfGnMbulBQV2RA" sendEvent="_NkYc4USQEfGnMbulBQV2RA" connector="_NkYc50SQEfGnMbulBQV2RA"/>
           <message xmi:id="_NkYc5USQEfGnMbulBQV2RA" name="getInstance" messageSort="reply" receiveEvent="_NkYc5kSQEfGnMbulBQV2RA" sendEvent="_NkYc5ESQEfGnMbulBQV2RA" connector="_NkYc50SQEfGnMbulBQV2RA"/>
           <message xmi:id="_PcE-UESQEfGnMbulBQV2RA" name="createTrabajador" receiveEvent="_PcE-UkSQEfGnMbulBQV2RA" sendEvent="_PcE-UUSQEfGnMbulBQV2RA" connector="_NkYc50SQEfGnMbulBQV2RA"/>
@@ -18454,7 +18448,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nJ-OwUMWEfGUTdQ6obaTGQ" covered="_eIpYMUMWEfGUTdQ6obaTGQ" message="_nJ-OwEMWEfGUTdQ6obaTGQ">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_vrzx4ShvEfCPOpWuK_RONg?Diseño/negocio/venta/ReceiveOperationEvent14?"/>
           </fragment>
-          <message xmi:id="_nJ9nsEMWEfGUTdQ6obaTGQ" name="update(tVenta)" receiveEvent="_nJ9nskMWEfGUTdQ6obaTGQ" sendEvent="_nJ9nsUMWEfGUTdQ6obaTGQ" connector="_nJ-OwkMWEfGUTdQ6obaTGQ"/>
+          <message xmi:id="_nJ9nsEMWEfGUTdQ6obaTGQ" name="SAVenta.update(tVenta)" receiveEvent="_nJ9nskMWEfGUTdQ6obaTGQ" sendEvent="_nJ9nsUMWEfGUTdQ6obaTGQ" connector="_nJ-OwkMWEfGUTdQ6obaTGQ"/>
           <message xmi:id="_nJ-OwEMWEfGUTdQ6obaTGQ" name="id" messageSort="reply" receiveEvent="_nJ-OwUMWEfGUTdQ6obaTGQ" sendEvent="_nJ9ntEMWEfGUTdQ6obaTGQ" connector="_nJ-OwkMWEfGUTdQ6obaTGQ"/>
           <message xmi:id="_wFL2QEMWEfGUTdQ6obaTGQ" name="getInstance" receiveEvent="_wFMdUUMWEfGUTdQ6obaTGQ" sendEvent="_wFMdUEMWEfGUTdQ6obaTGQ" connector="_wFMdVkMWEfGUTdQ6obaTGQ"/>
           <message xmi:id="_wFMdVEMWEfGUTdQ6obaTGQ" name="getInstance" messageSort="reply" receiveEvent="_wFMdVUMWEfGUTdQ6obaTGQ" sendEvent="_wFMdU0MWEfGUTdQ6obaTGQ" connector="_wFMdVkMWEfGUTdQ6obaTGQ"/>
@@ -18581,8 +18575,6 @@
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2KN0QEfLEfG_u4r_oQFZlA" name="ReceiveOperationEvent14" operation="_xcv26DmtEfGxE5Y0ruwW4A"/>
       <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_AbvucEfMEfG_u4r_oQFZlA" name="SendOperationEvent13" operation="_8pjtdTmtEfGxE5Y0ruwW4A"/>
       <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_AbvucUfMEfG_u4r_oQFZlA" name="ReceiveOperationEvent15" operation="_8pjtdTmtEfGxE5Y0ruwW4A"/>
-      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_amjKQUfTEfGRcLG88lKKmg" name="SendOperationEvent14" operation="_amjKQEfTEfGRcLG88lKKmg"/>
-      <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_amjKQkfTEfGRcLG88lKKmg" name="ReceiveOperationEvent16" operation="_amjKQEfTEfGRcLG88lKKmg"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_kdlgwEiXEfGmiKvUDqNU7Q" name="" memberEnd="_kdokEEiXEfGmiKvUDqNU7Q _kdrAUEiXEfGmiKvUDqNU7Q">
         <ownedEnd xmi:id="_kdrAUEiXEfGmiKvUDqNU7Q" name="" visibility="private" type="_8pifUDmtEfGxE5Y0ruwW4A" association="_kdlgwEiXEfGmiKvUDqNU7Q">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kdsOcEiXEfGmiKvUDqNU7Q" value="1"/>
@@ -18595,6 +18587,8 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ltlJAUiXEfGmiKvUDqNU7Q" value="1"/>
         </ownedEnd>
       </packagedElement>
+      <packagedElement xmi:type="uml:CreationEvent" xmi:id="__gtjEklLEfGpFLcU0_e0MQ" name="CreationEvent1"/>
+      <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_BecbEElMEfGpFLcU0_e0MQ" name="SendOperationEvent14" operation="_amjKQEfTEfGRcLG88lKKmg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_Hh6agBvHEfG4q7NLRPuP7A" name="ventaProducto">
       <eAnnotations xmi:id="_Hh6agRvHEfG4q7NLRPuP7A" source="uml2.diagrams">
@@ -21479,7 +21473,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A4NP4jdOEfG8hMpDeSlBJA" covered="_A4NPyjdOEfG8hMpDeSlBJA" message="_A4NP5DdOEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_i8o58RTOEfCNnMJbbdkNIQ"/>
           </fragment>
-          <message xmi:id="_A4NP4zdOEfG8hMpDeSlBJA" name="update(event, data)" receiveEvent="_A4NPzjdOEfG8hMpDeSlBJA" sendEvent="_A4NPzTdOEfG8hMpDeSlBJA" connector="_A4NPxDdOEfG8hMpDeSlBJA"/>
+          <message xmi:id="_A4NP4zdOEfG8hMpDeSlBJA" name="AltaCliente.update(event, data)" receiveEvent="_A4NPzjdOEfG8hMpDeSlBJA" sendEvent="_A4NPzTdOEfG8hMpDeSlBJA" connector="_A4NPxDdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4NP5DdOEfG8hMpDeSlBJA" name="update" messageSort="reply" receiveEvent="_A4NP4jdOEfG8hMpDeSlBJA" sendEvent="_A4NP4TdOEfG8hMpDeSlBJA" connector="_A4NPxDdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4NP5TdOEfG8hMpDeSlBJA" name="showMessageDialog(null, &quot;Cliente dado de alta &quot; + (Integer)data.intValue())" receiveEvent="_A4NP1TdOEfG8hMpDeSlBJA" sendEvent="_A4NP1DdOEfG8hMpDeSlBJA" connector="_A4NPxzdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4NP5jdOEfG8hMpDeSlBJA" name="showMessageDialog" messageSort="reply" receiveEvent="_A4NP2DdOEfG8hMpDeSlBJA" sendEvent="_A4NP1zdOEfG8hMpDeSlBJA" connector="_A4NPxzdOEfG8hMpDeSlBJA"/>
@@ -22270,7 +22264,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A4NR9TdOEfG8hMpDeSlBJA" covered="_A4NR3TdOEfG8hMpDeSlBJA" message="_A4NR9zdOEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_i8o58RTOEfCNnMJbbdkNIQ"/>
           </fragment>
-          <message xmi:id="_A4NR9jdOEfG8hMpDeSlBJA" name="update(event, data)" receiveEvent="_A4NR4TdOEfG8hMpDeSlBJA" sendEvent="_A4NR4DdOEfG8hMpDeSlBJA" connector="_A4NR1zdOEfG8hMpDeSlBJA"/>
+          <message xmi:id="_A4NR9jdOEfG8hMpDeSlBJA" name="BajaCliente.update(event, data)" receiveEvent="_A4NR4TdOEfG8hMpDeSlBJA" sendEvent="_A4NR4DdOEfG8hMpDeSlBJA" connector="_A4NR1zdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4NR9zdOEfG8hMpDeSlBJA" name="update" messageSort="reply" receiveEvent="_A4NR9TdOEfG8hMpDeSlBJA" sendEvent="_A4NR9DdOEfG8hMpDeSlBJA" connector="_A4NR1zdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4NR-DdOEfG8hMpDeSlBJA" name="showMessageDialog(null, &quot;Cliente dado de baja &quot; + (Integer)data.intValue())" receiveEvent="_A4NR6DdOEfG8hMpDeSlBJA" sendEvent="_A4NR5zdOEfG8hMpDeSlBJA" connector="_A4NR2jdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4NR-TdOEfG8hMpDeSlBJA" name="showMessageDialog" messageSort="reply" receiveEvent="_A4NR6zdOEfG8hMpDeSlBJA" sendEvent="_A4NR6jdOEfG8hMpDeSlBJA" connector="_A4NR2jdOEfG8hMpDeSlBJA"/>
@@ -22897,7 +22891,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A4OehjdOEfG8hMpDeSlBJA" covered="_A4OebjdOEfG8hMpDeSlBJA" message="_A4OeiDdOEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_i8o58RTOEfCNnMJbbdkNIQ"/>
           </fragment>
-          <message xmi:id="_A4OehzdOEfG8hMpDeSlBJA" name="update(event, data)" receiveEvent="_A4OecjdOEfG8hMpDeSlBJA" sendEvent="_A4OecTdOEfG8hMpDeSlBJA" connector="_A4OeaDdOEfG8hMpDeSlBJA"/>
+          <message xmi:id="_A4OehzdOEfG8hMpDeSlBJA" name="ActualizarCliente.update(event, data)" receiveEvent="_A4OecjdOEfG8hMpDeSlBJA" sendEvent="_A4OecTdOEfG8hMpDeSlBJA" connector="_A4OeaDdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4OeiDdOEfG8hMpDeSlBJA" name="update" messageSort="reply" receiveEvent="_A4OehjdOEfG8hMpDeSlBJA" sendEvent="_A4OehTdOEfG8hMpDeSlBJA" connector="_A4OeaDdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4OeiTdOEfG8hMpDeSlBJA" name="showMessageDialog(null, &quot;Cliente actualizado &quot; + (Integer)data.intValue())" receiveEvent="_A4OeeTdOEfG8hMpDeSlBJA" sendEvent="_A4OeeDdOEfG8hMpDeSlBJA" connector="_A4OeazdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4OeijdOEfG8hMpDeSlBJA" name="showMessageDialog" messageSort="reply" receiveEvent="_A4OefDdOEfG8hMpDeSlBJA" sendEvent="_A4OeezdOEfG8hMpDeSlBJA" connector="_A4OeazdOEfG8hMpDeSlBJA"/>
@@ -23086,7 +23080,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_A4OfATdOEfG8hMpDeSlBJA" covered="_A4Oe6TdOEfG8hMpDeSlBJA" message="_A4OfAzdOEfG8hMpDeSlBJA">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_i8o58RTOEfCNnMJbbdkNIQ"/>
           </fragment>
-          <message xmi:id="_A4OfAjdOEfG8hMpDeSlBJA" name="update(event, data)" receiveEvent="_A4Oe7TdOEfG8hMpDeSlBJA" sendEvent="_A4Oe7DdOEfG8hMpDeSlBJA" connector="_A4Oe4DdOEfG8hMpDeSlBJA"/>
+          <message xmi:id="_A4OfAjdOEfG8hMpDeSlBJA" name="MostrarCliente.update(event, data)" receiveEvent="_A4Oe7TdOEfG8hMpDeSlBJA" sendEvent="_A4Oe7DdOEfG8hMpDeSlBJA" connector="_A4Oe4DdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4OfAzdOEfG8hMpDeSlBJA" name="update" messageSort="reply" receiveEvent="_A4OfATdOEfG8hMpDeSlBJA" sendEvent="_A4OfADdOEfG8hMpDeSlBJA" connector="_A4Oe4DdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4OfBDdOEfG8hMpDeSlBJA" name="showMessageDialog(null, data.toString())" receiveEvent="_A4Oe9DdOEfG8hMpDeSlBJA" sendEvent="_A4Oe8zdOEfG8hMpDeSlBJA" connector="_A4Oe5jdOEfG8hMpDeSlBJA"/>
           <message xmi:id="_A4OfBTdOEfG8hMpDeSlBJA" name="showMessageDialog" messageSort="reply" receiveEvent="_A4Oe9zdOEfG8hMpDeSlBJA" sendEvent="_A4Oe9jdOEfG8hMpDeSlBJA" connector="_A4Oe5jdOEfG8hMpDeSlBJA"/>
@@ -26220,7 +26214,7 @@
           <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5h-sOEJTEfGzOttdgUSLfw" covered="_5h-sE0JTEfGzOttdgUSLfw" message="_5h-sOkJTEfGzOttdgUSLfw">
             <event xmi:type="uml:ReceiveOperationEvent" href="platform:/resource/Concesionario/is2e2425concesionariomod-Dise-o_Fin/DiagramasClase/modelo_de_diseño.emx#_a2TgQSqsEfCHy55h-plfIw?Diseño/presentacion/venta/ReceiveOperationEvent1?"/>
           </fragment>
-          <message xmi:id="_5h-sOUJTEfGzOttdgUSLfw" name="actionPerformed" receiveEvent="_5h-sGkJTEfGzOttdgUSLfw" sendEvent="_5h-sGUJTEfGzOttdgUSLfw" connector="_5h-sBEJTEfGzOttdgUSLfw"/>
+          <message xmi:id="_5h-sOUJTEfGzOttdgUSLfw" name="AbrirVenta.actionPerformed()" receiveEvent="_5h-sGkJTEfGzOttdgUSLfw" sendEvent="_5h-sGUJTEfGzOttdgUSLfw" connector="_5h-sBEJTEfGzOttdgUSLfw"/>
           <message xmi:id="_5h-sOkJTEfGzOttdgUSLfw" name="actionPerformed" messageSort="reply" receiveEvent="_5h-sOEJTEfGzOttdgUSLfw" sendEvent="_5h-sN0JTEfGzOttdgUSLfw" connector="_5h-sBEJTEfGzOttdgUSLfw"/>
           <message xmi:id="_5h-sO0JTEfGzOttdgUSLfw" name="ids = (Int[])getText()" receiveEvent="_5h-sHUJTEfGzOttdgUSLfw" sendEvent="_5h-sHEJTEfGzOttdgUSLfw" connector="_5h-sB0JTEfGzOttdgUSLfw"/>
           <message xmi:id="_5h-sPEJTEfGzOttdgUSLfw" name="getText" messageSort="reply" receiveEvent="_5h-sIEJTEfGzOttdgUSLfw" sendEvent="_5h-sH0JTEfGzOttdgUSLfw" connector="_5h-sB0JTEfGzOttdgUSLfw"/>

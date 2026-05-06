@@ -9,17 +9,17 @@ public class TCarrito implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private int idEmpleado;
-    private TCliente cliente;
+    private int idCliente;
     private List<TVentaProducto> items;
 
-    public TCarrito(int idEmpleado, TCliente cliente) {
+    public TCarrito(int idEmpleado, int idCliente) {
         this.idEmpleado = idEmpleado;
-        this.cliente = cliente;
+        this.idCliente = idCliente;
         this.items = new ArrayList<>();
     }
 
     public int getIdEmpleado() { return idEmpleado; }
-    public TCliente getCliente() { return cliente; }
+    public int getIdCliente() { return idCliente; }
     public List<TVentaProducto> getItems() { return items; }
 
     public void addItem(TVentaProducto item) {

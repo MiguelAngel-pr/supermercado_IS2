@@ -3,8 +3,10 @@ package negocio;
 import java.time.LocalDate;
 import java.util.Set;
 
+import integracion.DAOCliente;
 import integracion.DAOFactory;
 import integracion.DAOProducto;
+import integracion.DAOTrabajador;
 import integracion.DAOVenta;
 import integracion.DAOVentaProducto;
 
@@ -18,52 +20,62 @@ public class SAVentaImp implements SAVenta {
 
     @Override
     public int cerrar(TCarrito tCarrito) {
-        if (tCarrito.getIdEmpleado() <= 0 || tCarrito.getIdCliente() <= 0 || tCarrito.getItems().isEmpty()) {
-            return 0;
+        //validación estructural básica
+        if (tCarrito == null || tCarrito.getItems().isEmpty()) {
+            return -1; // Error: Carrito vacío
         }
 
         DAOFactory daoFactory = DAOFactory.getInstance();
-        DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
-        DAOProducto daoProducto = daoFactory.createProducto();
+       
+        //validar existencia del EMPLEADO
+        DAOTrabajador daoEmpleado = daoFactory.createTrabajador();
+        if (daoEmpleado.read(tCarrito.getIdEmpleado()) == null) {
+            return -3; // Código de error: "Empleado no existe"
+        }
 
+        //validar existencia del CLIENTE
+        DAOCliente daoCliente = daoFactory.createCliente();
+        if (daoCliente.read(tCarrito.getIdCliente()) == null) {
+            return -4; // Código de error: "Cliente no existe"
+        }
+
+        //validar STOCK de todos los productos
+        DAOProducto daoProducto = daoFactory.createProducto();
         for (TVentaProducto item : tCarrito.getItems()) {
             TProducto producto = daoProducto.read(item.getIdProducto());
-           
-            // Si el producto no existe o la cantidad pedida es mayor a la que hay
             if (producto == null || producto.getCantidad() < item.getCantidad()) {
-                return -2; // Código de error: "No hay stock suficiente"
+                return -2; // Código de error: "Stock insuficiente o producto inexistente"
             }
         }
-       
+
+
         DAOVenta daoVenta = daoFactory.createVenta();
+        DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
 
         String fecha = LocalDate.now().toString();
         double importe = tCarrito.calcularImporte(null);
         TVenta tVenta = new TVenta(-1, fecha, importe, tCarrito.getIdCliente(), tCarrito.getIdEmpleado());
 
+        // 5. Crear la venta (Cabecera)
         int idVenta = daoVenta.create(tVenta, tCarrito);
+       
         if (idVenta > 0) {
             for (TVentaProducto item : tCarrito.getItems()) {
                 // Registrar línea de venta
                 TVentaProducto vp = new TVentaProducto(idVenta, item.getIdProducto(), item.getCantidad());
                 daoVentaProducto.create(vp);
 
-                // Restar stock del producto
-                TProducto producto = daoProducto.read(item.getIdProducto());
-                if (producto != null) {
-                    TProducto actualizado = new TProducto(
-                        producto.getId(),
-                        producto.getNombre(),
-                        producto.getPrecio(),
-                        producto.getFechaCaducidad(),
-               
-                        producto.getCantidad() - item.getCantidad(),
-                        producto.getIdMarca()
-                    );
-                    daoProducto.update(actualizado);
-                }
+                // Actualizar stock
+                TProducto p = daoProducto.read(item.getIdProducto());
+                TProducto actualizado = new TProducto(
+                    p.getId(), p.getNombre(), p.getPrecio(),
+                    p.getFechaCaducidad(), p.getCantidad() - item.getCantidad(),
+                    p.getIdMarca()
+                );
+                daoProducto.update(actualizado);
             }
         }
+       
         return idVenta;
     }
 

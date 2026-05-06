@@ -23,9 +23,19 @@ public class SAVentaImp implements SAVenta {
         }
 
         DAOFactory daoFactory = DAOFactory.getInstance();
-        DAOVenta daoVenta = daoFactory.createVenta();
         DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
         DAOProducto daoProducto = daoFactory.createProducto();
+
+        for (TVentaProducto item : tCarrito.getItems()) {
+            TProducto producto = daoProducto.read(item.getIdProducto());
+           
+            // Si el producto no existe o la cantidad pedida es mayor a la que hay
+            if (producto == null || producto.getCantidad() < item.getCantidad()) {
+                return -2; // Código de error: "No hay stock suficiente"
+            }
+        }
+       
+        DAOVenta daoVenta = daoFactory.createVenta();
 
         String fecha = LocalDate.now().toString();
         double importe = tCarrito.calcularImporte(null);
@@ -46,6 +56,7 @@ public class SAVentaImp implements SAVenta {
                         producto.getNombre(),
                         producto.getPrecio(),
                         producto.getFechaCaducidad(),
+               
                         producto.getCantidad() - item.getCantidad(),
                         producto.getIdMarca()
                     );

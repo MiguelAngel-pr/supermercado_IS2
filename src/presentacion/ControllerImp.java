@@ -282,7 +282,7 @@ public class ControllerImp extends Controller {
                 saVenta = saFactory.createVenta();
                 result = saVenta.cerrar((TCarrito) data);
                 IGUI responseAbrirVenta = guiFactory.createResponseAbrirVenta();
-                if (result > 0) responseAbrirVenta.update(GUIEvents.CERRAR_VENTA_OK, result);
+                if (result > 0) responseAbrirVenta.update(GUIEvents.CERRAR_VENTA_OK, saVenta.read(result));
                 else responseAbrirVenta.update(GUIEvents.CERRAR_VENTA_KO, null);
                 break;
             case MOSTRAR_DEVOLUCION_VENTA:

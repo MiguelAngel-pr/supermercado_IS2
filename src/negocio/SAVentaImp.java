@@ -6,7 +6,10 @@ import java.util.Set;
 import integracion.DAOCliente;
 import integracion.DAOFactory;
 import integracion.DAOProducto;
+<<<<<<< Updated upstream
 import integracion.DAOTrabajador;
+=======
+>>>>>>> Stashed changes
 import integracion.DAOVenta;
 import integracion.DAOVentaProducto;
 
@@ -51,9 +54,17 @@ public class SAVentaImp implements SAVenta {
 
         DAOVenta daoVenta = daoFactory.createVenta();
         DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
+        DAOProducto daoProducto = daoFactory.createProducto();
+
+        double importe = 0;
+        for (TVentaProducto item : tCarrito.getItems()) {
+            TProducto tp = daoProducto.read(item.getIdProducto());
+            if (tp != null) {
+                importe += tp.getPrecio() * item.getCantidad();
+            }
+        }
 
         String fecha = LocalDate.now().toString();
-        double importe = tCarrito.calcularImporte(null);
         TVenta tVenta = new TVenta(-1, fecha, importe, tCarrito.getIdCliente(), tCarrito.getIdEmpleado());
 
         // 5. Crear la venta (Cabecera)

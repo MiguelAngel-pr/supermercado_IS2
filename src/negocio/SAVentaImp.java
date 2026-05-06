@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.util.Set;
 
 import integracion.DAOFactory;
+import integracion.DAOProducto;
 import integracion.DAOVenta;
 import integracion.DAOVentaProducto;
 
@@ -24,6 +25,7 @@ public class SAVentaImp implements SAVenta {
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOVenta daoVenta = daoFactory.createVenta();
         DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
+        DAOProducto daoProducto = daoFactory.createProducto();
 
         String fecha = LocalDate.now().toString();
         double importe = tCarrito.calcularImporte(null);
@@ -32,8 +34,23 @@ public class SAVentaImp implements SAVenta {
         int idVenta = daoVenta.create(tVenta, tCarrito);
         if (idVenta > 0) {
             for (TVentaProducto item : tCarrito.getItems()) {
+                // Registrar línea de venta
                 TVentaProducto vp = new TVentaProducto(idVenta, item.getIdProducto(), item.getCantidad());
                 daoVentaProducto.create(vp);
+
+                // Restar stock del producto
+                TProducto producto = daoProducto.read(item.getIdProducto());
+                if (producto != null) {
+                    TProducto actualizado = new TProducto(
+                        producto.getId(),
+                        producto.getNombre(),
+                        producto.getPrecio(),
+                        producto.getFechaCaducidad(),
+                        producto.getCantidad() - item.getCantidad(),
+                        producto.getIdMarca()
+                    );
+                    daoProducto.update(actualizado);
+                }
             }
         }
         return idVenta;
@@ -97,9 +114,33 @@ public class SAVentaImp implements SAVenta {
         int result = 0;
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOVenta daoVenta = daoFactory.createVenta();
+        DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
+        DAOProducto daoProducto = daoFactory.createProducto();
+
         TVenta existing = daoVenta.read(tVenta.getId());
         if (existing != null) {
+            // Recuperar los productos de la venta antes de borrarla
+            Set<TVentaProducto> items = daoVentaProducto.readByVenta(tVenta.getId());
+
             result = daoVenta.delete(tVenta.getId());
+
+            // Si la venta se borró con éxito, devolver el stock
+            if (result > 0) {
+                for (TVentaProducto item : items) {
+                    TProducto producto = daoProducto.read(item.getIdProducto());
+                    if (producto != null) {
+                        TProducto actualizado = new TProducto(
+                            producto.getId(),
+                            producto.getNombre(),
+                            producto.getPrecio(),
+                            producto.getFechaCaducidad(),
+                            producto.getCantidad() + item.getCantidad(),
+                            producto.getIdMarca()
+                        );
+                        daoProducto.update(actualizado);
+                    }
+                }
+            }
         }
         return result;
     }

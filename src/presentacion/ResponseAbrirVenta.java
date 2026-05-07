@@ -15,7 +15,7 @@ public class ResponseAbrirVenta extends JFrame implements IGUI {
             double importe = toa.getTVenta().getImporte();
             JOptionPane.showMessageDialog(null,
                     "Venta cerrada con exito.\nID: " + id +
-                    "\nImporte total: " + String.format("%.2f €", importe));
+                    "\nImporte total: " + importe);
         } else {
             JOptionPane.showMessageDialog(null,
                     "No se pudo cerrar la venta. Verifique que los IDs de empleado, cliente y productos existan.");

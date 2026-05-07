@@ -6,10 +6,7 @@ import java.util.Set;
 import integracion.DAOCliente;
 import integracion.DAOFactory;
 import integracion.DAOProducto;
-<<<<<<< Updated upstream
 import integracion.DAOTrabajador;
-=======
->>>>>>> Stashed changes
 import integracion.DAOVenta;
 import integracion.DAOVentaProducto;
 
@@ -44,25 +41,19 @@ public class SAVentaImp implements SAVenta {
 
         //validar STOCK de todos los productos
         DAOProducto daoProducto = daoFactory.createProducto();
+        double importe = 0;
         for (TVentaProducto item : tCarrito.getItems()) {
             TProducto producto = daoProducto.read(item.getIdProducto());
             if (producto == null || producto.getCantidad() < item.getCantidad()) {
                 return -2; // Código de error: "Stock insuficiente o producto inexistente"
             }
+            else{
+            	importe += producto.getPrecio() * item.getCantidad();
+            }
         }
-
 
         DAOVenta daoVenta = daoFactory.createVenta();
         DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
-        DAOProducto daoProducto = daoFactory.createProducto();
-
-        double importe = 0;
-        for (TVentaProducto item : tCarrito.getItems()) {
-            TProducto tp = daoProducto.read(item.getIdProducto());
-            if (tp != null) {
-                importe += tp.getPrecio() * item.getCantidad();
-            }
-        }
 
         String fecha = LocalDate.now().toString();
         TVenta tVenta = new TVenta(-1, fecha, importe, tCarrito.getIdCliente(), tCarrito.getIdEmpleado());

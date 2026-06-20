@@ -53,7 +53,8 @@ public class SAVentaTest {
     @After
     public void tearDown() {
         if (idCreado > 0) {
-            sa.devolver(new TVenta(idCreado, "", 0, 0, 0));
+            // CORREGIDO: Se pasa directamente el id entero sin simular el DTO
+            sa.devolver(idCreado);
             idCreado = 0;
         }
     }
@@ -162,14 +163,16 @@ public class SAVentaTest {
     public void devolverExito() {
         idCreado = sa.cerrar(buildCarrito());
         assertTrue(idCreado > 0);
-        int resultado = sa.devolver(new TVenta(idCreado, "", 0, 0, 0));
+        //CORREGIDO: Se envía directamente el valor primitivo idCreado
+        int resultado = sa.devolver(idCreado);
         idCreado = 0; // ya borrada, tearDown no debe intentarlo de nuevo
         assertTrue(resultado > 0);
     }
 
     @Test
     public void devolverNoExisteDevuelveCero() {
-        int resultado = sa.devolver(new TVenta(-999, "", 0, 0, 0));
+    	//CORREGIDO: Se envía directamente el identificador ficticio -999 sin envolverlo en objeto
+        int resultado = sa.devolver(-999);
         assertEquals(0, resultado);
     }
 }

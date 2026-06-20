@@ -12,5 +12,5 @@ public interface SAVenta {
     Set<TVenta> readByIdCliente(int idCliente);
     Set<TVenta> readByIdEmpleado(int idEmpleado);
     int update(TVenta tVenta);
-    int devolver(TVenta tVenta);
+    public int devolver(int idVenta);
 }

@@ -257,7 +257,7 @@ public class ControllerImp extends Controller {
             break;
         case DEVOLUCION_VENTA:
             saVenta = saFactory.createVenta();
-            result = saVenta.devolver((TVenta) data);
+            result = saVenta.devolver((int) data);
             if (result > 0) guiFactory.handleResponse(GUIEvents.DEVOLUCION_VENTA_OK, result);
             else guiFactory.handleResponse(GUIEvents.DEVOLUCION_VENTA_KO, result);
             break;

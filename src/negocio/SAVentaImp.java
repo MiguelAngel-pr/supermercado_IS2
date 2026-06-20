@@ -20,9 +20,9 @@ public class SAVentaImp implements SAVenta {
 
     @Override
     public int cerrar(TCarrito tCarrito) {
-        //validación estructural básica
+        //validaciï¿½n estructural bï¿½sica
         if (tCarrito == null || tCarrito.getItems().isEmpty()) {
-            return -1; // Error: Carrito vacío
+            return -1; // Error: Carrito vacï¿½o
         }
 
         DAOFactory daoFactory = DAOFactory.getInstance();
@@ -30,13 +30,13 @@ public class SAVentaImp implements SAVenta {
         //validar existencia del EMPLEADO
         DAOTrabajador daoEmpleado = daoFactory.createTrabajador();
         if (daoEmpleado.read(tCarrito.getIdEmpleado()) == null) {
-            return -3; // Código de error: "Empleado no existe"
+            return -3; // Cï¿½digo de error: "Empleado no existe"
         }
 
         //validar existencia del CLIENTE
         DAOCliente daoCliente = daoFactory.createCliente();
         if (daoCliente.read(tCarrito.getIdCliente()) == null) {
-            return -4; // Código de error: "Cliente no existe"
+            return -4; // Cï¿½digo de error: "Cliente no existe"
         }
 
         //validar STOCK de todos los productos
@@ -45,7 +45,7 @@ public class SAVentaImp implements SAVenta {
         for (TVentaProducto item : tCarrito.getItems()) {
             TProducto producto = daoProducto.read(item.getIdProducto());
             if (producto == null || producto.getCantidad() < item.getCantidad()) {
-                return -2; // Código de error: "Stock insuficiente o producto inexistente"
+                return -2; // Cï¿½digo de error: "Stock insuficiente o producto inexistente"
             }
             else{
             	importe += producto.getPrecio() * item.getCantidad();
@@ -63,7 +63,7 @@ public class SAVentaImp implements SAVenta {
        
         if (idVenta > 0) {
             for (TVentaProducto item : tCarrito.getItems()) {
-                // Registrar línea de venta
+                // Registrar lï¿½nea de venta
                 TVentaProducto vp = new TVentaProducto(idVenta, item.getIdProducto(), item.getCantidad());
                 daoVentaProducto.create(vp);
 
@@ -135,21 +135,22 @@ public class SAVentaImp implements SAVenta {
     }
 
     @Override
-    public int devolver(TVenta tVenta) {
+    public int devolver(int idVenta) {
         int result = 0;
         DAOFactory daoFactory = DAOFactory.getInstance();
         DAOVenta daoVenta = daoFactory.createVenta();
         DAOVentaProducto daoVentaProducto = daoFactory.createVentaProducto();
         DAOProducto daoProducto = daoFactory.createProducto();
 
-        TVenta existing = daoVenta.read(tVenta.getId());
+        // Usamos directamente idVenta en lugar de tVenta.getId()
+        TVenta existing = daoVenta.read(idVenta);
         if (existing != null) {
             // Recuperar los productos de la venta antes de borrarla
-            Set<TVentaProducto> items = daoVentaProducto.readByVenta(tVenta.getId());
+            Set<TVentaProducto> items = daoVentaProducto.readByVenta(idVenta);
 
-            result = daoVenta.delete(tVenta.getId());
+            result = daoVenta.delete(idVenta);
 
-            // Si la venta se borró con éxito, devolver el stock
+            // Si la venta se borrÃ³ con Ã©xito, devolver el stock al inventario
             if (result > 0) {
                 for (TVentaProducto item : items) {
                     TProducto producto = daoProducto.read(item.getIdProducto());

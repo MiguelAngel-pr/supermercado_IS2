@@ -26,7 +26,7 @@ public class DevolucionVenta extends JFrame implements IGUI {
             try {
                 int id = Integer.parseInt(idField.getText().trim());
                 TVenta tVenta = new TVenta(id, "", 0, 0, 0);
-                Controller.getInstance().handleAction(Events.DEVOLUCION_VENTA, tVenta);
+                Controller.getInstance().handleAction(Events.DEVOLUCION_VENTA, id);
                 dispose();
             } catch (NumberFormatException ex) {
                 JOptionPane.showMessageDialog(null, "ID invalido");

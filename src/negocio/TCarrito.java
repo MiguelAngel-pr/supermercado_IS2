@@ -25,18 +25,4 @@ public class TCarrito implements Serializable {
     public void addItem(TVentaProducto item) {
         items.add(item);
     }
-
-    public double calcularImporte(List<TProducto> productos) {
-        if (productos == null) return 0;
-        double total = 0;
-        for (TVentaProducto item : items) {
-            for (TProducto p : productos) {
-                if (p.getId() == item.getIdProducto()) {
-                    total += p.getPrecio() * item.getCantidad();
-                    break;
-                }
-            }
-        }
-        return total;
-    }
 }

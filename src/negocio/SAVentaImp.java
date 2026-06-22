@@ -14,7 +14,6 @@ public class SAVentaImp implements SAVenta {
 
     @Override
     public TCarrito abrir() {
-        // Returns an empty cart; the GUI will fill it with employee/client and products
         return new TCarrito(-1, -1);
     }
 
@@ -148,9 +147,13 @@ public class SAVentaImp implements SAVenta {
             // Recuperar los productos de la venta antes de borrarla
             Set<TVentaProducto> items = daoVentaProducto.readByVenta(idVenta);
 
+            if (items == null || items.isEmpty()) {
+                return -2; // Error: la venta no tiene líneas de producto
+            }
+            
             result = daoVenta.delete(idVenta);
 
-            // Si la venta se borrÃ³ con Ã©xito, devolver el stock al inventario
+            // Si la venta se borra con exito, devolver el stock al inventario
             if (result > 0) {
                 for (TVentaProducto item : items) {
                     TProducto producto = daoProducto.read(item.getIdProducto());
@@ -160,7 +163,7 @@ public class SAVentaImp implements SAVenta {
                             producto.getNombre(),
                             producto.getPrecio(),
                             producto.getFechaCaducidad(),
-                            producto.getCantidad() + item.getCantidad(),
+                            producto.getCantidad() + item.getCantidad(), // Suma stock devuelto
                             producto.getIdMarca()
                         );
                         daoProducto.update(actualizado);
@@ -168,6 +171,9 @@ public class SAVentaImp implements SAVenta {
                 }
             }
         }
-        return result;
+        else{
+        	return -1; //Error: La venta no existe
+        }
+        return result; // resultado de la operación de anulación
     }
 }

@@ -170,9 +170,8 @@ public class SAVentaTest {
     }
 
     @Test
-    public void devolverNoExisteDevuelveCero() {
-    	//CORREGIDO: Se envía directamente el identificador ficticio -999 sin envolverlo en objeto
+    public void devolverNoExisteDevuelveError() {
         int resultado = sa.devolver(-999);
-        assertEquals(0, resultado);
+        assertEquals(-1, resultado);
     }
 }
